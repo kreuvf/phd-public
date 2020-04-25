@@ -235,6 +235,13 @@ for material in [category['chemicals'], category['consumables'], category['equip
 for item in range(1, len(mam_in[category['software']][3])):
 	mam_in[category['software']][3][item] = vendor[mam_in[category['software']][3][item]]
 
+# Consumables Work around multiple hyphens turning into long dashes 
+# Act on article numbers only (index 3)
+for i, entry in enumerate(mam_in[category['consumables']][3]):
+	while mam_in[category['consumables']][3][i] != re.sub('--', '-{}-', entry):
+		mam_in[category['consumables']][3][i] = re.sub('--', '-{}-', entry)
+		entry = mam_in[category['consumables']][3][i]
+
 # Re-transpose
 for material in actfiles:
 	mam_in[material] = np.array(mam_in[material]).T.tolist()

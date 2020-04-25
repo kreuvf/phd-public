@@ -25,9 +25,9 @@ Boric acid	Boric acid	for electrophoresis, ≥\SIpct{99.5}	Sigma-Aldrich Chemie 
 Bovine serum albumin	Bovine serum albumin	≥\SIpct{96}	Sigma-Aldrich Chemie GmbH, Steinheim	A2153-50G	100111779V	9048-46-8	2014-04-25			y
 Calcium chloride dihydrate	Calcium chloride dihydrate	≥\SIpct{99}, p.a., ACS	Carl Roth GmbH + Co. KG, Karlsruhe	5239.1	192186301	10035-04-8	2015-01-16			y
 Calcium chloride dihydrate	Calcium chloride dihydrate	ACS, Reag. Ph Eur	Merck KGaA, Darmstadt	1.02382.1000	A935182 911	10035-04-8	2012-05-15	CC-2		y
+Calibration buffer pH 04	Calibration buffer pH 4	\num[separate-uncertainty=true]{4.00(2)}	VWR International bvba/sprl, Leuven, Belgium	32095.297	13I230511	-	?			y
+Calibration buffer pH 07	Calibration buffer pH 7	\num[separate-uncertainty=true]{7.00(2)}	VWR International bvba/sprl, Leuven, Belgium	32096.291	14D090514	-	?			y
 Calibration buffer pH 10	Calibration buffer pH 10	\num[separate-uncertainty=true]{10.00(2)}	VWR International bvba/sprl, Leuven, Belgium	32040.298	?	-	?			y
-Calibration buffer pH 4	Calibration buffer pH 4	\num[separate-uncertainty=true]{4.00(2)}	VWR International bvba/sprl, Leuven, Belgium	32095.297	13I230511	-	?			y
-Calibration buffer pH 7	Calibration buffer pH 7	\num[separate-uncertainty=true]{7.00(2)}	VWR International bvba/sprl, Leuven, Belgium	32096.291	14D090514	-	?			y
 Calibration standard, type 2000 AW	Calibration standard, type 2000 AW	for calibration	ZMK-Analytik-GmbH, Bitterfeld-Wolfen	2000 AW	205	-	2012-06-20		Calibration symbol: 04-0514 DKD-K-06901 12-04	n
 Carrageenan	κ-Carrageenan	acc. to FAO/WHO, EEC, FCC, highly pure	Carl Roth GmbH + Co. KG, Karlsruhe	3059.1	372151924	11114-20-8	2014-04-24			n
 Casein peptone	Casein peptone	pancreatic digest, for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	8952.4	501175574	91079-40-2	2012-05-15	CT-15		y
@@ -70,7 +70,7 @@ Lactic acid	Lactic acid	\SIpct{80}, of that ≥\SIpct{95} L(+)-lactic acid	Carl 
 Laminarin from Laminara digitata	Laminarin from Laminara digitata	-	Sigma-Aldrich Chemie GmbH, Steinheim	L9634-1G	058K3782	9008-22-4	2013-01-07			n
 Lithium nitrate	Lithium nitrate	\SIpct{99}	Alfa Aesar GmbH + Co. KG, Karlsruhe	13405	E08Y040	7790-69-4	2013-10-01			y
 Lithium nitrate	Lithium nitrate	\SIpct{99}	Alfa Aesar GmbH + Co. KG, Karlsruhe	13405	S13A044	7790-69-4	2015-06-21			y
-Magnesium sulphate heptahydrate	Magnesium sulphate heptahydrate	ACS, Reag. Ph Eur, ≥\SIpct{99.5}	Merck KGaA, Darmstadt	1.05886.1000	A0300686 122	10034-99-8	2012-05-15	CM-04		y
+Magnesium sulphate heptahydrate	Magnesium sulphate heptahydrate	ACS, Reag. Ph. Eur., ≥\SIpct{99.5}	Merck KGaA, Darmstadt	1.05886.1000	A0300686 122	10034-99-8	2012-05-15	CM-04		y
 Magnesium sulphate heptahydrate	Magnesium sulphate heptahydrate	ACS, Reag. Ph. Eur., ≥\SIpct{99.5}	Merck KGaA, Darmstadt	1.05886.1000	AM0520286 338	10034-99-8	2014-04-29			y
 Malic acid	Malic acid	≥\SIpct{99.0}	AppliChem GmbH, Darmstadt	A7947,0100	3M003185	97-67-6	2013-06-26			y
 Manganese chloride dihydrate	Manganese chloride dihydrate	≥\SIpct{99.0}	Merck KGaA, Darmstadt	1.05934.0100	A846634 905	20603-88-7	2014-03-10			y
