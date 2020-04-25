@@ -1,0 +1,136 @@
+Chemical (sorting)	Chemical	Grade	Manufacturer or vendor	Article number	Lot	CAS Number	Date first used	CBR ID	Comment	Needed for contents in final version?
+Acetic acid	Acetic acid	\SIpct{100}, Ph. Eur., extra pure	Carl Roth GmbH + Co. KG, Karlsruhe	6755.1	291174489	64-19-7	2014-03-21			y
+Acetic acid	Acetic acid	\SIpct{100}, Ph. Eur., extra pure	Carl Roth GmbH + Co. KG, Karlsruhe	6755.1	224214679	64-19-7	2014-06-20			y
+Acetonitrile	Acetonitrile	≥\SIpct{99.9}, Reag. Ph. Eur.	VWR International bvba/sprl, Leuven, Belgium	83640.320	13Z3764	75-05-8	2014-07-30			y
+Acetonitrile	Acetonitrile	≥\SIpct{99.9}, Reag. Ph. Eur.	VWR International bvba/sprl, Leuven, Belgium	83640.320	14Z1868	75-05-8	2014-12-10			y
+Agar-agar	Agar-agar	for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	5210.2	152182069	9002-18-0	2012-07-19	CA-06.1		y
+Agar-agar	Agar-agar	for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	5210.2	472190993	9002-18-0	2013-01-17			y
+Agar-agar	Agar-agar	for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	5210.2	413205192	9002-18-0	2014-06-25			y
+Agar-agar	Agar-agar	for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	5210.2	334215983	9002-18-0	2015-01-16			y
+Agar-agar	Agar-agar	for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	5210.2	055224485	9002-18-0	2015-05-12			y
+Agencourt AMPure XP	Agencourt AMPure XP	-	Beckman Coulter GmbH, Krefeld	A63881	-	-	2015-03-25		used before, but found this date only	y
+Alginate	Alginate	-	Sigma-Aldrich Chemie GmbH, Steinheim	71238-1KG	0001434156	9005-38-3	2014-04-24			n
+Amido Black 10 B	Amido Black 10 B	p.a.	Carl Roth GmbH + Co. KG, Karlsruhe	9590.1	291170672	1064-48-8	2013-08-09			n
+Ammonia	Ammonia	\SIrange{30}{33}{\percent}, extra pure	Carl Roth GmbH + Co. KG, Karlsruhe	P093.1	173185510	1336-21-6	2014-03-21			y
+Ammonia	Ammonia	\SIrange{30}{33}{\percent}, extra pure	Carl Roth GmbH + Co. KG, Karlsruhe	P093.1	101162815	1336-21-6	2014-07-30			y
+Ammonia	Ammonia	\SIrange{30}{33}{\percent}, extra pure	Carl Roth GmbH + Co. KG, Karlsruhe	P093.1	264215397	1336-21-6	2014-07-30			y
+Ammonia	Ammonia	\SIrange{30}{33}{\percent}, extra pure	Carl Roth GmbH + Co. KG, Karlsruhe	P093.1	394215397	1336-21-6	2015-03-19			y
+Ammonium chloride	Ammonium chloride	-	Mallinckrodt Baker B. V., Deventer, Netherlands	0018	0806501011	-	2015-01-16			y
+Aniline blue	Aniline blue	certified by the Biological Stain Commission, dye content: \SIpct{65}	Sigma-Aldrich Chemie GmbH, Steinheim	415049-25G	77296MJ	66687-07-8	2014-03-19			y
+Antifoam B	Antifoam B	-	Avantor Performance Materials B.V., Deventer, Netherlands	B531-07	1324502862	-	2013-05-15			y
+Arabinose	\textsc{l}-(−)-Arabinose	≥\SIpct{99}	EMD Biosciences, Inc., La Jolla, CA, USA	178680	D00082543	87-72-9	2014-03-06			y
+Ascorbic acid	\textsc{l}-(+)-Ascorbic acid	≥\SIpct{99}, p.a.	Carl Roth GmbH + Co. KG, Karlsruhe	3525.1	489110821	50-81-7	2014-04-24			n
+Azino-bis(3-ethylbenzothiazoline-6-sulphonic acid) diammonium salt	2,2$'$-Azino-bis(3-ethylbenzothiazoline-6-sulphonic acid) diammonium salt	≥\SIpct{98}	Sigma-Aldrich Chemie GmbH, Steinheim	A1888-2G	-	30931-67-0	2015-03-02		commonly abbreviated as \enquote{ABTS}	y
+Boric acid	Boric acid	for electrophoresis, ≥\SIpct{99.5}	Sigma-Aldrich Chemie GmbH, Steinheim	B7901-500G	108K0170	10043-35-3	2014-03-10			y
+Bovine serum albumin	Bovine serum albumin	≥\SIpct{96}	Sigma-Aldrich Chemie GmbH, Steinheim	A2153-50G	100111779V	9048-46-8	2014-04-25			y
+Calcium chloride dihydrate	Calcium chloride dihydrate	≥\SIpct{99}, p.a., ACS	Carl Roth GmbH + Co. KG, Karlsruhe	5239.1	192186301	10035-04-8	2015-01-16			y
+Calcium chloride dihydrate	Calcium chloride dihydrate	ACS, Reag. Ph Eur	Merck KGaA, Darmstadt	1.02382.1000	A935182 911	10035-04-8	2012-05-15	CC-2		y
+Calibration buffer pH 10	Calibration buffer pH 10	\num[separate-uncertainty=true]{10.00(2)}	VWR International bvba/sprl, Leuven, Belgium	32040.298	?	-	?			y
+Calibration buffer pH 4	Calibration buffer pH 4	\num[separate-uncertainty=true]{4.00(2)}	VWR International bvba/sprl, Leuven, Belgium	32095.297	13I230511	-	?			y
+Calibration buffer pH 7	Calibration buffer pH 7	\num[separate-uncertainty=true]{7.00(2)}	VWR International bvba/sprl, Leuven, Belgium	32096.291	14D090514	-	?			y
+Calibration standard, type 2000 AW	Calibration standard, type 2000 AW	for calibration	ZMK-Analytik-GmbH, Bitterfeld-Wolfen	2000 AW	205	-	2012-06-20		Calibration symbol: 04-0514 DKD-K-06901 12-04	n
+Carrageenan	κ-Carrageenan	acc. to FAO/WHO, EEC, FCC, highly pure	Carl Roth GmbH + Co. KG, Karlsruhe	3059.1	372151924	11114-20-8	2014-04-24			n
+Casein peptone	Casein peptone	pancreatic digest, for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	8952.4	501175574	91079-40-2	2012-05-15	CT-15		y
+Casein peptone	Casein peptone	pancreatic digest, for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	8952.4	382191682	91079-40-2	2013-01-17			y
+Casein peptone	Casein peptone	pancreatic digest, for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	8952.4	263201131	91079-40-2	2014-03-05			y
+Casein peptone	Casein peptone	pancreatic digest, for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	8952.4	463205143	91079-40-2	2014-06-25		opened 2014-05-26, MS	y
+Casein peptone	Casein peptone	pancreatic digest, for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	8952.5	404220310	91079-40-2	2015-02-11			y
+Cetyltrimethylammonium bromide	Cetyltrimethylammonium bromide	≥\SIpct{97.0}	Merck Schuchardt OHG, Hohenbrunn	814119.0500	S5518619 027	57-09-0	2014-04-09			n
+Chloroform/Isoamyl alcohol (24:1)	Chloroform/Isoamyl alcohol (24:1)	for extraction of nucleic acids	Carl Roth GmbH + Co. KG, Karlsruhe	X984.2	321171869	-	2012-08-23		commonly abbreviated as \enquote{C/I mix}	y
+Citric acid	Citric acid	≥\SIpct{99.5}, p.a., ACS	Carl Roth GmbH + Co. KG, Karlsruhe	X863.2	391177040	77-92-9	2013-06-26			y
+Cobalt chloride hexahydrate	Cobalt chloride hexahydrate	\SIpct{98}	Alfa Aesar GmbH + Co. KG, Karlsruhe	A16346	10145260	7791-13-1	2014-03-10			y
+Copper sulphate pentahydrate	Copper sulphate pentahydrate	≥\SIpct{99.0}	Sigma-Aldrich Chemie GmbH, Steinheim	61245	1326491 11107098	7758-99-8	2014-03-10			y
+Dextran (broad/branched)	Dextran (broad/branched)	-	PSS Polymer Standards Service GmbH, Mainz	-	dxtb70-2	-	2013-09-11			n
+Dimethylsulphoxide	Dimethylsulphoxide	≥\SIpct{99.8}, p.a.	Carl Roth GmbH + Co. KG, Karlsruhe	4720.1	090154392	67-68-5	2014-04-09		commonly abbreviated as \enquote{DMSO}	y
+Dimethylsulphoxide	Dimethylsulphoxide	≥\SIpct{99.8}, p.a.	Carl Roth GmbH + Co. KG, Karlsruhe	4720.1	272185972	67-68-5	2014-04-10		commonly abbreviated as \enquote{DMSO}	y
+Dimethylsulphoxide	Dimethylsulphoxide	≥\SIpct{99.5}	Dr. Klaus Schopp Forschung + Technik, Karlsruhe	-	K01705014	67-68-	2013-11-27		commonly abbreviated as \enquote{DMSO}	y
+dNTP mix	dNTP mix	\SImM{10}	Rapidozym Gesellschaft für Laborhandel und DNA Diagnostika mbH, Berlin	GEN-011-M10	-	-	2013-12-06			y
+Ethidium bromide	Ethidium bromide	\SIgpl{10}	Carl Roth GmbH + Co. KG, Karlsruhe	2218.4	?	1239-45-8	2012-08-06			y
+Ethylenediaminetetraacetic acid	Ethylenediaminetetraacetic acid	≥\SIpct{99}, p.a., ACS	Carl Roth GmbH + Co. KG, Karlsruhe	8040.2	428100645	60-00-4	2012-08-02	CE-4	commonly abbreviated as \enquote{EDTA}	y
+Ferric sulphate heptahydrate	Ferric sulphate heptahydrate	ACS reagent, reag. ISO, reag. Ph. Eur., ≥\SIpct{99.0}	Sigma-Aldrich Chemie GmbH, Steinheim	31236	SZE92640	7782-63-0	2014-03-10			y
+Formaldehyde	Formaldehyde	≥\SIpct{37}, for synthesis	Carl Roth GmbH + Co. KG, Karlsruhe	7398.1	410159335	50-00-0	2014-09-16			n
+Formic acid	Formic acid	≥\SIpct{98.0}, p. a.	AppliChem GmbH, Darmstadt	A0748,2500	3Z005434	64-18-6	2014-06-20			y
+Formic acid	Formic acid	~\SIpct{98}	Sigma-Aldrich Chemie GmbH, Steinheim	06440	SZE90980	64-18-6	2013-08-20			y
+Fumaric acid	Fumaric acid	≥\SIpct{99.5}, for biochemistry	Carl Roth GmbH + Co. KG, Karlsruhe	3748.1	093193750	110-17-8	2013-06-26			y
+Furfural	Furfural	ACS, ≥\SIpct{98.0}	Merck KGaA, Darmstadt	1.04013.0020	S5123013 939	98-01-1	2014-03-14	opened 2009-11-04		y
+Furfural	Furfural	ACS, ≥\SIpct{98.0}	Merck KGaA, Darmstadt	1.04013.0020	S6806613 432	98-01-1	2014-09-10			y
+Galactosamine hydrochloride	\textsc{d}-(+)-Galactosamine hydrochloride	≥\SIpct{98}, for biochemistry	Carl Roth GmbH + Co. KG, Karlsruhe	7411.1	051167784	1772-03-8	2014-12-04			y
+Glucosamine hydrochloride	\textsc{d}-(+)-Glucosamine hydrochloride	≥\SIpct{99}	EMD Biosciences, Inc., La Jolla, CA, USA	346299	D00081856	66-84-2	2014-12-04			y
+Glucose monohydrate	\textsc{d}-(+)-Glucose monohydrate	for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	6887.5	081167633	14431-43-7	2012-05-15			y
+Glucose monohydrate	\textsc{d}-(+)-Glucose monohydrate	for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	6887.5	014205540	14431-43-7	2015-01-16			y
+Glucose monohydrate	\textsc{d}-(+)-Glucose monohydrate	Ph. Eur.	Serva Electrophoresis GmbH, Heidelberg	22720	100819	5996-10-1	2013-06-26			y
+Glycine	Glycine	USP, Ph. Eur., ≥\SIpct{98.5}	Serva Electrophoresis GmbH, Heidelberg	23390	101079	56-40-6	2014-03-19			y
+HF Buffer	HF Buffer	-	New England Biolabs GmbH, Frankfurt am Main	B0518S	0011407	-	2015-02-18			y
+HF Buffer	HF Buffer	-	New England Biolabs GmbH, Frankfurt am Main	B0518S	0011402	-	2015-06-10			y
+Hydrochloric acid	Hydrochloric acid	\SIM{2}	Carl Roth GmbH + Co. KG, Karlsruhe	T134.2	122184650	7647-01-0	2014-03-20			y
+Hydrochloric acid	Hydrochloric acid	\SIM{2}	Carl Roth GmbH + Co. KG, Karlsruhe	T134.2	1518834	7647-01-0	2014-04-10			y
+Hydroxymethylfurfural	5-(Hydroxymethyl)furfural	\SIpct{97}	Alfa Aesar GmbH + Co. KG, Karlsruhe	A12475	10180374	67-47-0	2014-03-21		commonly abbreviated as \enquote{HMF}	y
+Itaconic acid	Itaconic acid	-	AppliChem GmbH, Darmstadt	A2857,0500	8K000661	-	2013-06-26			y
+Lactic acid	Lactic acid	\SIpct{80}, of that ≥\SIpct{95} L(+)-lactic acid	Carl Roth GmbH + Co. KG, Karlsruhe	8460.1	050153259	79-33-4	2012-09-12			n
+Laminarin from Laminara digitata	Laminarin from Laminara digitata	-	Sigma-Aldrich Chemie GmbH, Steinheim	L9634-1G	058K3782	9008-22-4	2013-01-07			n
+Lithium nitrate	Lithium nitrate	\SIpct{99}	Alfa Aesar GmbH + Co. KG, Karlsruhe	13405	E08Y040	7790-69-4	2013-10-01			y
+Lithium nitrate	Lithium nitrate	\SIpct{99}	Alfa Aesar GmbH + Co. KG, Karlsruhe	13405	S13A044	7790-69-4	2015-06-21			y
+Magnesium sulphate heptahydrate	Magnesium sulphate heptahydrate	ACS, Reag. Ph Eur, ≥\SIpct{99.5}	Merck KGaA, Darmstadt	1.05886.1000	A0300686 122	10034-99-8	2012-05-15	CM-04		y
+Magnesium sulphate heptahydrate	Magnesium sulphate heptahydrate	ACS, Reag. Ph. Eur., ≥\SIpct{99.5}	Merck KGaA, Darmstadt	1.05886.1000	AM0520286 338	10034-99-8	2014-04-29			y
+Malic acid	Malic acid	≥\SIpct{99.0}	AppliChem GmbH, Darmstadt	A7947,0100	3M003185	97-67-6	2013-06-26			y
+Manganese chloride dihydrate	Manganese chloride dihydrate	≥\SIpct{99.0}	Merck KGaA, Darmstadt	1.05934.0100	A846634 905	20603-88-7	2014-03-10			y
+Methanol	Methanol	≥\SIpct{99.9}	VWR International bvba/sprl, Leuven, Belgium	83638.320	11Z3717	67-56-1	2014-10-21			y
+Methanol	Methanol	≥\SIpct{99.9}	VWR International bvba/sprl, Leuven, Belgium	83638.320	13Z2666	67-56-1	2015-02-05			y
+Methylphenylpyrazolinone	3-Methyl-1-phenyl-2-pyrazoline-5-one	\SIpct{99}	Sigma-Aldrich Chemie GmbH, Steinheim	M70800-100G	BCBH4066V	89-25-8	2014-07-30		commonly abbreviated as \enquote{PMP}	y
+Morpholino propane sulphonic acid	3-(\textit{N}-Morpholino) propane sulphonic acid	≥\SIpct{99.5}	Carl Roth GmbH + Co. KG, Karlsruhe	6979.4	041166993	1132-61-2	2012-05-15	CM-12	commonly abbreviated as \enquote{MOPS}	y
+Morpholino propane sulphonic acid	3-(\textit{N}-Morpholino) propane sulphonic acid	≥\SIpct{99.5}	Carl Roth GmbH + Co. KG, Karlsruhe	6979.3	383193294	1132-61-2	2014-11-04		commonly abbreviated as \enquote{MOPS}	y
+MRS broth	MRS broth	for microbiology	Carl Roth GmbH + Co. KG, Karlsruhe	X925.1	121167277	-	2012-09-05			n
+Oxalic acid	Oxalic acid	≥\SIpct{99.0}	Sigma-Aldrich Chemie GmbH, Steinheim	75688-50G	0001411750	144-62-7	2013-06-26			y
+Phenol	Phenol	for extraction of nucleic acids	Carl Roth GmbH + Co. KG, Karlsruhe	0038.3	-	-	?			y
+Phusion HF Reaction Buffer	5x Phusion HF Reaction Buffer	-	New England Biolabs GmbH, Frankfurt am Main	B0518S	0011210	-	2013-10-22			y
+Phusion HF Reaction Buffer	5x Phusion HF Reaction Buffer	-	New England Biolabs GmbH, Frankfurt am Main	B0518S	0011308	-	2015-02-03			y
+Potassium chloride	Potassium chloride	≥\SIpct{99.5}, p.a., ACS, ISO	Carl Roth GmbH + Co. KG, Karlsruhe	6781.1	311174785	7447-40-7	2012-10-12			y
+Potassium chloride	Potassium chloride	≥\SIpct{99.5}, p.a., ACS, ISO	Carl Roth GmbH + Co. KG, Karlsruhe	6781.1	412191571	7447-40-7	2013-04-29			y
+Potassium chloride	Potassium chloride	≥\SIpct{99.5}, p.a., ACS, ISO	Carl Roth GmbH + Co. KG, Karlsruhe	6781.1	464220202	7447-40-7	2015-02-02			y
+Potassium dihydrogen phosphate	Potassium dihydrogen phosphate	≥\SIpct{99}, p.a., ACS	Carl Roth GmbH + Co. KG, Karlsruhe	3904.3	230158658	7778-77-0	2012-05-15	CK-07.1		y
+Potassium dihydrogen phosphate	Potassium dihydrogen phosphate	≥\SIpct{99}, p.a., ACS	Carl Roth GmbH + Co. KG, Karlsruhe	3904.3	034207292	7778-77-0	2014-07-22			y
+Pullulan 0000342	Pullulan (\SID{342})	analytical	PSS Polymer Standards Service GmbH, Mainz	PSS-dpul342	p-0.3di	-	2013-12-02		Grade contains Mn	y
+Pullulan 0001000	Pullulan (\SIkD{1})	analytical	PSS Polymer Standards Service GmbH, Mainz	PSS-pul1.3k	p-1-2	-	2013-12-02		Grade contains Mn	y
+Pullulan 0005000	Pullulan (\SIkD{5})	analytical	PSS Polymer Standards Service GmbH, Mainz	PSS-dpul6k	p-5-3di	-	2013-12-02		Grade contains Mn	y
+Pullulan 0010000	Pullulan (\SIkD{10})	analytical	PSS Polymer Standards Service GmbH, Mainz	PSS-dpul12k	p-10-2di	-	2013-12-02		Grade contains Mn	y
+Pullulan 0020000	Pullulan (\SIkD{20})	analytical	PSS Polymer Standards Service GmbH, Mainz	PSS-dpul22k	p-20-2di	-	2013-12-02		Grade contains Mn	y
+Pullulan 0050000	Pullulan (\SIkD{50})	analytical	PSS Polymer Standards Service GmbH, Mainz	PSS-dpul50k	p-50-2di	-	2013-12-02		Grade contains Mn	y
+Pullulan 0110000	Pullulan (\SIkD{110})	analytical	PSS Polymer Standards Service GmbH, Mainz	PSS-dpul110k	p-100-2di	-	2013-12-02		Grade contains Mn	y
+Pullulan 0200000	Pullulan (\SIkD{200})	analytical	PSS Polymer Standards Service GmbH, Mainz	PSS-dpul200k	p-200-2di	-	2013-12-02		Grade contains Mn	y
+Pullulan 0400000	Pullulan (\SIkD{400})	analytical	PSS Polymer Standards Service GmbH, Mainz	PSS-dpul400k	p-400-3di	-	2013-12-02		Grade contains Mn	y
+Pullulan 0800000	Pullulan (\SIkD{800})	analytical	PSS Polymer Standards Service GmbH, Mainz	PSS-dpul800k	p-800-2di	-	2013-12-02		Grade contains Mn	y
+Pullulan 1300000	Pullulan (\SIMD{1.3})	analytical	PSS Polymer Standards Service GmbH, Mainz	PSS-dpul1.3m	p-1300di	-	2013-12-02		Grade contains Mn	y
+Pullulan 2500000	Pullulan (\SIMD{2.5})	analytical	PSS Polymer Standards Service GmbH, Mainz	PSS-dpul2.5m	p-2500di	-	2013-12-02		Grade contains Mn	y
+Rhamnose hydrate	α-\textsc{l}-(+)-Rhamnose hydrate	for microbiology, ≥\SIpct{99.0}	Sigma-Aldrich Chemie GmbH, Steinheim	83650-50G	BCBC6943	10030-85-0	2014-12-04			y
+RPMI 1640 Vitamins solution (100×)	RPMI 1640 Vitamins solution (\SI{100}{\concfac})	suitable for cell culture	Sigma-Aldrich Chemie GmbH, Steinheim	R7256	RNBB7627	-	2012-07-02			y
+Scleroglucan Cs 11	Scleroglucan Cs 11	-	Cargill France SAS, Saint-Germain-en-Lage, France	Actigum CS 11	20122248	39464-87-4	2014-04-09			y
+Sodium acetate	Sodium acetate	≥\SIpct{99.5}, p.a., ACS, ISO	Carl Roth GmbH + Co. KG, Karlsruhe	6779.1	129104812	6131-90-4	2012-08-02	CN-8		y
+Sodium bromide	Sodium bromide	≥\SIpct{99}	VWR International bvba/sprl, Leuven, Belgium	27739.298	12F180013	7647-15-6	2014-10-16			n
+Sodium carbonate	Sodium carbonate	>\SIpct{99}	Carl Roth GmbH + Co. KG, Karlsruhe	8563.1	162183668	497-19-8	2013-08-28			n
+Sodium chloride	Sodium chloride	-	AppliChem GmbH, Darmstadt	A4661,5000	2A000027	7647-14-5	2012-07-19	CN-16		y
+Sodium chloride	Sodium chloride	≥\SIpct{99}, Ph. Eur., USP	Carl Roth GmbH + Co. KG, Karlsruhe	P029.3	224215205	7647-14-5	2014-06-23			y
+Sodium dodecyl sulphate	Sodium dodecyl sulphate	≥\SIpct{99}, research grade	Serva Electrophoresis GmbH, Heidelberg	20760	080082	151-21-3	2012-08-03	CS-7		y
+Sodium glyoxylate monohydrate	Sodium glyoxylate monohydrate	≥\SIpct{93}	Sigma-Aldrich Chemie GmbH, Steinheim	G4502-1G	034H5001	918149-31-2	2013-06-26			y
+Sodium hydroxide	Sodium hydroxide	≥\SIpct{99}, p.a., ISO	Carl Roth GmbH + Co. KG, Karlsruhe	6771.2	361172919	1310-73-2	2012-07-02			y
+Sodium hydroxide	Sodium hydroxide	≥\SIpct{99}, p.a., ISO	Carl Roth GmbH + Co. KG, Karlsruhe	6771.2	045220352	1310-73-2	2014-04-02			y
+Sodium molybdate	Sodium molybdate	≥\SIpct{99.5}, p.a.	Carl Roth GmbH + Co. KG, Karlsruhe	0274.1	502188257	10102-40-6	2014-03-10			y
+Sodium nitrate	Sodium nitrate	≥\SIpct{99}	Merck KGaA, Darmstadt	1.06535.1000	A856135 850	7631-99-4	2015-01-16			n
+Sodium periodate	Sodium periodate	≥\SIpct{99.8}, ACS	Sigma-Aldrich Chemie GmbH, Steinheim	311448-5G	82298MJ	7790-28-5	2013-01-08			y
+Sodium succinate hexahydrate	Sodium succinate hexahydrate	≥\SIpct{99.0}	Sigma-Aldrich Chemie GmbH, Steinheim	14170-100G	0001360355	6106-21-4	2013-06-26			y
+Sodium tartrate	Sodium tartrate	≥\SIpct{99}, extra pure	Carl Roth GmbH + Co. KG, Karlsruhe	0254.1	359105202	6106-24-7	2014-03-10			y
+Sulphuric acid	Sulphuric acid	\SIpct{96}, p.a., ISO	Carl Roth GmbH + Co. KG, Karlsruhe	4623.4	263200808	7664-93-9	2013-08-30			y
+Sulphuric acid	Sulphuric acid	\SIpct{96}, p.a., ISO	Carl Roth GmbH + Co. KG, Karlsruhe	4623.4	174213388	7664-93-9	2014-07-30			y
+Sulphuric acid	Sulphuric acid	\SIM{1}	Carl Roth GmbH + Co. KG, Karlsruhe	X873.1	1559309	7664-93-9	2015-02-13			y
+Syringaldehyde	Syringaldehyde	≥\SIpct{98.0}	Alfa Aesar GmbH + Co. KG, Karlsruhe	A12933	10101403	134-96-3	2014-03-21			n
+TRIS	TRIS	≥\SIpct{99.3}, Buffer Grade	Carl Roth GmbH + Co. KG, Karlsruhe	AE15.2	102180718	77-86-1	2012-08-02	CT-13.1		y
+TRIS hydrochloride	TRIS hydrochloride	≥\SIpct{99}, p.a.	Carl Roth GmbH + Co. KG, Karlsruhe	9090.3	100153298	1185-53-1	2012-08-02	CT-14		y
+Vanillin	Vanillin	\SIpct{99}	Sigma-Aldrich Chemie GmbH, Steinheim	V110-4	S80107-129	121-33-5	2014-03-14			y
+Xanthan	Xanthan	technical	Jungbunzlauer Suisse AG, Basel, Switzerland	122439\footnote{The product information printed on the vessel is not explicitly giving an article number.}	2516415	11138-66-2	2014-10-22			n
+Xanthan	Xanthan	food grade	Jungbunzlauer Suisse AG, Basel, Switzerland	122407	2516026	11138-66-2	2015-03-25			n
+Xylose	\textsc{d}-(+)-Xylose	≥\SIpct{98.5}, for biochemistry	Carl Roth GmbH + Co. KG, Karlsruhe	5537.2	181169987	58-86-6	2014-03-06			y
+Xylose	\textsc{d}-(+)-Xylose	for biotechnological purposes, ≥\SIpct{98.0} (sum of enantiomers, HPLC) 	Sigma-Aldrich Chemie GmbH, Steinheim	95731	1342345 30208382	58-86-6	2012-05-15	CX-07		y
+Yeast extract	Yeast extract	for bacteriology	Carl Roth GmbH + Co. KG, Karlsruhe	2363.5	041167072	8013-01-2	2012-07-19			y
+Yeast extract	Yeast extract	for bacteriology	Carl Roth GmbH + Co. KG, Karlsruhe	2363.4	071167072	8013-01-2	2012-08-20			y
+Yeast extract	Yeast extract	for bacteriology	Carl Roth GmbH + Co. KG, Karlsruhe	2363.4	353201081	8013-01-2	2014-06-25			y
+Zinc chloride	Zinc chloride	ACS, ISO, Reag. Ph. Eur., ≥\SIpct{98.0}	Merck KGaA, Darmstadt	1.08816.0250	-	7646-85-7	2014-03-10			y
+

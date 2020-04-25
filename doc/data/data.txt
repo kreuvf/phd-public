@@ -1,0 +1,1 @@
+Raw or processed data used as a basis for generating figures and/or tables for the thesis.

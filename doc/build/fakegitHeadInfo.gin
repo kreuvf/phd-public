@@ -1,0 +1,17 @@
+\usepackage[%
+        shash={48d9b49},
+        lhash={48d9b491244c0349f0ab658edd6c5bea97859bb3},
+        authname={Steven "Kreuvf" Koenig},
+        authemail={steven.koenig.wzs@kreuvf.de},
+        authsdate={2019-12-23},
+        authidate={2019-12-23 15:11:30 +0100},
+        authudate={1577110290},
+        commname={Steven "Kreuvf" Koenig},
+        commemail={steven.koenig.wzs@kreuvf.de},
+        commsdate={2019-12-23},
+        commidate={2019-12-23 15:11:30 +0100},
+        commudate={1577110290},
+        refnames={ (HEAD -> bitbucket/official, tag: Veroeffentlichung, bitbucket/official)},
+        firsttagdescribe={Veroeffentlichung},
+        reltag={48d9b49}
+    ]{gitexinfo}

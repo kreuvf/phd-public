@@ -1,0 +1,106 @@
+Sample Name	Acetic acid	Formic acid	Laevulinic acid
+Am.s. + Es.s. 5 g/l	4.8526	4.8752	n.a.
+Lä.s. 5 g/l	n.a.	n.a.	4.9619
+Am.s. + Lae.s. 5 g/l	n.a.	4.9922	4.9823
+Am.s. + Lae.s. 5 g/l	n.a.	3.0135	3.0351
+Am.s. + Lae.s. 5 g/l	n.a.	1.4981	1.4885
+Am.s. + Lae.s. 5 g/l	n.a.	0.5034	0.5019
+Am.s. + Lae.s. 5 g/l	n.a.	0.3015	0.2981
+Am.s. + Lae.s. 5 g/l	n.a.	0.1473	0.1536
+Am.s. + Lae.s. 5 g/l	n.a.	0.044	0.0404
+Es.s. 5 g/l	4.997	n.a.	n.a.
+Es.s. 5 g/l	3.0053	n.a.	n.a.
+Es.s. 5 g/l	1.4998	n.a.	n.a.
+Es.s. 5 g/l	0.4992	n.a.	n.a.
+Es.s. 5 g/l	0.3001	n.a.	n.a.
+Es.s. 5 g/l	0.1485	n.a.	n.a.
+Es.s. 5 g/l	0.0501	n.a.	n.a.
+A01_Am.s._X1.C04	0.0688	n.a.	n.a.
+A02_Am.s._X1.F10	n.a.	n.a.	n.a.
+A03_Am.s._X1.G11	n.a.	n.a.	n.a.
+A04_Am.s._X2.B10	n.a.	n.a.	n.a.
+B01_Am.s._X1.C05	0.1857	n.a.	n.a.
+B02_Am.s._X1.F12	n.a.	n.a.	n.a.
+B03_Am.s._X1.H01	n.a.	n.a.	n.a.
+B04_Am.s._X2.C05	0.321	1.6691	n.a.
+C01_Am.s._X1.E01	0.9867	n.a.	n.a.
+C02_Am.s._X1.G01	n.a.	n.a.	n.a.
+C03_Am.s._X1.H03	n.a.	n.a.	n.a.
+C04_Am.s._X2.C06	n.a.	-0.0906	n.a.
+D01_Am.s._X1.F02	0.5493	-0.0214	n.a.
+D02_Am.s._X1.G02	n.a.	-0.1265	n.a.
+D03_Am.s._X2.A01	1.6168	n.a.	n.a.
+D04_Am.s._X2.C07	n.a.	-0.0839	n.a.
+E01_Am.s._X1.F04	0.8573	0.1273	n.a.
+E02_Am.s._X1.G03	n.a.	n.a.	n.a.
+E03_Am.s._X2.A02	0.7748	-0.1126	n.a.
+E04_Am.s._X2.C12	n.a.	n.a.	n.a.
+F01_Am.s._X1.F05	n.a.	n.a.	n.a.
+F02_Am.s._X1.G05	0.3129	1.8585	n.a.
+F03_Am.s._X2.B04	n.a.	n.a.	n.a.
+F04_Am.s._X2.D02	-0.0068	-0.223	n.a.
+G01_Am.s._X1.F08	0.7089	0.3068	n.a.
+G02_Am.s._X1.G09	n.a.	-0.0737	n.a.
+G03_Am.s._X2.B08	0.0724	n.a.	n.a.
+G04_Am.s._X2.D03	3.4461	-0.2853	n.a.
+A05_Es.s._X1.A10	0.3073	n.a.	n.a.
+A06_Es.s._X1.D12	2.4904	n.a.	n.a.
+A07_Es.s._X1.H08	0.5892	n.a.	n.a.
+A08_Es.s._X2.A08	1.5361	-0.173	n.a.
+B05_Es.s._X1.B03	n.a.	-0.1441	n.a.
+B06_Es.s._X1.E01	2.6416	n.a.	n.a.
+B07_Es.s._X1.H12	-0.115	n.a.	n.a.
+B08_Es.s._X2.A09	n.a.	n.a.	n.a.
+C05_Es.s._X1.B08	0.4655	n.a.	n.a.
+C06_Es.s._X1.E02	3.6227	n.a.	n.a.
+C07_Es.s._X2.A02	2.3077	-0.1381	n.a.
+C08_Es.s._X2.A12	0.9403	n.a.	n.a.
+D05_Es.s._X1.B10	0.0618	n.a.	n.a.
+D06_Es.s._X1.F01	2.138	-0.0799	n.a.
+D07_Es.s._X2.A04	n.a.	n.a.	n.a.
+D08_Es.s._X2.B01	n.a.	-0.1132	n.a.
+E05_Es.s._X1.C04	n.a.	n.a.	n.a.
+E06_Es.s._X1.F06	3.1148	-0.1702	n.a.
+E07_Es.s._X2.A05	2.7294	n.a.	n.a.
+E08_Es.s._X2.B08	0.45	-0.0413	n.a.
+F05_Es.s._X1.C05	1.8816	n.a.	n.a.
+F06_Es.s._X1.G05	4.1498	-0.1331	n.a.
+F07_Es.s._X2.A06	n.a.	n.a.	n.a.
+F08_Es.s._X2.C04	4.2959	-0.152	n.a.
+G05_Es.s._X1.C12	n.a.	n.a.	n.a.
+G06_Es.s._X1.G11	0.9689	-0.1295	n.a.
+G07_Es.s._X2.A07	0.9727	n.a.	n.a.
+G08_Es.s._X2.C05	3.3859	-0.1297	n.a.
+A09_Lae.s._X1.A03	n.a.	-0.1262	1.6284
+A10_Lae.s._X1.C12	n.a.	-0.1592	3.582
+A11_Lae.s._X1.G05	0.4486	-0.152	4.1116
+A12_Lae.s._X2.A04	n.a.	-0.1339	n.a.
+B09_Lae.s._X1.A05	n.a.	n.a.	2.609
+B10_Lae.s._X1.D01	n.a.	n.a.	1.9705
+B11_Lae.s._X1.H04	0.2005	n.a.	1.8381
+B12_Lae.s._X2.A06	n.a.	-0.1169	1.9774
+C09_Lae.s._X1.A06	n.a.	-0.1143	2.3412
+C10_Lae.s._X1.D08	n.a.	-0.3462	1.9823
+C11_Lae.s._X1.H07	n.a.	n.a.	n.a.
+C12_Lae.s._X2.A07	n.a.	-0.1259	2.6241
+D09_Lae.s._X1.A07	n.a.	-0.1152	3.2181
+D10_Lae.s._X1.D09	n.a.	n.a.	1.9681
+D11_Lae.s._X1.H09	n.a.	n.a.	n.a.
+D12_Lae.s._X2.A09	n.a.	-0.1683	2.4075
+E09_Lae.s._X1.A08	0.5372	n.a.	4.614
+E10_Lae.s._X1.D10	n.a.	n.a.	1.989
+E11_Lae.s._X1.H10	n.a.	-0.1283	n.a.
+E12_Lae.s._X2.B07	n.a.	n.a.	2.577
+F09_Lae.s._X1.A09	n.a.	n.a.	3.0853
+F10_Lae.s._X1.D12	0.115	n.a.	2.7112
+F11_Lae.s._X1.H11	n.a.	-0.1108	n.a.
+F12_Lae.s._X2.B08	n.a.	-0.1489	2.6596
+G09_Lae.s._X1.A11	0.2886	-0.1716	3.945
+G10_Lae.s._X1.E02	0.1012	-0.1179	1.8422
+G11_Lae.s._X2.A01	2.0348	-0.1377	2.62
+G12_Lae.s._X2.C04	0.4235	-0.1224	3.4447
+H09_SM18_P30S	n.a.	n.a.	n.a.
+H10_SM18_P30S_+_2_g/l_Am.s.	n.a.	2.4229	n.a.
+H11_SM18_P30S_+_2_g/l_Es.s.	2.4252	-0.1302	n.a.
+H12_SM18_P30S_+_2_g/l_Lä.s.	n.a.	-0.1149	2.2968
+

@@ -1,0 +1,10 @@
+	1	2	3	4	5	6	7	8	9	10	11	12
+A		Pseudomonas	Bacillus	Bacillus	Pseudomonas	Pseudomonas	Pseudomonas	Pseudomonas	Pseudomonas	Pseudomonas	Pseudomonas	Pseudomonas
+B	Curtobacterium	Bacillus	Pseudomonas	Curtobacterium	Rahnella	Arthrobacter	Arthrobacter	Arthrobacter	Arthrobacter	Arthrobacter	Arthrobacter	Bacillus
+C	Arthrobacter	Arthrobacter	Arthrobacter	Arthrobacter	Raoultella	Pseudomonas	Kozakia	Erwinia ähnlich	Pseudomonas	Bacillus	Arthrobacter	Pseudomonas
+D	Bacillus	Pseudomonas	Agrobacterium	Bacillus	Micrococcus	Arthrobacter	Micrococcus	Paracoccus	Pseudomonas	Pseudomonas	Nähe Sphingobacterium	Microbacterium ähnlich
+E	Dyella	Sphingomonas	Herbaspirillum	Sphingomonas	Herbaspirillum	Sphingomonas ähnlich	Sphingomonas ähnlich	Herbaspirillum	Herbaspirillum	Sphingomonas	Kaistobacter assoziert	
+F	Sphingomonas	Rhodobacter	Paracoccus/Rhodobacter	Arthrobacter	Agrobacterium	Ancylobacter	Microbacterium assoz.	Microbacterium	Agrobacterium	Arthrobacter	Microbacterium	Microbacterium
+G	Agrobacterium	Sphingomonas	Paenibacillus	Paenibacillus	Agrobacterium	Pseudomonas	Paenibacillus	Paenibacillus	Shewanella	Microbacterium	Arthrobacter	Agrobacterium
+H	Microbacterium	Pseudomonas	Xanthomonas	Sinorhizobium	Rhodococcus	Rhodococcus	Paenibacillus	Arthrobacter	Rhodococcus	Arthrobacter	Agrobacterium	Agrobacterium
+

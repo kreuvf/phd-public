@@ -1,0 +1,1 @@
+Auxiliary scripts which proved to be useful for preparing stuff, but are not strictly necessary for building any part of the thesis.

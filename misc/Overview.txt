@@ -1,0 +1,140 @@
+General Structure of PhD Thesis
+===============================
+✔ done
+✘ not done
+SCS	applies to SCS layout only
+
+✘ Cover sheets (SCS)
+✘ Dedication
+✔ Table of Contents
+✔ List of Figures
+✔ List of Tables
+✔ List of Source Code Listings
+✘ Foreword
+✘ Acknowledgements
+✘ Abstract
+✘ Zusammenfassung
+✘ Introduction
+	✘ Renewable Resources
+	✘ Exopolysaccharides
+		✘ Schizophyllan and Scleroglucan
+	✘ Analytical Methods
+	✘ Filtration
+		✘ Dead-end Filtration
+		✘ Cross-flow Filtration
+			✘ Microfiltration & Ultrafiltration
+			✘ Diafiltration
+	✘ Polymerase Chain Reaction
+	✘ File Formats
+	✘ Next-Generation Sequencing
+✘ Materials and Methods
+	✘ Materials
+		✔ Chemicals
+		✘ Consumables (incl. Kits)
+		✘ Enzymes
+		✘ Equipment
+		✘ Glassware
+		✘ Microorganisms
+			✘ Exopolysaccharide Producer Collection
+				✘ Kozakia baliensis SR-745
+			✘ Fungi
+		✘ Oligonucleotides & Polynucleotides
+		✘ Sequences
+		✘ Software
+	✘ Methods
+		✔ Biochemical Methods
+			✔ Agarose Gel Band Cutting
+			✔ Agarose Gel Preparation
+			✔ Agarose Gel Electrophoresis
+			✔ Agarose Gel UV Imaging
+			✔ Ethidium Bromide Stain
+			✔ Gel Extraction (Macherey-Nagel Kit, Magnetic Beads)
+			✔ Gel Extraction (Qiagen Kit)
+			✔ Glucose Assay
+		✔ Microbiological Methods
+			✔ Agars and Media
+				✔ Agar Preparation
+				✔ Plate Preparation for Fungi
+				✔ Trace Elements Solution
+				✔ Vitamins Solution (RPMI 1640)
+				✔ Sterile pH Value Adjustment
+				✔ AMA Medium
+				✔ Jochen's Fungi Medium
+				✔ Lysogeny Broth
+				✔ Slime Media
+				✔ Standard 1 Medium
+				✔ Synthetic Sea Medium
+				✔ Y(E)PD Medium
+			✔ Cryopreservation
+			✔ Cultivation on Agar Plates
+			✔ Determination of D600
+			✔ Fermentation
+			✔ Inoculation of 96-well Plates
+			✔ Sterilization
+		✔ Molecular Biology Methods
+			✔ 16S rDNA Polymerase Chain Reaction
+			✔ Estimation of DNA Concentration
+			✔ Extraction of Genomic DNA
+			✔ Genome Sequencing
+			✔ Preparation of Plasmid DNA
+		✘ Computational Methods
+			✔ Generation of 16S rDNA Sequence
+			✔ Generation of Draft Genome
+			✘ Histogram Equalization
+		✘ Exopolysaccharide Analysis
+			✔ Determination of Aldose Monomer Composition
+			✔ Determination of Molar Mass
+			✔ Determination of Polymer Mass
+			✘ Periodate Assay
+		✔ EPS Purification Procedures
+			✔ Cell Separation
+			✔ Cross-flow Filtration
+			✔ High-Throughput Exopolysaccharide Purification
+			✔ Precipitation
+		✔ Miscellaneous
+			✔ Calibration of pH Meter
+			✔ Determination of pH Value
+			✔ Determination of Acetic Acid, Formic Acid and Laevulinic Acid
+			✔ Determination of Conductivity
+			✔ Determination of Fluorescence Excitation Maximum
+			✔ Determination of Fluorescence Emission Maximum
+			✔ Determination of Fluorescence Intensity
+			✔ Determination of Furfural, Hydroxymethylfurfural and Vanillin
+			✔ Determination of UV/Vis Absorption Spectra
+✘ Schizophyllan and Scleroglucan
+	✘ Fermentation/Production
+		✘ Tolerance against Antibiotics
+	✘ Characterisation
+		✘ Solubility
+		✘ Periodate Assay
+		✘ SEC-MALLS
+	✘ Quantification in Fermentation Broth
+		✘ Aniline Blue Experiments
+	✘ Discussion
+	✘ Outlook
+✘ Genome Sequencing of Kozakia baliensis SR-745
+	✘ Discussion
+	✘ Outlook
+✘ Classification of Fungi Using Curtobacterium sp.
+	✘ Discussion
+	✘ Outlook
+✔ Process for the Selection of Microorganisms Capable of Growing in Presence of Lignocellulose Hydrolysate and Producing Exopolysaccharides
+	✔ Growth Screening on d-Xylose
+	✔ High-Content Screening with d-Xylose
+	✔ High-Throughput Screening for Inhibitor Tolerance
+	✔ High-Throughput Screening for Lignocellulose Hydrolysate Tolerance
+	✔ High-Content Screening with Inhibitors
+	✔ Parallel Fermentation with Lignocellulose Hydrolysate
+	✔ Discussion
+	✔ Outlook
+✘ Appendix
+	✘ Supplemental Material
+	✘ Version
+✘ List of Abbreviations
+✔ Bibliography
+
+Suggestions
+===========
+* SR: Add year when \textcite{}
+* SR: Italicize e.g., etc., et al. ...
+* SK: Use UK style for punctuation marks after quotations (punctuation outside the quote).

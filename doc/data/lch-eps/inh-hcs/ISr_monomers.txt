@@ -1,0 +1,112 @@
+Sample 	Sample Name 	Man	GlcUA	GlcN	GalUA	Rib	Rha	Gen	GalN	GlcNAc	Lac	Cel	Glc	GalNAc	Gal	Ara	Xyl	Fuc	2dGlc	2dRib	Sum
+1	H01_ZS1_200	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	538.6741	191.19	n.a.	172.9234	n.a.	n.a.	133.036	n.a.	n.a.	n.a.	2.9409	n.a.	n.a.	
+2	H01_ZS1_200	200.3085	n.a.	200.8914	n.a.	200.9482	200.1242	n.a.	200.8042	199.9411	n.a.	201.689	200.2003	n.a.	200.6094	n.a.	200.7534	n.a.	201.3113	202.0446	
+3	H02_ZS1_050	49.7539	n.a.	48.5755	n.a.	48.5059	50.5109	n.a.	48.9778	49.6634	n.a.	45.4286	50.8023	n.a.	50.0249	n.a.	48.9959	n.a.	48.2728	46.726	
+4	H03_ZS1_040	38.8271	n.a.	37.1092	n.a.	37.3243	38.5683	n.a.	37.5598	39.6972	n.a.	38.0818	37.6769	n.a.	36.9258	n.a.	37.4862	n.a.	36.2456	34.9587	
+5	H04_ZS1_030	30.2523	n.a.	28.9834	n.a.	29.6684	30.4211	n.a.	29.5922	30.7225	n.a.	28.3999	30.2361	n.a.	30.2144	n.a.	29.9712	n.a.	29.0957	27.9765	
+6	H05_ZS1_020	19.391	n.a.	21.2509	n.a.	19.3048	19.6215	n.a.	19.2677	21.229	n.a.	19.944	20.2374	n.a.	19.2563	n.a.	19.3259	n.a.	18.976	19.292	
+7	H06_ZS1_010	9.5644	n.a.	10.1913	n.a.	10.1741	9.9236	n.a.	10.4285	10.3191	n.a.	9.8339	9.8435	n.a.	9.7493	n.a.	10.4055	n.a.	10.2311	10.1979	
+8	H07_ZS1_005	5.4067	n.a.	6.018	n.a.	6.0432	5.2651	n.a.	5.5104	3.8404	n.a.	5.382	4.972	n.a.	5.7301	n.a.	5.9413	n.a.	6.1691	6.7466	
+9	H08_ZS1_004	4.4688	n.a.	5.2168	n.a.	4.9548	3.8833	n.a.	4.3818	2.9422	n.a.	5.4693	6.6959	n.a.	4.5652	n.a.	4.4355	n.a.	5.37	5.9663	
+10	H09_ZS1_003	3.5326	n.a.	3.6638	n.a.	4.0218	3.355	n.a.	4.4325	3.0254	n.a.	3.9464	3.5523	n.a.	4.0309	n.a.	3.5534	n.a.	4.5989	5.5335	
+11	H10_ZS1_002	2.4948	n.a.	2.0996	n.a.	3.0547	2.3269	n.a.	3.0451	2.6198	n.a.	5.8251	2.4791	n.a.	2.8938	n.a.	3.1318	n.a.	3.7295	4.5579	
+12	H11_ZS1_000	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	
+13	H01_ZS2_200	n.a.	200.6602	n.a.	201.1391	n.a.	n.a.	200.0349	n.a.	n.a.	200.2563	n.a.	n.a.	199.9648	n.a.	200.5747	n.a.	200.4194	n.a.	n.a.	
+14	H02_ZS2_050	n.a.	47.8095	n.a.	47.4167	n.a.	n.a.	48.977	n.a.	n.a.	49.1301	n.a.	n.a.	50.4738	n.a.	48.7157	n.a.	48.8885	n.a.	n.a.	
+15	H03_ZS2_040	n.a.	39.8429	n.a.	38.8764	n.a.	n.a.	39.6345	n.a.	n.a.	39.2485	n.a.	n.a.	40.0941	n.a.	38.865	n.a.	39.9813	n.a.	n.a.	
+16	H04_ZS2_030	n.a.	29.527	n.a.	27.7454	n.a.	n.a.	31.8857	n.a.	n.a.	31.1791	n.a.	n.a.	29.3092	n.a.	29.5862	n.a.	29.1957	n.a.	n.a.	
+17	H05_ZS2_020	n.a.	19.6419	n.a.	19.471	n.a.	n.a.	20.6222	n.a.	n.a.	19.9644	n.a.	n.a.	20.0951	n.a.	19.9615	n.a.	19.659	n.a.	n.a.	
+18	H06_ZS2_010	n.a.	9.1748	n.a.	10.5132	n.a.	n.a.	9.1284	n.a.	n.a.	8.2312	n.a.	n.a.	9.9877	n.a.	9.9408	n.a.	9.5464	n.a.	n.a.	
+19	H07_ZS2_005	n.a.	6.5581	n.a.	7.495	n.a.	n.a.	4.6204	n.a.	n.a.	5.0234	n.a.	n.a.	4.405	n.a.	5.7323	n.a.	5.534	n.a.	n.a.	
+20	H08_ZS2_004	n.a.	4.7628	n.a.	4.8903	n.a.	n.a.	4.2222	n.a.	n.a.	4.4061	n.a.	n.a.	6.2535	n.a.	4.5559	n.a.	4.6064	n.a.	n.a.	
+21	H09_ZS2_003	n.a.	3.4948	n.a.	3.4285	n.a.	n.a.	2.7457	n.a.	n.a.	3.4686	n.a.	n.a.	3.1679	n.a.	3.4351	n.a.	3.5026	n.a.	n.a.	
+22	H10_ZS2_002	n.a.	2.528	n.a.	3.0244	n.a.	n.a.	2.1291	n.a.	n.a.	3.0924	n.a.	n.a.	2.5024	n.a.	2.6328	n.a.	2.6668	n.a.	n.a.	
+23	BR GlcUA lactone (unfiltered)	n.a.	293.3608	n.a.	24.0816	6.3413	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	2.2796	n.a.	n.a.	n.a.	n.a.	n.a.	
+24	H11_SM18_P30S_Es.s.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	187.6748	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	
+25	H12_SM18_P30S_Lae.s.	2.0435	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	226.5506	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	
+26	A01_Am.s._X1.C04	n.a.	29.89	n.a.	n.a.	n.a.	203.39	n.a.	n.a.	n.a.	n.a.	n.a.	121.4974	n.a.	3.6487	n.a.	n.a.	n.a.	n.a.	n.a.	365.1
+27	A02_Am.s._X1.F10	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.6619	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	6.81
+28	A03_Am.s._X1.G11	n.a.	n.a.	2.58	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.3348	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	6.05
+29	A04_Am.s._X2.B10	94.57	13.39	n.a.	n.a.	n.a.	4.43	n.a.	n.a.	n.a.	n.a.	11.94	155.8603	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	262.76
+30	B01_Am.s._X1.C05	n.a.	25.34	n.a.	n.a.	n.a.	197.24	n.a.	n.a.	n.a.	n.a.	n.a.	110.0445	n.a.	2.8695	n.a.	n.a.	n.a.	n.a.	n.a.	350.41
+31	B02_Am.s._X1.F12	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.7114	n.a.	2.0873	n.a.	n.a.	n.a.	n.a.	n.a.	7.48
+32	B03_Am.s._X1.H01	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	2.3124	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.84
+33	B04_Am.s._X2.C05	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.8143	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	6.75
+34	C01_Am.s._X1.E01	n.a.	n.a.	8.93	n.a.	n.a.	n.a.	n.a.	3.50	n.a.	n.a.	n.a.	19.8783	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	29.18
+35	C02_Am.s._X1.G01	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.7929	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	5.75
+36	C03_Am.s._X1.H03	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	2.8246	n.a.	n.a.	1.3325	n.a.	n.a.	n.a.	n.a.	5.95
+37	C04_Am.s._X2.C06	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	2.8484	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	4.71
+38	D01_Am.s._X1.F02	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.6966	n.a.	2.8055	n.a.	n.a.	n.a.	n.a.	n.a.	8.9
+39	D02_Am.s._X1.G02	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.175	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	5.51
+40	D03_Am.s._X2.A01	44.71	7.46	n.a.	n.a.	n.a.	80.20	n.a.	n.a.	n.a.	n.a.	n.a.	50.9825	n.a.	39.5235	n.a.	n.a.	n.a.	n.a.	n.a.	215.42
+41	D04_Am.s._X2.C07	n.a.	4.65	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	34.3259	n.a.	39.6668	n.a.	n.a.	n.a.	n.a.	n.a.	80.25
+42	E01_Am.s._X1.F04	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.7353	n.a.	3.9642	n.a.	n.a.	n.a.	n.a.	n.a.	9.8
+43	E02_Am.s._X1.G03	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.133	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	5.46
+44	E03_Am.s._X2.A02	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	2.07	n.a.	n.a.	n.a.	9.44	232.6533	n.a.	36.1237	n.a.	n.a.	n.a.	n.a.	n.a.	282.27
+45	E04_Am.s._X2.C12	82.94	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.6152	n.a.	41.0189	n.a.	n.a.	n.a.	n.a.	n.a.	129.28
+46	F01_Am.s._X1.F05	6.44	6.65	n.a.	n.a.	n.a.	n.a.	6.36	n.a.	n.a.	n.a.	10.64	236.0914	n.a.	47.6528	n.a.	n.a.	n.a.	n.a.	n.a.	307.19
+47	F02_Am.s._X1.G05	n.a.	2.90	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	5.2716	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	10.18
+48	F03_Am.s._X2.B04	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	148.413	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	150.41
+49	F04_Am.s._X2.D02	84.05	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	4.3617	n.a.	42.0787	n.a.	n.a.	n.a.	n.a.	n.a.	133.58
+50	G01_Am.s._X1.F08	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	6.1856	n.a.	5.1042	n.a.	n.a.	n.a.	n.a.	n.a.	15.17
+51	G02_Am.s._X1.G09	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	2.8743	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	7.88
+52	G03_Am.s._X2.B08	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	118.6085	n.a.	3.383	n.a.	n.a.	n.a.	n.a.	n.a.	124.06
+53	G04_Am.s._X2.D03	45.96	7.16	n.a.	n.a.	n.a.	84.64	n.a.	n.a.	n.a.	n.a.	n.a.	52.1333	n.a.	41.0432	n.a.	n.a.	n.a.	n.a.	n.a.	223.78
+54	A05_Es.s._X1.A10	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.7857	n.a.	1.7208	n.a.	n.a.	n.a.	n.a.	n.a.	9.85
+55	A06_Es.s._X1.D12	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	86.7685	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	89.07
+56	A07_Es.s._X1.H08	n.a.	14.68	n.a.	n.a.	n.a.	164.91	n.a.	n.a.	n.a.	n.a.	n.a.	1.4946	n.a.	137.7293	n.a.	n.a.	n.a.	n.a.	n.a.	304.13
+57	A08_Es.s._X2.A08	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	4.75	350.922	n.a.	35.937	n.a.	n.a.	n.a.	n.a.	n.a.	399.09
+58	B05_Es.s._X1.B03	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	6.1993	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	8.91
+59	B06_Es.s._X1.E01	3.85	n.a.	8.27	n.a.	n.a.	n.a.	n.a.	3.07	n.a.	n.a.	n.a.	18.694	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	28.79
+60	B07_Es.s._X1.H12	n.a.	n.a.	8.26	n.a.	n.a.	n.a.	n.a.	4.58	n.a.	n.a.	n.a.	75.3927	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	84.33
+61	B08_Es.s._X2.A09	n.a.	n.a.	2.36	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	44.9941	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	49.54
+62	C05_Es.s._X1.B08	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	48.4694	n.a.	3.5313	n.a.	n.a.	n.a.	n.a.	n.a.	53.79
+63	C06_Es.s._X1.E02	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	21.7773	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	24.6
+64	C07_Es.s._X2.A02	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	2.70	98.9783	n.a.	11.4222	n.a.	n.a.	n.a.	n.a.	n.a.	112.32
+65	C08_Es.s._X2.A12	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	74.4464	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	74.45
+66	D05_Es.s._X1.B10	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.2332	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.23
+67	D06_Es.s._X1.F01	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	3.3332	n.a.	n.a.	n.a.	n.a.	n.a.	5.15
+68	D07_Es.s._X2.A04	n.a.	n.a.	n.a.	n.a.	n.a.	11.48	n.a.	n.a.	n.a.	n.a.	n.a.	14.5221	n.a.	33.1564	n.a.	n.a.	n.a.	n.a.	n.a.	62.54
+69	D08_Es.s._X2.B01	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	54.6836	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	58.89
+70	E05_Es.s._X1.C04	n.a.	17.45	n.a.	n.a.	n.a.	190.71	n.a.	n.a.	n.a.	n.a.	n.a.	123.6903	n.a.	4.5195	n.a.	n.a.	n.a.	n.a.	n.a.	324.93
+71	E06_Es.s._X1.F06	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	32.1598	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	32.16
+72	E07_Es.s._X2.A05	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	2.30	n.a.	n.a.	n.a.	6.64	226.8489	n.a.	24.8567	n.a.	n.a.	n.a.	n.a.	n.a.	260.55
+73	E08_Es.s._X2.B08	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	60.6939	n.a.	3.5484	n.a.	n.a.	n.a.	n.a.	n.a.	69.06
+74	F05_Es.s._X1.C05	n.a.	18.27	n.a.	n.a.	n.a.	195.98	n.a.	n.a.	n.a.	n.a.	n.a.	128.0677	n.a.	5.8561	n.a.	n.a.	n.a.	n.a.	n.a.	363.74
+75	F06_Es.s._X1.G05	n.a.	2.91	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	68.0005	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	69.57
+76	F07_Es.s._X2.A06	n.a.	n.a.	2.62	n.a.	2.32	n.a.	n.a.	n.a.	n.a.	n.a.	4.74	103.9171	n.a.	13.0211	n.a.	n.a.	n.a.	n.a.	n.a.	131.47
+77	F08_Es.s._X2.C04	n.a.	3.20	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	63.8969	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	67.62
+78	G05_Es.s._X1.C12	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	76.6523	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	78.61
+79	G06_Es.s._X1.G11	n.a.	n.a.	3.15	n.a.	3.27	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	4.2764	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	11.61
+80	G07_Es.s._X2.A07	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	2.00	n.a.	n.a.	n.a.	4.51	228.7202	n.a.	22.7697	n.a.	n.a.	n.a.	n.a.	n.a.	260.09
+81	G08_Es.s._X2.C05	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	47.9953	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	53.8
+82	A09_Lae.s._X1.A03	4.57	n.a.	n.a.	n.a.	n.a.	3.85	n.a.	n.a.	n.a.	n.a.	n.a.	120.565	n.a.	3.6655	n.a.	n.a.	n.a.	n.a.	n.a.	132.65
+83	A10_Lae.s._X1.C12	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	99.9758	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	102.33
+84	A11_Lae.s._X1.G05	2.09	11.44	n.a.	n.a.	n.a.	2.85	n.a.	n.a.	n.a.	n.a.	n.a.	20.7438	n.a.	2.262	n.a.	n.a.	n.a.	n.a.	n.a.	31.89
+85	A12_Lae.s._X2.A04	n.a.	n.a.	n.a.	n.a.	n.a.	4.60	n.a.	n.a.	n.a.	n.a.	n.a.	7.6641	n.a.	11.3646	n.a.	n.a.	n.a.	n.a.	n.a.	26.32
+86	B09_Lae.s._X1.A05	8.78	7.24	n.a.	n.a.	n.a.	86.43	n.a.	n.a.	n.a.	n.a.	n.a.	37.5703	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	132.78
+87	B10_Lae.s._X1.D01	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	72.9265	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	75.51
+88	B11_Lae.s._X1.H04	5.94	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	93.295	n.a.	2.8574	n.a.	n.a.	n.a.	n.a.	n.a.	102.09
+89	B12_Lae.s._X2.A06	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	162.4866	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	164.5
+90	C09_Lae.s._X1.A06	9.39	6.89	n.a.	n.a.	n.a.	86.42	n.a.	n.a.	n.a.	n.a.	n.a.	36.8666	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	132.68
+91	C10_Lae.s._X1.D08	4.38	3.85	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	27.3419	n.a.	2.5185	n.a.	n.a.	n.a.	n.a.	n.a.	37.08
+92	C11_Lae.s._X1.H07	n.a.	3.05	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	68.7456	n.a.	n.a.	n.a.	n.a.	4.82	n.a.	n.a.	76.25
+93	C12_Lae.s._X2.A07	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	176.6629	n.a.	18.5326	n.a.	n.a.	n.a.	n.a.	n.a.	197.47
+94	D09_Lae.s._X1.A07	8.21	5.65	n.a.	n.a.	n.a.	74.38	n.a.	n.a.	n.a.	n.a.	n.a.	32.0219	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	114.61
+95	D10_Lae.s._X1.D09	6.69	5.42	n.a.	n.a.	n.a.	3.63	n.a.	n.a.	n.a.	n.a.	n.a.	35.9842	n.a.	5.9818	n.a.	n.a.	2.38	n.a.	n.a.	56.4
+96	D11_Lae.s._X1.H09	n.a.	n.a.	n.a.	n.a.	n.a.	3.64	n.a.	n.a.	n.a.	n.a.	n.a.	6.2426	n.a.	9.6021	n.a.	n.a.	n.a.	n.a.	n.a.	21.94
+97	D12_Lae.s._X2.B07	n.a.	n.a.	2.42	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	26.6959	n.a.	2.0878	n.a.	n.a.	n.a.	n.a.	n.a.	30.62
+98	E09_Lae.s._X1.A08	9.53	6.50	n.a.	n.a.	n.a.	88.70	n.a.	n.a.	n.a.	n.a.	n.a.	39.0137	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	137.24
+99	E10_Lae.s._X1.D10	1.78	3.65	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	18.7331	n.a.	2.1602	n.a.	n.a.	n.a.	n.a.	n.a.	25.43
+100	E11_Lae.s._X1.H10	n.a.	n.a.	n.a.	n.a.	n.a.	3.34	n.a.	n.a.	n.a.	n.a.	n.a.	6.1661	n.a.	9.1416	n.a.	n.a.	n.a.	n.a.	n.a.	21
+101	E12_Lae.s._X2.B07	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	37.298	n.a.	3.7329	n.a.	n.a.	n.a.	n.a.	n.a.	43.22
+102	F09_Lae.s._X1.A09	12.45	9.51	n.a.	n.a.	n.a.	45.15	n.a.	n.a.	n.a.	n.a.	n.a.	54.345	n.a.	42.7151	n.a.	n.a.	n.a.	n.a.	n.a.	154.65
+103	F10_Lae.s._X1.D12	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	64.5715	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	66.62
+104	F11_Lae.s._X1.H11	n.a.	n.a.	n.a.	n.a.	n.a.	3.38	n.a.	n.a.	n.a.	n.a.	n.a.	6.4501	n.a.	9.3442	n.a.	n.a.	n.a.	n.a.	n.a.	21.7
+105	F12_Lae.s._X2.B08	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	52.4403	n.a.	3.1562	n.a.	n.a.	n.a.	n.a.	n.a.	57.47
+106	G09_Lae.s._X1.A11	8.41	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	12.1892	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	13.69
+107	G10_Lae.s._X1.E02	3.51	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	41.539	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	45.05
+108	G11_Lae.s._X2.A01	6.58	n.a.	n.a.	n.a.	n.a.	11.38	n.a.	n.a.	n.a.	n.a.	n.a.	91.6494	n.a.	5.529	n.a.	n.a.	n.a.	n.a.	n.a.	115.15
+109	G12_Lae.s._X2.C04	n.a.	n.a.	n.a.	n.a.	n.a.	2.03	n.a.	n.a.	n.a.	n.a.	n.a.	19.9898	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	n.a.	23.72
+110	H02_ZS2_050	n.a.	51.31	n.a.	44.95	n.a.	n.a.	51.65	n.a.	n.a.	51.82	n.a.	n.a.	51.01	n.a.	49.4748	n.a.	51.18	n.a.	n.a.	
+

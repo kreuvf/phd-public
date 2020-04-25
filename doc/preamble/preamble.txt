@@ -1,0 +1,5 @@
+All preamble information needed to build the thesis in two different versions.
+
+pre-common.tex contains everything that stays the same between the nice and the SCS layout.
+pre-nice.tex contains changes to LaTeX defaults to suit my needs.
+pre-scs.tex contains changes to LaTeX defaults to make things look ugly/fit the SCS layout.

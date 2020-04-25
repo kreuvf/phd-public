@@ -1,0 +1,6 @@
+Strain	Exopolysaccharide concentration in g/l
+Xyl2.C11	8.4
+Xyl1.H10	0.2
+Xyl1.F6	7.3
+Xyl2.B8	2.0
+

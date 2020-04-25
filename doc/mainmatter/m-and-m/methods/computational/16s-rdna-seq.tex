@@ -1,0 +1,9 @@
+\subsection{16S rDNA Sequence Generation\label{subsec-met-16s-computation}}
+\nomenclature[latabbr_ABIF]{ABIF}{Applied Biosystems, Inc. Format}
+\nomenclature[extension]{AB1}{sequencing data in a binary format \cite{ABIF2009}}
+\nomenclature[extension]{FASTA}{plaintext format for storing nucleotide or protein sequence information}
+\nomenclature[extension]{FASTQ}{plaintext format for storing nucleotide or protein sequence and quality information}
+\nomenclature[latabbr_NGS]{NGS}{next-generation sequencing}
+Sequencing data was downloaded from the sequencing company as AB1 files. Files were put into different directories based on the species/strain used. AB1 files were converted to FASTQ files to enable processing with established tools used for NGS data. FASTQ files were quality-trimmed using DynamicTrim.pl from SolexaQA 2.0 \cite{Cox2010} using a probability cut-off of \num{0.05}. % 95% is NOT included
+If the filename indicated the sequence to be in reverse direction, the reverse complement was generated. The quality-trimmed FASTQ files were converted to FASTA format and stored as single records into one FASTA file. This FASTA file was used as alignment input for clustalw 2.1 \cite{Larkin2007}. The alignment was manually examined and, in case of doubts, the original AB1 files were viewed in UGENE 1.9.8 \cite{Okonechnikov2012} to find base-calling errors. In case of suspected errors\footnote{Insertions, deletions or different base in at most one of three sequences covering the same stretch of DNA. Low quality of base call was used as another indicator.}, the sequences were checked and edited by hand and the alignment rerun. The final sequence was put together manually using a FASTA file which contained all records and was generated with fastagrep.pl \cite{Booth2012}. The records were laid out to contain the whole sequence in one and only one line. Parts of this process were automated using a Python script (see \vref{lst-16s-sequence}).
+

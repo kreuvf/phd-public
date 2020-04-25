@@ -1,0 +1,213 @@
+\section{High-Content Screening with \XYL{}\label{sec-xyl-hcs}}
+While the previous step was used to reduce the number of candidates to test, information on \eps{} production, \eps{} monomer composition and \xyl{} uptake of cells were still lacking. These information were obtained through a high-content screening of plate Xyl1.
+\SIml{1.0} SM17 P30S in a 96-well plate was inoculated from plate Xyl1 for \SIh{48} at \SIdC{30} and \SIrpm{1000}. Then, this plate was used to inoculate a new plate with \SIml{1.0} SM17 P30S using the replicator. This new plate was then incubated for \SIh{48} at \SIdC{30} and \SIrpm{1000}.
+The culture was subjected to high-throughput \eps{} purification (see page~\pageref{hteps-purification}), hydrolysis (see page~\pageref{pmp-hydrolysis})% using \SIul{72} of \SIpct{3.2} ammonia for neutralization
+, derivatization (see page~\pageref{pmp-deriv}) and HPLC-MS analysis (see page~\pageref{pmp-hplc-ms}). Calibration standards 1, 2 and 3 were used; all without a TFA matrix.
+
+In order to assess \xyl{} consumption and to exclude the possibility that peptone was used as the sole carbon source, a part of the centrifuged culture was not subjected to gel filtration. Instead, the samples were diluted 1:50 and derivatized directly.
+
+\subsection{Controls \& Deviations}
+The strain in well E10 showed no growth. An LB agar plate of that well incubated for three days at \SIdC{30} showed growth of many tiny colonies without any apparent contamination. After growth had been observed in the empty control well E12, an LB agar plate of that well was incubated for three days at \SIdC{30} as well and colonies with two distinguishable colony types were found. Morphology and colour of the colonies did not match contaminants described previously in this laboratory.
+
+Correct neutralization was verified by the development of a pink colour of all samples upon addition of a phenol red solution to the remaining derivatized sample. Pink colour indicated a pH value of 8 or higher, which was necessary for the derivatization.
+
+\subsection{\AMC{}\label{xyl-hcs-subsec-amc}}
+\begin{pycode}
+import sys
+import csv
+import numpy as np
+
+# Read in processed hit data (see description table tbl-xyl-hcs-hits for details)
+with open('data/lch-eps/xyl-hcs/hits_processed.txt', 'r') as results:
+    reader = csv.reader(results, delimiter="&")
+    xyl_hcs_hits = list(reader)
+    xyl_hcs_vals = []
+    # row 0: header
+    # rows 1 to 13: compositional data for each strain
+    for row in range(1,14):
+        # col 9: sum of all monomer concentrations
+        xyl_hcs_vals.append(float(xyl_hcs_hits[row][9]))
+
+# Save to variables for later retrieval
+xyl_hcs_hits_med = '\SImgpl{' + str(int(round(np.median(xyl_hcs_vals),0))) + '}'
+xyl_hcs_hits_min = '\SImgpl{' + str(int(round(np.amin(xyl_hcs_vals),0))) + '}'
+xyl_hcs_hits_max = '\SImgpl{' + str(int(round(np.amax(xyl_hcs_vals),0))) + '}'
+\end{pycode}
+Out of the \num{95} strains screened \num{13} exhibited combined aldose monomer concentrations above the threshold of \SImgpl{560}\footnote{The threshold was calculated by multiplying the dilution factor \num{5.6} with a reliably detectable \eps{} concentration of \SImgpl{100}. Since only single monomers are detected, the \eps{} concentration is calculated as the sum of the single monomers. At \SImgpl{100}, even monomers making up \SIpct{10} only can still be determined reliably. Thus, the threshold of \SImgpl{100} was chosen to make up for different \eps{} compositions and contains a considerable safety margin.}. The data of the 13 \enquote{hits} are summarized in \vref{tbl-xyl-hcs-hits}, the results of all \num{95} strains are given in \vref{tbl-xyl-hcs-full}. \GAL{} and \rha{} were found in all 13 \eps{}s; \glc{} in all but one of the \eps{}s produced. The \eps{} concentration in the culture supernatant was calculated by summing up all monomer concentrations from the aldose monomer analysis. The median, minimum and maximum \eps{} concentrations above the threshold were \py{xyl_hcs_hits_med}, \py{xyl_hcs_hits_min} and \py{xyl_hcs_hits_max}, respectively.
+
+\nomenclature[chem_Fuc]{Fuc}{\fuc{}}
+\nomenclature[chem_Gal]{Gal}{\gal{}}
+\nomenclature[chem_Glc]{Glc}{\glc{}}
+\nomenclature[chem_GlcN]{GlcN}{\glcn{}}
+\nomenclature[chem_GlcUA]{GlcUA}{\glcua{}}
+\nomenclature[chem_Ism]{Ism}{isomaltose}
+\nomenclature[chem_Man]{Man}{\man{}}
+\nomenclature[chem_Nig]{Nig}{nigerose}
+\nomenclature[chem_Rha]{Rha}{\rha{}}
+\nomenclature[chem_Rib]{Rib}{\rib{}}
+\afterpage{
+	\clearpage
+	\begin{landscape}
+		\begin{table}
+			\centering
+			\captionof{table}[\EPS{} Aldose Composition of the Hits of the \XYL{} Screening]{The \eps{} producers of plate Xyl1 were incubated for \SIh{48} in SM17 P30S, a medium which contained \SIgpl{10.0} \xyl{} as the sole carbon source. \num{13} strains exhibited \eps{} concentrations exceeding the threshold value of \SImgpl{560} in the supernatant. The aldose compositions of the \eps{}s are summarized in this table and visualized in \vref{fig-lch-eps-xyl-vs-glc}. The concentrations of the \glc{} dimers isomaltose and nigerose were too low for quantification. Therefore, the presence of these dimers is indicated qualitatively. The following analytes were not found in any sample and, thus, left out from the table: \galnac{}, \glcnac{}, \ara{}, cellobiose, \iidglc{}, \iidrib{}, \galn{}, \galua{}, gentiobiose, kojibiose, lactose, laminaribiose, maltose and sophorose. \XYL{} was present in every sample, but also left out from this table, because it was not quantified after the gel filtration and, therefore, \xyl{} could not be attributed to the medium or the polymer. Abbreviations: Fuc:~\fuc{}; Gal:~\gal{}; Glc:~\glc{}; GlcN:~\glcn{}; GlcUA:~\glcua{}; Man:~\man{}; Rha:~\rha{}; Rib:~\rib{}; Ism:~isomaltose; Nig:~nigerose; y:~yes; n:~no; ?:~inconclusive. All values are in \si{\milli\gram\per\litre}.\label{tbl-xyl-hcs-hits}}
+			\sisetup{
+				table-number-alignment = right,
+				table-text-alignment = right,
+				table-figures-integer = 4,
+				table-figures-decimal = 0,
+				table-format = 4.0
+			}
+			\begin{tabular}{l*{9}{S[table-auto-round]}cc}
+				\toprule
+				% Data source: xyl-hts_summary.xlsx, sheet 'sum'
+				% Changes:
+				% * Manually, in LibreOffice
+				%	Transposed,
+				%	sorted rows from 'Gal' to 'Xyl' alphabetically ascending,
+				%	sorted rows rom 'Nig' to 'Ara' alphabetically ascending
+				% * Python
+				%	Multiply each value with 5.6, dilution factors:
+				%		1:2 from hydrolysis
+				%		1:2.8 from neutralization (72 ul ammonia)
+				%	Transpose
+				%	Remove trace lines with only 'n's
+				%	Remove line for xylose
+				% * sed
+				%	Replace trace line 'j' with 'y'
+				%	Replace 'Stamm' with 'Strain'
+				%	Replace 'Summe ohne Xylose' with 'Sum'
+				%	Wrap first line in {}
+				%	Italicize strain denominations
+				%	Add ' \\' before newline
+				{Strain} & {Fuc} & {Gal} & {Glc} & {GlcN} & {GlcUA} & {Man} & {Rha} & {Rib} & {Sum} & {Ism} & {Nig} \\
+				\hline
+				\xyli{C1} & 8.0 & 659.0 & 92.0 & 0.0 & 170.0 & 34.0 & 712.0 & 0.0 & 1675.0 & n & n \\
+				\xyli{C4} & 0.0 & 22.0 & 319.0 & 0.0 & 0.0 & 38.0 & 570.0 & 0.0 & 949.0 & n & n \\
+				\xyli{C5} & 0.0 & 17.0 & 286.0 & 0.0 & 132.0 & 0.0 & 694.0 & 0.0 & 1129.0 & n & n \\
+				\xyli{D3} & 0.0 & 427.0 & 1504.0 & 24.0 & 292.0 & 457.0 & 161.0 & 14.0 & 2879.0 & n & n \\
+				\xyli{D7} & 33.0 & 503.0 & 950.0 & 20.0 & 0.0 & 332.0 & 154.0 & 17.0 & 2009.0 & n & n \\
+				\xyli{D8} & 43.0 & 104.0 & 680.0 & 20.0 & 100.0 & 165.0 & 61.0 & 13.0 & 1186.0 & y & ? \\
+				\xyli{D9} & 43.0 & 106.0 & 723.0 & 19.0 & 98.0 & 176.0 & 53.0 & 12.0 & 1230.0 & y & ? \\
+				\xyli{D10} & 39.0 & 95.0 & 598.0 & 21.0 & 0.0 & 160.0 & 52.0 & 12.0 & 977.0 & ? & n \\
+				\xyli{D11} & 0.0 & 49.0 & 543.0 & 16.0 & 107.0 & 210.0 & 36.0 & 11.0 & 972.0 & y & n \\
+				\xyli{E3} & 0.0 & 628.0 & 0.0 & 0.0 & 112.0 & 0.0 & 701.0 & 0.0 & 1441.0 & n & n \\
+				\xyli{E4} & 0.0 & 49.0 & 722.0 & 16.0 & 132.0 & 536.0 & 86.0 & 12.0 & 1553.0 & n & n \\
+				\xyli{E9} & 229.0 & 626.0 & 683.0 & 20.0 & 103.0 & 84.0 & 25.0 & 13.0 & 1783.0 & y & n \\
+				\xyli{H8} & 0.0 & 724.0 & 9.0 & 0.0 & 124.0 & 0.0 & 789.0 & 0.0 & 1646.0 & n & n \\
+				\bottomrule
+			\end{tabular}
+		\end{table}
+	\end{landscape}
+	\clearpage
+}
+
+\subsection{\XYL{} Consumption}
+\begin{pycode}
+import openpyxl
+import numpy as np
+
+xlsx = openpyxl.load_workbook('data/lch-eps/xyl-hcs/summary.xlsx', data_only=True)
+data_sheet = xlsx.get_sheet_by_name('Tabelle1')
+
+# Select ranges, xylose concentration (diluted value)
+xyl1_array = list(data_sheet['B7':'M14'])
+
+# Dilution factor: 50
+difa = 50
+
+# Calculate amount of input wells
+xyl1_wells = 0
+for letter in range(8):
+    xyl1_wells = xyl1_wells + len(xyl1_array[letter])
+
+xyl1_wells = xyl1_wells - 1 # one well (Xyl1.E12) was empty
+
+# Get values, from well A1 to H12
+# From left to right, from top to bottom
+# xc = xylose consumption
+xyl_hcs_xc = [[], [], [], [], []]
+
+# Growth categorization (from Excel file)
+# bad:       >= 167
+# mediocre:  >= 100 and < 167
+# good:      >=  30 and < 100
+# very good: >=   0 and <  30
+
+
+for letter in range(8):
+    for number in range(12):
+        if (not(letter == 4 and number == 11)):
+            current_value = float(xyl1_array[letter][number].value)
+            xyl_hcs_xc[0].append(round(current_value * difa,1))
+            if current_value >= 167.0:
+                xyl_hcs_xc[1].append(round(current_value * difa,1))
+            elif current_value >= 100.0:
+                xyl_hcs_xc[2].append(round(current_value * difa,1))
+            elif current_value >= 30.0:
+                xyl_hcs_xc[3].append(round(current_value * difa,1))
+            elif current_value >= 0.0:
+                xyl_hcs_xc[4].append(round(current_value * difa,1))
+            else:
+                print('What did you do there? current_value is: ' + str(current_value))
+
+# Save to variables for later retrieval
+# mab: mediocre and better
+xyl_hcs_mab = str(
+    len(xyl_hcs_xc[2]) +
+    len(xyl_hcs_xc[3]) +
+    len(xyl_hcs_xc[4])
+)
+# gab: good and better
+xyl_hcs_gab = str(
+    len(xyl_hcs_xc[3]) +
+    len(xyl_hcs_xc[4])
+)
+# veg: very good
+xyl_hcs_veg = str(
+    len(xyl_hcs_xc[4])
+)
+xyl_hcs_xmed = '\SImgpl{' + str(int(round(np.median(xyl_hcs_xc[0]), 0))) + '}'
+xyl_hcs_xlquart = '\SImgpl{' + str(int(round(np.percentile(xyl_hcs_xc[0], 25), 0))) + '}'
+xyl_hcs_xhquart = '\SImgpl{' + str(int(round(np.percentile(xyl_hcs_xc[0], 75), 0))) + '}'
+\end{pycode}
+SM17 P30S contained \SIgpl{10.0} \xyl{} and \SIgpl{1.50} peptone. Since peptone may be used as a carbon source as well, the fact that the strains grew on the aforementioned medium does not conclusively prove that \xyl{} was consumed. Therefore, the \xyl{} concentration in the supernatant was determined using PMP derivatization.
+
+\XYL{} was consumed by a majority of the strains: \py{xyl_hcs_mab} of the \py{xyl1_wells} strains consumed at least one sixth of the \xyl{} within \SIh{48}, \py{xyl_hcs_gab} at least half the \xyl{} and \py{xyl_hcs_veg} strains consumed at least \SIpct{85} of the \xyl{} within \SIh{48}. The remaining strains consumed less than one sixth of the \xyl{} within \SIh{48}. The median and the lower and upper quartiles of the residual \xyl{} concentration were \py{xyl_hcs_xmed}, \py{xyl_hcs_xlquart} and \py{xyl_hcs_xhquart}, respectively. Detailed data are given in \vref{tbl-xyl-hcs-x}.
+
+\subsection[Influence of Carbon Source on the \EPS{} Composition]{Influence of the Carbon Source on the \EPS{} \AMC{}}
+\afterpage{
+	\clearpage
+	\begin{landscape}
+		\begin{figure}
+			\subfloat[\EPS{} \amc{}s of the 13 \enquote{hits} of the high-content screening on \xyl{}. Data source: \vref{tbl-xyl-hcs-hits}.]{
+					\label{fig-lch-eps-xyl}%
+					\includegraphics[width=0.67\textwidth]{fig/xyl-hcs_xyl_600dpi.png}
+			}
+			\hfill
+			\subfloat[\EPS{} \amc{}s of the 13 \enquote{hits} of the high-content screening on \xyl{} when the strains were grown on \glc{} instead. Data source: \textcite{Ruehmann2015b}.]{
+					\label{fig-lch-eps-glc}%
+					\includegraphics[width=0.67\textwidth]{fig/xyl-hcs_glc_600dpi.png}
+			}	
+			\caption[\EPS{} Compositions: Growth on \GLC{} vs. Growth on \XYL{}]{\EPS{} \amc{}s of the 13 \enquote{hits} of the high-content screening when grown on \xyl{} or \glc{}. The concentrations of the single monomers were converted to percentages of all monomers found. The sequence of the single sugars in the figures and its legends is based on the frequency of their occurrence in the 13 \eps{}s when the strains were grown on \xyl{}. \GAL{} and \rha{} were found in all \eps{}s and, thus, were the first two monomers, \glc{} was found in twelve \eps{}s only making it the third monomer, etc. Abbreviations, in the same order as in the legends: Gal:~\gal{}; Rha:~\rha{}; Glc:~\glc{}; Man:~\man{}; GlcUA:~\glcua{}; GlcN:~\textsc{d}-glucosamine; Rib:~\textsc{d}-ribose; Fuc:~fucose.\label{fig-lch-eps-xyl-vs-glc}}
+		\end{figure}
+	\end{landscape}
+	\clearpage
+}
+\EPS{} \amc{}s of the 13 \enquote{hits} are visualized in \vref{fig-lch-eps-xyl-vs-glc}. Major differences between the \xyl{}-fed and the \glc{}-fed polymers were found for the strains \xyli{D11} and \xyli{E3}, minor differences were found for the strains \xyli{C1} and \xyli{C4}. The \eps{} compositions of the other strains were affected very slightly or in almost undetectable amounts by the carbon source used.
+
+\paragraph{\EPS{} Composition Differences in \xyli{D11}}
+On \xyl{}, the \xyli{D11} \eps{} contained around \SIpct{20} \man{} and around \SIpct{10} \glcua{} while on \glc{}, the monomers were dominated by \glc{} making up around \SIpct{85} and completely displacing both, \man{} and \glcua{}.
+
+\paragraph{\EPS{} Composition Differences in \xyli{E3}}
+The \eps{} of \xyli{E3} contained around \SIpct{40} \gal{} and \SIpct{50} \rha{} when the strain was grown on \xyl{}, but \SIpct{75} \gal{} and slightly less than \SIpct{10} \rha{} when the strain was grown on \glc{}. Since \glc{} was detected in low amounts (less than \SIpct{5}), it is likely to be an artifact stemming from the method instead. For details on the method used for the generation of the \glc{} data, see \enquote{\nameref{par-method-diff-xyl-glc}} \vpageref{par-method-diff-xyl-glc}.
+
+\paragraph{\EPS{} Composition Differences in \xyli{C1}}
+\xyli{C1}'s \eps{} contained \SIpct{40} \rha{} and \SIpct{10} \glcua{} when the strain was grown on \xyl{}, but \SIpct{50} \rha{} and less than \SIpct{5} \glcua{} when the strain was grown on \glc{}.
+
+\paragraph{\EPS{} Composition Differences in \xyli{C4}}
+The \eps{} of \xyli{C4} contained less than \SIpct{5} \man{} when the strain was grown on \xyl{}. However, this was not observed when the strain was grown on \glc{}. Instead, between \SIrange{5}{10}{\percent} \glcua{} were found---with the other monomer percentages virtually unchanged.
+
+\paragraph{Differences Between the Methods Behind \XYL{} and \GLC{} Data\label{par-method-diff-xyl-glc}}
+\Amc{} data using \glc{} as the carbon source were produced using virtually the same method used to produce the \xyl{} data in this work \cite{Ruehmann2015b}. The medium was SM18 P30S. Since \glc{} was present in the medium and some of it passed through size exclusion chromatography, the \glc{} freed by hydrolysis was indistinguishable from the \glc{} of the medium during HPLC-MS analysis. Therefore, the \glc{} concentration prior to hydrolysis was determined using the \glc{} assay (see \vref{subsec-glc-assay}) and used to correct the HPLC-MS results. For the inoculation of the main culture plate from the preculture plate, \SIul{10} of the preculture was used to inoculate the main culture. To the best of my knowledge, there were no further deviations.
+

@@ -1,0 +1,85 @@
+#!/bin/bash
+# IS to Xyl conversion script
+# 
+# Convert strain/well names from the ISp/ISr nomenclature to the Xyl nomenclature with inhibitor
+# Double-checked assignments
+sed -r \
+-e 's|isp\{A2\}|xyli\{C4\} (\\hmf{})|g' \
+-e 's|isp\{A3\}|xyli\{F4\} (\\hmf{})|g' \
+-e 's|isp\{A4\}|xylj\{B7\} (\\hmf{})|g' \
+-e 's|isp\{A6\}|xyli\{F1\} (\\fur{})|g' \
+-e 's|isp\{A10\}|xyli\{F10\} (\\van{})|g' \
+-e 's|isp\{A12\}|xylj\{C5\} (\\van{})|g' \
+-e 's|isp\{B2\}|xyli\{C5\} (\\hmf{})|g' \
+-e 's|isp\{B3\}|xyli\{F8\} (\\hmf{})|g' \
+-e 's|isp\{B6\}|xyli\{F2\} (\\fur{})|g' \
+-e 's|isp\{B10\}|xyli\{G5\} (\\van{})|g' \
+-e 's|isp\{B12\}|xylj\{C7\} (\\van{})|g' \
+-e 's|isp\{C2\}|xyli\{C10\} (\\hmf{})|g' \
+-e 's|isp\{C3\}|xyli\{F9\} (\\hmf{})|g' \
+-e 's|isp\{C6\}|xyli\{F3\} (\\fur{})|g' \
+-e 's|isp\{C7\}|xylj\{A2\} (\\fur{})|g' \
+-e 's|isp\{C9\}|xyli\{C4\} (\\van{})|g' \
+-e 's|isp\{D6\}|xyli\{F4\} (\\fur{})|g' \
+-e 's|isp\{D9\}|xyli\{C5\} (\\van{})|g' \
+-e 's|isp\{E6\}|xyli\{F8\} (\\fur{})|g' \
+-e 's|isp\{E7\}|xylj\{A6\} (\\fur{})|g' \
+-e 's|isp\{E10\}|xyli\{G11\} (\\van{})|g' \
+-e 's|isp\{E11\}|xylj\{B7\} (\\van{})|g' \
+-e 's|isp\{F3\}|xylj\{A1\} (\\hmf{})|g' \
+-e 's|isp\{F6\}|xyli\{F9\} (\\fur{})|g' \
+-e 's|isp\{F7\}|xylj\{A7\} (\\fur{})|g' \
+-e 's|isp\{G2\}|xyli\{D12\} (\\hmf{})|g' \
+-e 's|isp\{G3\}|xylj\{A6\} (\\hmf{})|g' \
+-e 's|isp\{G7\}|xylj\{A8\} (\\fur{})|g' \
+-e 's|isr\{A1\}|xyli\{C4\} (\\fora{})|g' \
+-e 's|isr\{A4\}|xylj\{B10\} (\\fora{})|g' \
+-e 's|isr\{A6\}|xyli\{D12\} (\\acet{})|g' \
+-e 's|isr\{A7\}|xyli\{H8\} (\\acet{})|g' \
+-e 's|isr\{A8\}|xylj\{A8\} (\\acet{})|g' \
+-e 's|isr\{A11\}|xyli\{G5\} (\\laev{})|g' \
+-e 's|isr\{B1\}|xyli\{C5\} (\\fora{})|g' \
+-e 's|isr\{B3\}|xyli\{H1\} (\\fora{})|g' \
+-e 's|isr\{B6\}|xyli\{E1\} (\\acet{})|g' \
+-e 's|isr\{B9\}|xyli\{A5\} (\\laev{})|g' \
+-e 's|isr\{B12\}|xylj\{A6\} (\\laev{})|g' \
+-e 's|isr\{C4\}|xylj\{C6\} (\\fora{})|g' \
+-e 's|isr\{C6\}|xyli\{E2\} (\\fora{})|g' \
+-e 's|isr\{C7\}|xylj\{A2\} (\\acet{})|g' \
+-e 's|isr\{C8\}|xylj\{A12\} (\\acet{})|g' \
+-e 's|isr\{C9\}|xyli\{A6\} (\\laev{})|g' \
+-e 's|isr\{C10\}|xyli\{D8\} (\\laev{})|g' \
+-e 's|isr\{C12\}|xylj\{A7\} (\\laev{})|g' \
+-e 's|isr\{D1\}|xyli\{F2\} (\\fora{})|g' \
+-e 's|isr\{D3\}|xylj\{A1\} (\\fora{})|g' \
+-e 's|isr\{D6\}|xyli\{F1\} (\\acet{})|g' \
+-e 's|isr\{D8\}|xylj\{B1\} (\\acet{})|g' \
+-e 's|isr\{D9\}|xyli\{A7\} (\\laev{})|g' \
+-e 's|isr\{D10\}|xyli\{D9\} (\\laev{})|g' \
+-e 's|isr\{D12\}|xylj\{A9\} (\\laev{})|g' \
+-e 's|isr\{E1\}|xyli\{F4\} (\\fora{})|g' \
+-e 's|isr\{E3\}|xylj\{A2\} (\\fora{})|g' \
+-e 's|isr\{E4\}|xylj\{C12\} (\\fora{})|g' \
+-e 's|isr\{E5\}|xyli\{C4\} (\\acet{})|g' \
+-e 's|isr\{E6\}|xyli\{F6\} (\\acet{})|g' \
+-e 's|isr\{E7\}|xylj\{A5\} (\\acet{})|g' \
+-e 's|isr\{E9\}|xyli\{A8\} (\\laev{})|g' \
+-e 's|isr\{E10\}|xyli\{D10\} (\\laev{})|g' \
+-e 's|isr\{E12\}|xylj\{B7\} (\\laev{})|g' \
+-e 's|isr\{F1\}|xyli\{F5\} (\\fora{})|g' \
+-e 's|isr\{F4\}|xylj\{D2\} (\\fora{})|g' \
+-e 's|isr\{F5\}|xyli\{C5\} (\\acet{})|g' \
+-e 's|isr\{F6\}|xyli\{G5\} (\\acet{})|g' \
+-e 's|isr\{F7\}|xylj\{A6\} (\\acet{})|g' \
+-e 's|isr\{F8\}|xylj\{C4\} (\\acet{})|g' \
+-e 's|isr\{F9\}|xyli\{A9\} (\\laev{})|g' \
+-e 's|isr\{F10\}|xyli\{D12\} (\\laev{})|g' \
+-e 's|isr\{F12\}|xylj\{B8\} (\\laev{})|g' \
+-e 's|isr\{G1\}|xyli\{F8\} (\\fora{})|g' \
+-e 's|isr\{G4\}|xylj\{D3\} (\\fora{})|g' \
+-e 's|isr\{G7\}|xylj\{A7\} (\\acet{})|g' \
+-e 's|isr\{G8\}|xylj\{C5\} (\\acet{})|g' \
+-e 's|isr\{G9\}|xyli\{A11\} (\\laev{})|g' \
+-e 's|isr\{G11\}|xylj\{A1\} (\\laev{})|g' \
+-e 's|isr\{G12\}|xylj\{C4\} (\\laev{})|g' sed.in > sed.out
+

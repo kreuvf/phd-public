@@ -1,0 +1,15 @@
+\subsection{Estimation of DNA Concentration}
+DNA concentration of the purified samples (see \vref{subsubsec-gel-ex-macherey-nagel} and \vref{subsubsec-gel-ex-qiagen}) was estimated on a nanophotometer (P330, IG). \SIul{1.0} ultra-pure water was used as reference. After every measurement, both the lid and cell were wiped with a lint-free tissue. In order to ensure complete sample removal, \SIul{1.0} ultra-pure water was placed on the measurement cell and the lid was attached to the cell. Then cell and lid were wiped off with a lint-free tissue.
+
+\nomenclature[formula_cDNA]{$c_{\text{DNA}}$}{DNA concentration}
+\nomenclature[formula_fssDNA]{$f_{\text{ssDNA}}$}{substance specific factor for nucleic acid}
+\nomenclature[formula_l]{$l$}{lid factor}
+\nomenclature[formula_d]{$d$}{dilution factor}
+\nomenclature[formula_A260]{$\Delta{}A(\SInm{260})$}{absorbance at \SInm{260}}
+\nomenclature[formula_A320]{$\Delta{}A(\SInm{320})$}{absorbance at \SInm{320}}
+The following equation\footnote{The equation presented in the manual appears to be wrong: the units of $c_{\text{DNA}}$ would be \si{\nano\gram\centi\metre\per\micro\litre}. Therefore, I decided to change the unit of $f_{\text{ssDNA}}$ from \si{\nano\gram\centi\metre\per\micro\litre} to \si{\nano\gram\per\micro\litre}.} was used by the instrument for quantification \cite{Implen2013}:
+\begin{equation}
+	c_{\text{DNA}} = f_{\text{ssDNA}} \cdot l \cdot d \cdot (\Delta{}A(\SInm{260}) - \Delta{}A(\SInm{320}))
+\end{equation}
+$c_{\text{DNA}}$ is the DNA concentration in \si{\nano\gram\per\micro\litre}, $f_{\text{ssDNA}}$ a substance specific factor for nucleic acid in \si{\nano\gram\per\micro\litre}, $l$ the lid factor dependent on the lid used in the range \numrange{5}{250}, $d$ the dilution factor, $\Delta{}A(\SInm{260})$ the absorbance at \SInm{260} in relation to the reference, and $\Delta{}A(\SInm{320})$ the absorbance at \SInm{320} in relation to the reference.
+

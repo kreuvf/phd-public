@@ -1,0 +1,40 @@
+Matches of non-unique strains of acetic acid top 28, HMF top 27 and vanillin top 27 with remaining inhibitors
+Xyl1.A07			l
+Xyl1.A10	f		
+Xyl1.B10	f		
+Xyl1.B11	f		
+Xyl1.C02	f		
+Xyl1.C04		a	
+Xyl1.C05		a	
+Xyl1.C12			l
+Xyl1.D02	f		
+Xyl1.D12			l
+Xyl1.E01		a	
+Xyl1.E02			l
+Xyl1.F01	f		
+Xyl1.F04		a	
+Xyl1.F08	f	a	
+Xyl1.F09	f		
+Xyl1.F10	f	a	
+Xyl1.G05	f	a	l
+Xyl1.G09		a	
+Xyl1.G11	f	a	
+Xyl1.H03		a	
+Xyl1.H08			
+Xyl1.H10			l
+Xyl2.A01		a	l
+Xyl2.A02	f	a	
+Xyl2.A04			l
+Xyl2.A05	f		
+Xyl2.A06	f		l
+Xyl2.A07	f		l
+Xyl2.A08	f		
+Xyl2.A09	f		l
+Xyl2.B07	f		l
+Xyl2.B08	f	a	l
+Xyl2.C04	f		l
+Xyl2.C05	f	a	
+Xyl2.C07		a	
+Xyl2.C12	f	a	
+Xyl2.D02		a	
+

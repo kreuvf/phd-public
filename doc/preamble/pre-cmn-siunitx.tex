@@ -1,0 +1,113 @@
+% % % % % % % % % % % % % % % % % % % %
+% siunitx
+\usepackage{siunitx}
+\sisetup{
+	exponent-product = \cdot,
+	fraction-function = \sfrac,
+	group-digits = integer,
+	group-minimum-digits = 4,
+	group-separator = \text{\hspace{0.08em}},
+	input-product = *,
+	inter-unit-product = \ensuremath{{\hspace{-0.15em}}\cdot{\hspace{-0.15em}}},
+	list-units = repeat,
+	mode = text,
+	multi-part-units = repeat,
+	output-product = \cdot,
+	qualifier-mode = subscript,
+	quotient-mode = fraction,
+	range-units = repeat,
+	separate-uncertainty = true,
+	table-figures-uncertainty = 1,
+	table-figures-integer = 1,
+	table-number-alignment = center-decimal-marker
+}%
+% New qualifiers
+\DeclareSIQualifier{\eps}{EPS}
+\DeclareSIQualifier{\norm}{N}
+\DeclareSIQualifier{\oxygen}{\ce{O2}}
+
+% New units
+\DeclareSIUnit{\concfac}{x}
+\DeclareSIUnit{\grav}{×\,\textit{g}} % 9.81 m/s²
+\DeclareSIUnit{\mz}{\textit{m\per{}z}} % m/z, MS
+\DeclareSIUnit{\bp}{bp} % base pair
+\DeclareSIUnit{\M}{M}
+\DeclareSIUnit{\CFU}{CFU} % colony-forming units
+\DeclareSIUnit{\rpm}{\per\minute}
+\DeclareSIUnit{\dalton}{Da}
+\DeclareSIUnit{\unit}{U} % U = µmol/min; katal = 1 mol/s; 1 U = 16.67 nanokatals; 1 katal = 6E7 U
+\DeclareSIUnit{\year}{a}
+\DeclareSIUnit{\molpercent}{mol\percent}
+\DeclareSIUnit{\masspercent}{mass\percent}
+\DeclareSIUnit{\volpercent}{vol\percent}
+\DeclareSIUnit{\vvm}{vvm}
+
+% New combined units
+\DeclareSIUnit{\otrunit}{\mmol\oxygen\per\l\per\hour}
+\DeclareSIUnit{\gpl}{\g\per\l}
+\DeclareSIUnit{\mgpml}{\mg\per\ml}
+\DeclareSIUnit{\mgpl}{\mg\per\l}
+\DeclareSIUnit{\ngpul}{\ng\per\ul}
+\DeclareSIUnit{\mlpl}{\ml\per\l}
+\DeclareSIUnit{\Upml}{\unit\per\ml}
+\DeclareSIUnit{\mSpcm}{\milli\siemens\per\cm}
+
+% Shorthand commands for frequently used units
+\newcommand{\SIpct}[1]{\SI{#1}{\percent}} % %
+
+\newcommand{\SIps}[1]{\SI{#1}{\per\second}} % 1/s
+\newcommand{\SImPas}[1]{\SI{#1}{\milli\pascal\second}} % mPa*s
+\newcommand{\SIPas}[1]{\SI{#1}{\pascal\second}} % Pa*s
+
+\newcommand{\SIs}[1]{\SI{#1}{\second}} % s
+\newcommand{\SImin}[1]{\SI{#1}{\minute}} % min
+\newcommand{\SIh}[1]{\SI{#1}{\hour}} % h
+\newcommand{\SId}[1]{\SI{#1}{\day}} % d
+
+\newcommand{\SIcm}[1]{\SI{#1}{\cm}} % cm
+\newcommand{\SImm}[1]{\SI{#1}{\mm}} % mm
+\newcommand{\SIum}[1]{\SI{#1}{\um}} % um
+\newcommand{\SInm}[1]{\SI{#1}{\nm}} % nm
+
+\newcommand{\SIdC}[1]{\SI{#1}{\celsius}} % Temperature in °C
+\newcommand{\SIK}[1]{\SI{#1}{\kelvin}} % Temperature in K
+
+\newcommand{\SIM}[1]{\SI{#1}{\M}} % M
+\newcommand{\SImM}[1]{\SI{#1}{\milli\M}} % mM
+\newcommand{\SIuM}[1]{\SI{#1}{\micro\M}} % uM
+\newcommand{\SInM}[1]{\SI{#1}{\nano\M}} % nM
+\newcommand{\SIpM}[1]{\SI{#1}{\pico\M}} % pM
+
+\newcommand{\SIg}[1]{\SI{#1}{\g}} % g
+\newcommand{\SImg}[1]{\SI{#1}{\mg}} % mg
+\newcommand{\SIug}[1]{\SI{#1}{\ug}} % ug
+
+\newcommand{\SIl}[1]{\SI{#1}{\l}} % l
+\newcommand{\SIml}[1]{\SI{#1}{\ml}} % ml
+\newcommand{\SIul}[1]{\SI{#1}{\ul}} % ul
+
+\newcommand{\SIrpm}[1]{\SI{#1}{\rpm}} % rpm
+
+\newcommand{\SID}[1]{\SI{#1}{\dalton}} % Da
+\newcommand{\SIkD}[1]{\SI{#1}{\kilo\dalton}} % kDa
+\newcommand{\SIMD}[1]{\SI{#1}{\mega\dalton}} % MDa
+
+\newcommand{\SIU}[1]{\SI{#1}{\unit}} % U
+
+\newcommand{\SIbp}[1]{\SI{#1}{\bp}} % bp
+\newcommand{\SIkbp}[1]{\SI{#1}{\kilo\bp}} % kbp
+\newcommand{\SIMbp}[1]{\SI{#1}{\mega\bp}} % Mbp
+
+\newcommand{\SIG}[1]{\SI{#1}{\grav}} % grav
+
+\newcommand{\SIgpl}[1]{\SI{#1}{\gpl}} % g/l
+\newcommand{\SImgpml}[1]{\SI{#1}{\mgpml}} % mg/ml
+\newcommand{\SImgpl}[1]{\SI{#1}{\mgpl}} % mg/l
+\newcommand{\SIngpul}[1]{\SI{#1}{\ngpul}} % ng/µl
+\newcommand{\SImlpl}[1]{\SI{#1}{\mlpl}} % ml/l
+\newcommand{\SIUpml}[1]{\SI{#1}{\Upml}} % U/ml
+
+\newcommand{\SImSpcm}[1]{\SI{#1}{\mSpcm}} % mS/cm
+
+\newcommand{\SIOTR}[1]{\SI{#1}{\otrunit}} % mmol O2/(l*h)
+

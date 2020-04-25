@@ -1,0 +1,27 @@
+% % % % % % % % % % % % % % % % % % % %
+% listings
+\usepackage{listings}
+\lstloadlanguages{bash,Python,R}
+\lstset{
+	basicstyle = \scriptsize\ttfamily,
+	commentstyle = \color{isugrey},
+	breaklines = true,
+	breakatwhitespace = false,
+	prebreak = {↛},
+	frame = tb,
+	numbers = left,
+	numbersep = 5pt,
+	numberstyle = \tiny,
+	showstringspaces = false,
+	showspaces = false,
+	showtabs = false,
+	stepnumber = 1,
+	tabsize = 4,
+	}
+\lstdefinelanguage{diff}{
+  morecomment=[f][\textbf]{@@},     % group identifier
+  morecomment=[f][\textbf]-,         % deleted lines 
+  morecomment=[f][\textbf]+,       % added lines
+  morecomment=[f][\textbf]{---}, % Diff header lines (must appear after +,-)
+  morecomment=[f][\textbf]{+++},
+}

@@ -1,0 +1,272 @@
+Sources of Data Files
+=====================
+Files not mentioned within this file were generated from scratch or do not contain (additional/new) data. Connected histories (A descendant of B, B descendant of C, etc.) are grouped in triple hyphen sections.
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_15.5h_sterile_control_grey.jpg
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_15.5h_sterile_control_grey.xcf
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_15.5h_sterile_control.jpg
+
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_15.5h_sterile_control.jpg
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF1/media/20150525_02_Probe_1_Sterilkontrolle_1E-5.jpg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_39.5h_sterile_control_grey.jpg
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_39.5h_sterile_control_grey.xcf
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_39.5h_sterile_control.jpg
+
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_39.5h_sterile_control.jpg
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF1/media/20150525_04_Probe_3_Sterilkontrolle_1E-5.jpg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_53.8h_sterile_control_grey.jpg
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_53.8h_sterile_control_grey.xcf
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_53.8h_sterile_control.jpg
+
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_53.8h_sterile_control.jpg
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF1/media/20150525_06_Probe_5_Sterilkontrolle_1E-5.jpg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_80.0h_sterile_control_grey.jpg
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_80.0h_sterile_control_grey.xcf
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_80.0h_sterile_control.jpg
+
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/7l_80.0h_sterile_control.jpg
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF1/media/20150525_08_Probe_7_Sterilkontrolle_1E-5.jpg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Bison_skull_pile_grey_stretched_small.jpg
+Source: https://upload.wikimedia.org/wikipedia/commons/archive/e/e9/20110527224211!Bison_skull_pile_edit.jpg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_p-coumaryl_alcohol.svg
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_coniferyl_alcohol.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Coniferol.svg&oldid=48402015
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_phenol.svg
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_guaicol.svg
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_syringol.svg
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_sinapyl_alcohol.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Sinapyl_alcohol.svg&oldid=71890486
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_furfural.svg
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_hydroxymethylfurfural.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:5-(hydroxymethyl)furan-2-carbaldehyde_200.svg&oldid=129684391
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_vanillin.svg
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_syringaldehyde.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Syringaldehyde.svg&oldid=168930553
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_acetic_acid.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Acetic-acid-2D-skeletal.svg&oldid=156935148
+---
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_laevulinic_acid.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Levulinic_Acid_Structural_Formulae.svg&oldid=141128647
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_formic_acid.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Ameisens%C3%A4ure_Skelett.svg&oldid=160671139
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_4-hydroxybenzoic_acid.svg
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_gallic_acid.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Gallic_acid.svg&oldid=38124052
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_mannose_a-d-pyr.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Alpha-D-Mannopyranose.svg&oldid=141664200
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_2-deoxy-ribose_b-d-pyr.svg
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_ribose_b-d-pyr.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Beta-D-Ribopyranose.svg&oldid=141664480
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_rhamnose_a-l-pyr.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Alpha-L-Rhamnopyranose.svg&oldid=69028956
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_galactosamine_a-d.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Alpha-D-Galactosamin.svg&oldid=168087136
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_n-acetyl-glucosamine_a-d.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:N-Acetyl-D-glucosamin.svg&oldid=146702968
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_glucosamine_a-d.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:D-Glucosamin.svg&oldid=69028322
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_2-deoxy-glucose_b-d-pyr.svg
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_glucose_b-d-pyr.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Beta-D-Glucopyranose.svg&oldid=141664214
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_galactose_b-d-pyr.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Beta-D-Galactopyranose.svg&oldid=141664335
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_xylose_b-d-pyr.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Beta-D-Xylopyranose.svg&oldid=144227041
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_glucuronic_acid_a-d-pyr.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Alpha_Glucuronic_acid_views.svg&oldid=121675357
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_galacturonic_acid_b-d-pyr.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Beta-D-Galacturonopyranose.svg&oldid=124639335
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_n-acetyl-galactosamin_a-d.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:N-Acetyl-alpha-D-galactosamin.svg&oldid=168087189
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_arabinose_a-l-fur.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Alpha-D-Arabinofuranose.svg&oldid=141664443
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_fucose_b-l-pyr.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Beta-L-Fucopyranose.svg&oldid=69028289
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_xanthan.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Xanthan.svg&oldid=101928894
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_lignin.svg
+Source: https://commons.wikimedia.org/w/index.php?title=File:Lignin_structure.svg&oldid=304792578
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Sclerotium_rolfsii_fermentation_end.jpg
+Source: Doktorarbeit/Versuche/Pilzfermentationen/Fotos und Videos/20130519_7 F5 fertig.jpg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Sclerotium_rolfsii_fermentation_end_presentation.jpg
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Sclerotium_rolfsii_fermentation_end.jpg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/lch-pf_block1_precipitate_before_CFF.jpg
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/media/20150527_04_Block_1_CFF_Fällung_unfiltriert.jpg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/lch-pf_block1_precipitate_before_CFF_presentation.jpg
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/lch-pf_block1_precipitate_before_CFF.jpg
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/lch-pf_block2_precipitate_before_CFF.jpg
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/media/20150527_06_Block_2_CFF_Fällung_unfiltriert.jpg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/lch-pf_block2_precipitate_before_CFF_presentation.jpg
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/lch-pf_block2_precipitate_before_CFF.jpg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_sirofluor.svg
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/BKchem_sirofluor.svg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/BKchem_sirofluor.svg
+Source: own work
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_methyl_blue.svg
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/BKchem_methyl_blue.svg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/BKchem_methyl_blue.svg
+Source: own work
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/Molecule_water_blue.svg
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/BKchem_water_blue.svg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/fig/BKchem_water_blue.svg
+Source: own work
+---
+

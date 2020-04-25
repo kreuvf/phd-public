@@ -1,0 +1,70 @@
+\subsection{Determination of \AMC{}\label{aldose-composition}}
+\nomenclature[chem_PMP]{PMP}{3-methyl-1-phenyl-2-pyrazoline-5-one}
+\nomenclature[latabbr_ESI-MS]{ESI-MS}{electron spray ionization mass spectrometry}
+\nomenclature[latabbr_MS/MS]{MS/MS}{tandem mass spectrometry}
+The \amc{} of aqueous \eps{} solutions was determined as described by \textcite{Ruehmann2014, Ruehmann2015a}. The \eps{} solutions were subjected to an acidic hydrolysis step to yield monomeric sugars. After neutralization, the aldoses were derivatized with 3-methyl-1-phenyl-2-pyrazoline-5-one or \enquote{PMP} for short. The samples were prepared for HPLC-MS analysis after derivatization and analysed using a reverse phase HPLC column, UV detector and an ESI-MS/MS. PMP derivatization was first mentioned by \textcite{Honda1989}, HPLC-MS quantification by \textcite{McRae2011}.
+
+\subsubsection{Hydrolysis\label{pmp-hydrolysis}}
+\nomenclature[chem_TPE]{TPE}{thermoplastic elastomer}
+\SIul{20} purified \eps{} solution was transferred into an empty 96-well PCR plate (article number: 781350, BGK). For hydrolysis \SIul{20} \SIM{4} trifluoroacetic acid was added and the plate was sealed with a TPE mat (article number: 781405, BGK). Mixing was achieved by putting the plate into a custom-made frame and inverting manually. After mixing, the liquid settled at the bottom of the tube due to centrifugation for \SImin{3} at \SIG{2000} and \SIdC{20}. The plate was put into the same custom-made steel frame, but now the screws were tightened. The \eps{}s were hydrolyzed for \SImin{90} at \SIdC{121} in a sand bath. % 1:2 dilution.
+
+During hydrolysis, the next step was prepared: the volume of \SIpct{3.2} ammonia solution, necessary for neutralization, was determined. \SIul{20} of \SIM{4} trifluoroacetic acid and \SIrange{65}{75}{\micro\litre} \SIpct{3.2} ammonia solution\footnote{Since ammonia has a relatively high vapour pressure the concentration in the liquid phase changes over time. This approach serves to counter this effect and ensure successful derivatization.} were mixed. The correct pH value was verified with \SIul{12.5} phenol red solution (\SIgpl{1.0} in \SIpct{20} ethanol). Pink colour indicated a pH value of 8 or higher, which was necessary for the derivatization.
+
+Following hydrolysis, the plate was removed from the heating cabinet and cooled. The steel frame was removed shortly thereafter to allow faster cooling. When cooled to room temperature, the liquid settled at the bottom of the tube due to centrifugation for \SImin{3} at \SIG{2000} and \SIdC{20}. The mat was removed and every sample neutralized with \SIpct{3.2} ammonia solution. The plate was fixed onto the custom-made frame and mixed manually. After mixing, the liquid settled at the bottom of the tube due to centrifugation for \SImin{3} at \SIG{2000} and \SIdC{20}. \SIul{5.0} was diluted in \SIul{45} ultra-pure water for the \glc{} determination using the \glc{} assay (see \vref{subsec-glc-assay}). % Neutralization with 70 ul. Dilution: 1:2.75. Total dilution: 1:5.5.
+
+\subsubsection{Derivatization\label{pmp-deriv}}
+\SIul{25} neutralized sample was transferred into an empty 96-well PCR plate (as before). For derivatization, \SIul{75} PMP solution (\SImg{125} 3-methyl-1-phenyl-2-pyrazoline-5-one in \SIml{10.5} solvent made up of \SIml{8.00} methanol, \SIml{3.95} ultra-pure water and \SIul{50.0} \SIpct{32} ammonia) was added to each well and the plate was sealed with a new TPE mat. The plate was fixed onto the custom-made frame and mixed manually. After mixing, the liquid settled at the bottom of the tube due to centrifugation for \SImin{3} at \SIG{2000} and \SIdC{20}. The plate was incubated at \SIdC{70} for \SImin{100} in a PCR cycler (labcycler Gradient, SBE) and was cooled to room temperature after the run.
+
+After derivatization, the plate was removed from the cycler. Mixing was achieved by putting the plate into a custom-made frame and mixing manually. After mixing, the liquid settled at the bottom of the tube due to centrifugation for \SImin{3} at \SIG{2000} and \SIdC{20}. \SIul{22} of each well was transferred to a 96-well microplate (F bottom, GBO) and mixed with \SIul{143} \SImM{19.2} \acet{}. Mixing was achieved by pipetting the sample up and down several times. The samples were transferred to an \SIum{0.2} PES 96-well filtration plate (AcroPrep Advance 350 \SIum{0.2} Supor, PC) and centrifuged for \SImin{10} at \SIG{1500} and \SIdC{20}. The flow-through was collected in a new 96-well microplate, the plate sealed with a mat (Whatman Capmats 96 Wells, round, silicone rubber, GHU) and placed into the tray of the HPLC autosampler.
+
+\subsubsection{HPLC-MS Analysis\label{pmp-hplc-ms}}
+\begin{table}
+	\centering
+	\caption[HPLC-MS Gradient for \AMC{} Analysis]{HPLC-MS gradient for \amc{} analysis. Elution of analytes was facilitated by using a gradient of mobile phase A (\SIpct{85} \SImM{5} ammonium acetate (pH value \num{5.60(2)}) and \SIpct{15} acetonitrile) and mobile phase B (pure acetonitrile). Changes between points are linear.\label{tbl-pmp-grad}}
+	\begin{tabular}{SSS}
+		\toprule
+		{Time since injection in \si{\minute}} & {Percentage of A in \si{\percent}} & {Percentage of B in \si{\percent}} \\
+		\hline
+		0.00 & 99 & 1 \\
+		5.00 & 95 & 5 \\
+		7.00 & 95 & 5 \\
+		8.00 & 82 & 18 \\
+		8.30 & 60 & 40 \\
+		10.30 & 60 & 40 \\
+		10.50 & 99 & 1 \\
+		12.00 & 99 & 1 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}
+	\centering
+	\caption[ESI-MS Operational Parameters for \AMC{} Analysis]{ESI-MS operational parameters for \amc{} analysis. Separated samples coming from HPLC were further analysed on the mass spectrometer. In order to prevent overloading the first three minutes of every run were directed to waste and a flow splitter was used to reduce the load by a factor of \num{20}. This table summarizes the operational parameters of the ESI-MS.\label{tbl-pmp-ms}}
+	\begin{tabular}{lr}
+		\toprule
+		Parameter & {Setting} \\
+		\hline
+		Scan mode & {ultra (}\SI{26000}{\mz\per\s}{)} \\
+		Scan start & \SI{50}{\mz} \\
+		Scan stop & \SI{1000}{\mz} \\
+		ICC target & 200000 \\
+		ICC maximum accumulation time & \SI{50}{\milli\second} \\
+		ICC number of averages & 4 \\
+		Ion source capillary voltage & \SI{4}{\kilo\volt} \\
+		Ion source dry temperature & \SIdC{325} \\
+		Ion source nebulizer pressure & \SI{2.76}{\bar} \\
+		Ion source dry gas flow & \SI{6}{\litre\per\minute} \\
+		MS mode & {Auto} \\
+		Auto MS smart target & \SI{600}{\mz} \\
+		MS/MS fragmentation amplitude & \SI{0.5}{\volt} \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+The samples were analysed on an UltiMate 3000~RS HPLC system (TFS) which featured an SRD-3400 degassing module, an HPG-3400RS binary pump, a WPS-3000TRS autosampler, TCC-3000RS column department and a DAD-3000RS diode array detector. After the diode array detector, the sample was passed through an Acurate post-column splitter (1:20, TFS) to an HCT ESI-MS (BDG). System control and data collection was done by a PC running Microsoft Windows XP, Chromeleon 6.80 SR8 Build 2623 (156243) (DC), HyStar 3.2.44.0, DataAnalysis 4.0 SP 4 (Build 281) and QuantAnalysis 2.0 SP 4 (Build 281) (all BDG).
+
+\SIul{10} sample was injected, the mobile phase consisted of a gradient of \SIpct{85} \SImM{5} ammonium acetate (pH value \num{5.60(2)}) and \SIpct{15} acetonitrile and pure acetonitrile. The gradient is given in \vref{tbl-pmp-grad}. Samples were separated at \SI{0.6}{\milli\litre\per\minute} and \SIdC{50} on an EC 100/2 Nucleodur C18 Gravity, \SIum{1.8} column (MNG). Derivates were detected at \SInm{245}, the first three minutes of each run were not analysed on the MS to prevent overloading with excess PMP. Mass spectrometer operation parameters are summarized in \vref{tbl-pmp-ms}.
+
+\paragraph{Calibration Standards}
+\nomenclature[chem_TFA]{TFA}{trifluoroacetic acid}
+Calibration standard 1 comprised of \man{}, \glcn{}, \rib{}, \rha{}, \galn{}, \glcnac{}, cellobiose, \glc{}, \gal{}, \xyl{}, \iidglc{} and \iidrib{} in a TFA matrix. Calibration standard 2 comprised of \glcua, \galua{}, gentiobiose, lactose, \galnac{}, \ara{} and \fuc{} in a TFA matrix. If \glc{} dimers other than cellobiose or gentiobiose had to be expected, calibration standard 3 was used. Calibration standard 3 comprised of isomaltose, kojibiose, laminaribiose, maltose, nigerose and sophorose. The TFA matrix consisted of \SIM{4} trifluoroacetic acid neutralized with \SIpct{32} ammonia solution to a pH value of \num{8.0}, diluted to \SIM{1.6} and mixed with undiluted calibration standards to give a final trifluoroacetic acid concentration of \SIM{0.8}\footnote{Hydrolyzed samples contained \SIM{2.0} trifluoroacetic acid. Neutralization with approximately \SIul{70} \SIpct{3.2} ammonia solution dilutes the acid down to approximately \SIM{0.73}.}. Standards 1 and 2 were prepared at concentrations of \SIlist{200;50;40;30;20;10;5;4;3;2}{\milli\gram\per\litre}, standard 3 was prepared at concentrations of \SIlist{50;40;30;20;10;5;4;3}{\milli\gram\per\litre}.
+

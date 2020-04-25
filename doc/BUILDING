@@ -1,0 +1,26 @@
+Building the Thesis
+===================
+Since the way I like to organize my thesis and the way to incorporate contents of different files in LaTeX are not easily combined I decided to use come up with my own way of doing so. The issue with \input is the unawareness of the current directory of the currently \input file. All \input commands must be written relative to the first file using \input.
+
+Example:
+
+thesis.tex
+preamble
++---- pre-common.tex
++---- pre-nice.tex
+\---- pre-scs.tex
+
+Using \input{preamble\pre-nice.tex} in thesis.tex works without problems, when using 'xelatex thesis.tex'. If pre-nice.tex uses \input{pre-common.tex} a file not found error will be issued. While this is understandable and makes perfect sense it is a major roadblock to dividing the thesis into small pieces for me. The documentation on the import package being one of the worst I ever read and relevant questions on TeX Exchange explaining different things or not enough as well I switched to an approach using make (which I wanted to use for a long time anyways) and cat.
+
+Thus, building the thesis is as simple as 'make' which will build the default target 'thesis-nice.pdf' from the sources. If you want to build the SCS version use 'make thesis-scs.pdf'.
+
+Details
+-------
+The thesis uses the book class and as such is made up of three content parts: front, main, back. The corresponding directories contain all necessary .tex files. The preamble is also split into parts and is contained in its own directory.
+
+When building the thesis every one of these parts is constructed by concatenating (using 'cat') the different .tex files into a preamble-nice.tex or preamble-scs.tex, frontmatter.tex, mainmatter.tex, backmatter.tex. You may build these targets on their own. For mainmatter.tex even further subdivision is possible for the single chapters.
+
+Building a PDF from frontmatter.tex, mainmatter.tex (or even only one of its chapters) or backmatter.tex is possible by using a corresponding target. This will always prepare preamble-nice.tex as well.
+
+These single .tex files are used to construct thesis-nice.tex or thesis-scs.tex which is turned into a PDF using XeLaTeX (4 times to get every crossreference etc. right).
+

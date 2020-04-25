@@ -1,0 +1,10 @@
+	1	2	3	4	5	6	7	8	9	10	11	12
+A	Rhizobium	Agrobacterium	Rhizobium	Microbacterium ähnlich	Ancylobacter	Pseudomonas	Rhizobium	Microbacterium assoz.	Microbacterium	Herbaspirillum	Sphingomonas	Sphingomonas
+B	Herbaspirillum	Sphingomonas	Sphingomonas	Rhizobium	Paenibacillus	Paenibacillus	Herbaspirillum	Herbaspirillum	Bacillus	Microbacterium	Microbacterium	Microbacterium
+C	Microbacterium	Microbacterium	Microbacterium	Microbacterium	Microbacterium	Microbacterium	Microbacterium	Microbacterium	Microbacterium	Microbacterium	Microbacterium	Pseudomonas
+D	Bacillus	Bacillus	Rhodococcus	Pseudomonas	Bacillus	Bacillus	Bacillus	Brevundimonas	Microbacterium	Rhodococcus	Pseudomonas	Brevundimonas
+E	Burkholderia	Microbacterium	Microbacterium	Microbacterium	Microbacterium	Burkholderia ähnlich	Rhodanobacter ähnlich	Burkholderia	Bacillus	Bacillus	Bacillus	Bacillus
+F	Agrobacterium	Arthrobacter	Beijerinckia mobilis ähnlich	Burkholderia	Paenibacillus	Gluconacetobacter	Gluconacetobacter	Rahnella	Rahnella	Rahnella	Rahnella	Arthrobacter
+G	Beijerinckia indica	Bacillus	Bacillus	Bacillus	Bacillus	Arthrobacter	Rhodococcus	Rhodococcus	Rhodococcus	Nocardiopsis	Cellulosimicrobium	Cellulosimicrobium
+H	Sphingomonas	Paenibacillus	Caulobacter	Bacillus	Xanthomonas	Agrobacterium	Xanthomonas	Xanthomonas	Xanthomonas	Xanthomonas	Agrobacterium	Agrobacterium
+

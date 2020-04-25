@@ -1,0 +1,84 @@
+--- select_paired.pl	2013-02-11 11:17:50.949078659 +0100
++++ select_paired.pl_new	2013-02-11 12:35:53.545109421 +0100
+@@ -1,4 +1,12 @@
+ #!/usr/bin/perl -X
++# Adjusted to work with our files
++# Sample for ID:
++# >M00202:10:000000000-A2EE7:1:1101:14828:1747 1:N:0:2
++# Warning: whole sequence needs to be on exactly one line!
++# Steven Koenig, Technische Universität München, Germany.
++# steven.koenig.wzs@kreuvf.de
++# 
++# Based on:
+ # Konrad Paszkiewicz, University of Exeter UK.
+ # k.h.paszkiewicz@exeter.ac.uk
+ 
+@@ -28,6 +36,12 @@
+ my $outfile2 = shift or die $usage;
+ 
+ our $outfile3 = shift or die $usage;
++print "infile1   : $infile1
++outfile1  : $outfile1
++infile2   : $infile2
++outfile2  : $outfile2
++singletons: $outfile3
+ open(OUTFILE2, ">$outfile2") or die "Cannot open $outfile2\n";
+ open(OUTFILE3, ">$outfile3") or die "Cannot open $outfile3\n";
+ 
+-my $name1;
+-my $name2;
++my $name1_1;
++my $name1_2;
++my $name2_1;
++my $name2_2;
+ 
+ while(<FILE1>){
+-        if(/^(\>.*)\/\d$/){
++        if(/^(\>[^ :]+:[^ :]+:[^ :]+:[^ :]+:[^ :]+:\d+:\d+) \d(:\w:\d:\d)$/){
+                 $hash1{$1}=1;
+-                $name1=$1;
++                $name1_1=$1;
++                $name1_2=$2;
+         }else{
+-                $hash1{$name1}=$_;
++                $hash1{$name1_1}=$_;
+         }
+ }
+ close(FILE1);
+ 
+ while(<FILE2>){
+-        if(/^(\>.*)\/\d$/){
++        if(/^(\>[^ :]+:[^ :]+:[^ :]+:[^ :]+:[^ :]+:\d+:\d+) \d(:\w:\d:\d)$/){
+                 $hash2{$1}=1;
+-                $name2=$1;
++                $name2_1=$1;
++                $name2_2=$2;
+         }else{
+-                $hash2{$name2} = $_;
++                $hash2{$name2_1} = $_;
+         }
+ }
+ close(FILE2);
+ 
+-for $name1 ( keys %hash1 ) {
+-        if(exists $hash2{$name1}){
+-                print OUTFILE1 "$name1/1\n$hash1{$name1}";
+-                print OUTFILE2 "$name1/2\n$hash2{$name1}";
++for $name1_1 ( keys %hash1 ) {
++        if(exists $hash2{$name1_1}){
++                print OUTFILE1 "$name1_1 1$name1_2\n$hash1{$name1_1}";
++                print OUTFILE2 "$name1_1 2$name1_2\n$hash2{$name1_1}";
+         }else{
+-                print OUTFILE3 "$name1/1\n$hash1{$name1}";
++                print OUTFILE3 "$name1_1 1$name1_2\n$hash1{$name1_1}";
+         }
+ }
+ 
+-for $name2 (keys %hash2){
+-        if(!exists $hash1{$name2}){
+-                print OUTFILE3 "$name2/2\n$hash2{$name2}";
++for $name2_1 (keys %hash2){
++        if(!exists $hash1{$name2_1}){
++                print OUTFILE3 "$name2_1 2$name2_2\n$hash2{$name2_1}";
+         }
+ }

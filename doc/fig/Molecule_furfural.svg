@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" height="79.43737" shape-rendering="geometricPrecision" width="108.78913" version="1.1" preserveAspectRatio="xMidYMid" id="svg2" inkscape:version="0.48.4 r9939" sodipodi:docname="Molecule_furfural.svg">
+  <defs id="defs12"/>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="1" inkscape:pageshadow="2" inkscape:window-width="725" inkscape:window-height="480" id="namedview10" showgrid="false" showguides="true" inkscape:guide-bbox="true" inkscape:document-units="mm" units="mm" fit-margin-top="1" fit-margin-bottom="1" fit-margin-left="1" fit-margin-right="1" inkscape:showpageshadow="false" inkscape:zoom="2.1627907" inkscape:cx="8.2247207" inkscape:cy="40.654953" inkscape:window-x="534" inkscape:window-y="247" inkscape:window-maximized="0" inkscape:current-layer="g3056" inkscape:object-nodes="true">
+    <sodipodi:guide orientation="-0.58778525,0.80901699" position="4.1404697,32.216139" id="guide3112"/>
+    <sodipodi:guide orientation="-0.95105652,-0.30901699" position="3.7713067,31.080577" id="guide3116"/>
+  </sodipodi:namedview>
+  <title id="title4">5-(hydroxymethyl)furan-2-carbaldehyde</title>
+  <metadata id="metadata6">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title>5-(hydroxymethyl)furan-2-carbaldehyde</dc:title>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g id="g3056" transform="translate(-60.923507,-10.289936)">
+    <g id="g3118" transform="matrix(-1,0,0,1,230.63615,0)">
+      <g id="g3045" transform="matrix(0.9781476,-0.20791169,0.20791169,0.9781476,-1.2439289,30.637644)">
+        <path d="m 146.33787,15.586558 c 0.92337,0.196279 1.71466,0.610069 2.35707,1.235817 0.64239,0.625754 1.05429,1.412179 1.25887,2.344211 0.20456,0.932047 0.18633,1.979128 -0.0559,3.119025 -0.38308,1.802186 -1.11905,3.082088 -2.22858,3.871248 -1.10955,0.789157 -2.37133,1.02947 -3.76595,0.733034 -1.36915,-0.291023 -2.38655,-0.993818 -3.08758,-2.157848 -0.70104,-1.164021 -0.88309,-2.609109 -0.52438,-4.296668 0.44803,-2.107849 1.25454,-3.487905 2.39175,-4.187995 1.13719,-0.700073 2.34291,-0.939655 3.65475,-0.660824 z m 0.33786,-1.58949 c -1.97414,-0.419596 -3.72426,-0.0894 -5.25192,0.960299 -1.52768,1.049737 -2.52705,2.720252 -3.02111,5.044614 -0.26124,1.229062 -0.25319,2.468756 0.0476,3.684146 0.30074,1.215388 0.89875,2.241043 1.8014,3.098492 0.90264,0.857447 2.02616,1.421066 3.34437,1.701261 1.21631,0.258534 2.40162,0.218284 3.57487,-0.134686 1.17324,-0.352974 2.17326,-1.018326 2.98464,-2.017291 0.81135,-0.998971 1.36617,-2.218864 1.66803,-3.638966 0.29778,-1.400984 0.28347,-2.714565 -0.0262,-3.935181 -0.30964,-1.2206 -0.92527,-2.266635 -1.83197,-3.104989 -0.90671,-0.838336 -1.99701,-1.382903 -3.28973,-1.657699 z" style="fill:#000000" id="path3031" inkscape:connector-curvature="0"/>
+      </g>
+      <g id="g3042" transform="matrix(0.9781476,-0.20791169,0.20791169,0.9781476,-6.6725498,19.29406)">
+        <path d="m 89.658591,35.742733 c 0.923367,0.196289 1.714659,0.61007 2.357066,1.235818 0.642387,0.625754 1.054291,1.412178 1.258871,2.34421 0.204557,0.932047 0.192825,1.948562 -0.04946,3.088458 -0.383077,1.802186 -1.125543,3.112655 -2.235075,3.901816 -1.109551,0.789156 -2.371328,1.029469 -3.765951,0.733033 -1.369153,-0.291023 -2.380048,-1.024385 -3.081082,-2.188415 -0.701036,-1.16402 -0.889581,-2.578542 -0.530879,-4.266101 0.448037,-2.107849 1.261038,-3.518472 2.398246,-4.218562 1.137193,-0.700072 2.336414,-0.909078 3.648261,-0.630257 z m 0.337856,-1.589489 c -1.974141,-0.419597 -3.717759,-0.119968 -5.245427,0.929731 -1.527676,1.049737 -2.533541,2.750819 -3.0276,5.075181 -0.261245,1.229062 -0.246699,2.438189 0.05406,3.653579 0.300748,1.215389 0.892253,2.27161 1.794905,3.12906 0.902639,0.857456 2.02616,1.421066 3.34437,1.70126 1.216307,0.258534 2.401618,0.218284 3.574873,-0.134686 1.173235,-0.352974 2.17976,-1.048893 2.991137,-2.047858 0.811347,-0.998971 1.359674,-2.188297 1.661537,-3.608399 0.297778,-1.400983 0.283464,-2.714564 -0.02615,-3.93518 -0.309639,-1.220601 -0.925269,-2.266636 -1.831969,-3.10499 -0.906714,-0.838336 -1.997018,-1.382903 -3.289734,-1.657698 z" style="fill:#000000" id="path3025" inkscape:connector-curvature="0"/>
+      </g>
+      <g id="g3048" transform="matrix(0.9781476,-0.20791169,0.20791169,0.9781476,-10.742584,34.880154)">
+        <path id="path3023" d="m 156.56103,60.378381 -2.97574,13.999737 1.83403,0.389835 1.40341,-6.602497 7.27497,1.546344 -1.40341,6.602496 1.8646,0.396332 2.97573,-13.999738 -1.86459,-0.396332 -1.22148,5.746618 -7.27497,-1.546344 1.22148,-5.746617 -1.83403,-0.389834 z" style="fill:#000000" inkscape:connector-curvature="0"/>
+      </g>
+      <path sodipodi:nodetypes="ccccccccccccccccccccccccccc" style="fill:#000000" d="m 139.77191,30.995644 -3.98281,18.73764 -23.92366,7.789969 -14.527381,-10.563755 -0.716477,0.965893 14.448668,10.48313 -8.64935,26.563422 -27.924143,0.0069 L 65.862121,58.415631 79.916447,48.208387 79.229496,47.23172 64.466818,57.945035 c 0,0 6.113196,18.816495 9.169782,28.224746 l 29.6768,0.01422 8.91841,-27.528575 26.7661,-8.687354 13.97629,12.555196 0.79519,-0.885267 -11.74459,-10.57927 3.9828,-18.73764 -1.16155,-0.246896 -3.83987,18.065164 -1.71589,-1.546807 -2.15963,0.69109 3.83337,-18.034596 -1.19212,-0.253392 z" id="path3029" inkscape:connector-curvature="0"/>
+      <path style="fill:#000000" d="m 105.11219,59.985479 -6.562401,20.202064 1.135561,0.369164 6.5624,-20.202064 -1.13556,-0.369164 z" id="path3021" inkscape:connector-curvature="0"/>
+      <path style="fill:#000000" d="m 71.855934,59.977179 -1.162729,0.359869 6.590014,20.250155 1.132162,-0.366366 -6.559447,-20.243658 z" id="path3019" inkscape:connector-curvature="0"/>
+    </g>
+  </g>
+</svg>

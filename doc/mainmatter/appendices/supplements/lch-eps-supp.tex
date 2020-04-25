@@ -1,0 +1,351 @@
+\newpage
+\clearpage
+\begin{landscape}
+\section{From Lignocellulose Hydrolysate to \EPS{}}
+\nomenclature[chem_Ara]{Ara}{\ara{}}
+\nomenclature[chem_GalUA]{GalUA}{\galua{}}
+\nomenclature[chem_2-d-Glc]{2-\textsc{d}-Glc}{\iidglc{}}
+\nomenclature[chem_Xyl]{Xyl}{\xyl{}}
+\subsection{High-Content Screening with \XYL{}}
+	\setlength{\tabcolsep}{5pt}
+	\sisetup{
+		table-number-alignment = right,
+		table-text-alignment = right,
+		table-figures-integer = 4,
+		table-figures-decimal = 0,
+		table-format = 4.0
+	}
+	\begin{longtable}{l*{18}{S}}
+		\caption[\EPS{} Monomer Compositions of \XYL{} High-Content Screening]{\EPS{} monomer compositions of \xyl{} high-content screening. The \eps{} producers on the plate Xyl1 were incubated for \SIh{48} in SM17 P30S, a medium which contained \SIgpl{10.0} \xyl{} as the sole carbon source. The aldose composition of the \eps{}s are summarized in this table. The concentrations of the \glc{} dimers isomaltose, laminaribiose, nigerose and sophorose were too low for quantification. Therefore, the presence of these dimers is indicated qualitatively. The following analytes were not found in any sample and, thus, left out from the table: \galnac{}, \glcnac{}, cellobiose, \iidrib{}, gentiobiose, kojibiose, lactose and maltose. \XYL{} was present in every sample, but it was not quantified after the gel filtration and, therefore, \xyl{} could not be attributed to the medium or the polymer. Since \ara{} could not be distinguished from \xyl{} the combined values are given here, but were \textit{not} included in the sum. Abbreviations: Fuc:~\fuc{}; Gal:~\gal{}; GalN:~\galn{}; GalUA:~\galua{}; 2-\textsc{d}-Glc:~\iidglc{}; Glc:~\glc{}; GlcN:~\glcn{}; GlcUA:~\glcua{}; Man:~\man{}; Rha:~\rha{}; Rib:~\rib{}; Sum:~sum of all values to the left of the same row; Xyl/Ara:~\xyl{} and \ara{}; Ism:~isomaltose; Lam:~laminaribiose; Nig:~nigerose; Sop:~sophorose; y:~yes; n:~no; ?:~inconclusive. All values are in \si{\milli\gram\per\litre}.\label{tbl-xyl-hcs-full}}\\
+		\toprule
+		{Strain}
+		 & {Fuc} & {Gal} & {GalN} & {GalUA} & {Gen}
+		 & {2-\textsc{d}-Glc} & {Glc} & {GlcN} 
+		 & {GlcUA} & {Man} & {Rha} & {Rib} & {Sum}
+		 & {Xyl/Ara} & {Ism} & {Lam} & {Nig} & {Sop} \\
+		\hline \endfirsthead
+		\caption[]{\textit{continued from the previous page}} \\
+		\toprule
+		{Strain}
+		 & {Fuc} & {Gal} & {GalN} & {GalUA} & {Gen}
+		 & {2-\textsc{d}-Glc} & {Glc} & {GlcN} 
+		 & {GlcUA} & {Man} & {Rha} & {Rib} & {Sum}
+		 & {Xyl/Ara} & {Ism} & {Lam} & {Nig} & {Sop} \\
+		\hline \endhead
+		\hline
+		\multicolumn{19}{r}{\textit{continued on the next page}} \\
+		\endfoot
+		\bottomrule
+		\endlastfoot
+		\TablesafeInputIfFileExists{data/lch-eps/xyl-hcs/full.tex}{}{\fxfatal{File not found: data/lch-eps/xyl-hcs/full.tex}}
+	\end{longtable}
+
+	\begin{table}
+		\centering
+		\sisetup{
+			table-number-alignment = center,
+			table-text-alignment = center,
+			table-figures-integer = 2,
+			table-figures-decimal = 2,
+			table-format = 2.2
+		}
+		\setlength{\tabcolsep}{5pt}
+		\caption[Residual \XYL{} After \SIh{48}]{The residual \xyl{} after \SIh{48} incubation in SM17 P30S of the strains of Xyl1 in \si{\gram\per\litre}. The initial \xyl{} concentration was \SIgpl{10.0}. Values exceeding \SIgpl{10.0} are considered artifacts. \XYL{} consumption of the \enquote{empty} well E12 stems from a contamination.\label{tbl-xyl-hcs-x}}
+		\begin{tabular}{c*{12}{S}}
+			\toprule
+			 & {1} & {2} & {3} & {4}
+			 & {5} & {6} & {7} & {8}
+			 & {9} & {10} & {11} & {12} \\
+			\hline
+			\TablesafeInputIfFileExists{data/lch-eps/xyl-hcs/xt.tex}{}{\fxfatal{File not found: data/lch-eps/xyl-hcs/xt.tex}}
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	\clearpage
+
+	\subsection{High-Throughput Screening for Inhibitor/\LCH{} Tolerance}
+	\begin{pycode}
+# Creating LaTeX tables
+# Background data
+print("""\\begin{table}[ht]
+    \\centering
+    \\caption[Background Attenuance on a Per-Plate Basis]{Background attenuance on a per-plate basis. The median of the background attenuance of each plate was calculated from empty wells and subtracted from every other well. The values given are the median $\\pm$ half the inter-quartile range. The background values were calculated from eight independent measurements for all single inhibitor experiments with Xyl1 and the \laev{} experiment with Xyl2, from nine independent measurements for all other single inhibitor experiments. For \\lch{} experiments, three wells were used for background calculation of Xyl1 and eight wells were used for background calculation of Xyl2.\\label{tbl-inh-tol-bg}}
+    \\sisetup{
+        round-precision = 5,
+        table-number-alignment = right,
+        table-text-alignment = center,
+        table-figures-integer = 1,
+        table-figures-decimal = 5,
+        table-format = 1.5
+    }
+    \\begin{tabular}{lSS}
+        \\toprule
+         & \\multicolumn{2}{c}{Background attenuance in plate} \\\\
+        \\multirow{-2}*{Test Series} & {Xyl1} & {Xyl2} \\\\
+        \\hline""")
+print("\n".join(bg_attenuance))
+print("""        \\multicolumn{3}{c}{\\rule[0mm]{0mm}{5mm}\\LCH{} Tolerance Experiment} \\\\
+""")
+print("\n".join(lch_bg_attenuance))
+print("""        \\bottomrule
+    \\end{tabular}
+\\end{table}""")
+
+# Class data
+print("""\\begin{table}[ht]
+    \\centering
+    \\caption[Classed Data of Inhibitor/\\LCH{} Tolerance]{Classed data of inhibitor/\\lch{} tolerance. Attenuance percentages of cultures grown in the presence of single inhibitors or \\lch{} relative to the reference without inhibitors. The median background value of each plate was subtracted and then the aforementioned percentage calculated. In order to assess the impact each inhibitor or \lch{} had on microbial growth, data were classed and visualized in \\vref{fig-inh-tol-dist} or \\vref{fig-lch-tol-dist}, respectively. The classes are: class~\\romi{}: (\\minus\\infinity, \\SIpct{5}); class~\\romii{}: [\\SIpct{5}, \\SIpct{20}); class~\\romiii{}: [\\SIpct{20}, \\SIpct{40}); class~\\romiv{}: [\\SIpct{40}, \\SIpct{60}); class~\\romv{}: [\\SIpct{60}, \\SIpct{80}); class~\\romvi{}: [\\SIpct{80}, \\SIpct{100}); class~\\romvii{}: [\\SIpct{100}, \\SIpct{120}); class~\\romviii{}: [\\SIpct{120}, +\\infinity).\\label{tbl-inh-tol-dist}}
+    \\sisetup{
+        table-number-alignment = right,
+        table-text-alignment = right,
+        table-figures-integer = 3,
+        table-figures-decimal = 0,
+        table-format = 3.0
+    }
+    \\begin{tabular}{lSSSSSSSS}
+        \\toprule
+         & \\multicolumn{8}{c}{Number of strains in class} \\\\
+        \\multirow{-2}*{Inhibitor} & {\\romi{}} & {\\romii{}} & {\\romiii{}} & {\\romiv{}} & {\\romv{}} & {\\romvi{}} & {\\romvii{}} & {\\romviii{}} \\\\
+        \\hline""")
+print("\n".join(dist_data))
+print("\n".join(lch_dist_data))
+print("""        \\bottomrule
+    \\end{tabular}
+\\end{table}""")
+	\end{pycode}
+	\begin{table}
+		\centering
+		\setlength{\tabcolsep}{5pt}
+		\caption[Plate Layout of ISp]{Plate layout of ISp. Strains from A1 to G4, A5 to G8 and A9 to G12 correspond to the top 27 of the \hmf{} screening, the \fur{} screening and the \van{} screening, respectively. Empty wells were reserved for the following special purposes. G4: Uninoculated medium with \hmf{}; G8: uninoculated medium with \fur{}; G12: uninoculated medium with \van{}; H1 to H10: sugar standards according to the HPLC-MS method (see \vref{aldose-composition}); H11: water; H12: uninoculated medium.\label{tbl-inh-tol-layout-isp}}
+		\begin{tabular}{*{13}{c}}
+			\toprule
+			 & {1} & {2} & {3} & {4}
+			 & {5} & {6} & {7} & {8}
+			 & {9} & {10} & {11} & {12} \\
+			\hline
+			\TablesafeInputIfFileExists{data/lch-eps/inh-tol/IS1r2pmp_layout.tex}{}{\fxfatal{File not found: data/lch-eps/inh-tol/IS1r2pmp_layout.tex}}
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	\begin{table}
+		\centering
+		\setlength{\tabcolsep}{5pt}
+		\caption[Plate Layout of ISr]{Plate layout of ISr. Strains from A1 to G4, A5 to G8 and A9 to G12 correspond to the top 28 of the \fora{} screening, the \acet{} screening and the \laev{} screening, respectively. Empty wells were reserved for the following special purposes. H1 to H8: acid standards for the HPLC method (see \vref{subsec-inh-acid}); H9: uninoculated medium; H10: uninoculated medium with \fora{}; H11: uninoculated medium with \acet{}; H12: uninoculated medium with \laev{}.\label{tbl-inh-tol-layout-isr}}
+		\begin{tabular}{*{13}{c}}
+			\toprule
+			 & {1} & {2} & {3} & {4}
+			 & {5} & {6} & {7} & {8}
+			 & {9} & {10} & {11} & {12} \\
+			\hline
+			\TablesafeInputIfFileExists{data/lch-eps/inh-tol/IS1r2rez_layout.tex}{}{\fxfatal{File not found: data/lch-eps/inh-tol/IS1r2rez_layout.tex}}
+			\bottomrule
+		\end{tabular}
+	\end{table}
+\end{landscape}
+\clearpage
+
+{
+	\sisetup{
+		table-number-alignment = center,
+		table-text-alignment = center,
+		table-figures-integer = 3,
+		table-figures-decimal = 0,
+		table-format = 3.0
+	}
+	\setlength{\tabcolsep}{12pt}
+	%\fxnote{Remove this newpage, if fix for longtable breaking problem found.}
+	\newpage
+	\begin{longtable}{l*{7}{S}}
+		\caption[Tolerance Ranks of Xyl1 and Xyl2]{Tolerance ranks of the strains in Xyl1 and Xyl2. Some strains did not grow in the experiments with the inhibitors \fur{}, \hmf{}, \van{}, \acet{}, \fora{} and \laev{}, but in the experiment with \lch{}. For others, the situation was vice versa. Therefore, complete growth data is not available for every strain. Missing data is indicated by \enquote{-}. Abbreviations: Fur.: \fur{}; HMF: \hmf{}; Van.: \van{}; Acet.: \acet{}; Form.: \fora{}; Laev.: \laev{}; LCH: \lch{}.\label{tbl-inh-lch-tol-ranks}} \\
+		\toprule
+		 & \multicolumn{7}{c}{Rank on} \\
+		\multirow{-2}*{Strain} & {Fur.} & {HMF} & {Van.}
+		 & {Acet.} & {Form.} & {Laev.} & {LCH} \\
+		\hline \endfirsthead
+		\caption[]{\textit{continued from the previous page}} \\
+		\toprule
+		 & \multicolumn{7}{c}{Rank on} \\
+		\multirow{-2}*{Strain} & {Fur.} & {HMF} & {Van.}
+		 & {Acet.} & {Form.} & {Laev.} & {LCH} \\
+		\hline \endhead
+		\hline
+		\multicolumn{8}{r}{\textit{continued on the next page}} \\
+		\endfoot
+		\bottomrule
+		\endlastfoot
+		\TablesafeInputIfFileExists{data/lch-eps/inh-lch-tol_ranks.tex}{}{\fxfatal{File not found: data/lch-eps/inh-lch-tol_ranks.tex}}
+	\end{longtable}
+}
+
+\subsection{High-Content Screening with Inhibitors}
+{
+	\sisetup{
+		table-number-alignment = center,
+		table-text-alignment = center,
+		table-figures-integer = 6,
+		table-figures-decimal = 6,
+		table-format = 6.6
+	}
+	%\setlength{\tabcolsep}{12pt}
+	\begin{longtable}{ll*{3}{S}}
+		\caption[Inhibitor Concentrations After \SIh{48}, Complete Raw Data of ISp]{Inhibitor concentrations after \SIh{48}, complete raw data of ISp. The plate ISp was incubated with \SIml{1.0} SM18 P30S with \SIgpl{2.00} of inhibitor for \SIh{48} at \SIdC{30} and \SIrpm{1000}. Afterwards, the inhibitor concentrations were determined using PMP derivatization and HPLC-MS analysis. In this table, the raw data of all utilized wells are given. These data were used to build the summary statistics in \vref{tbl-inh-hcs-inh-sum}. For the calculation of the summary statistics, only non-medium values of growing strains of the corresponding test series were used. Since every sample was analysed for all three inhibitors given, all values are given here. Wells G4, G8 and G12 contained medium with \SIgpl{2.00} of inhibitor. Since these raw data were taken directly from the HPLC software, figures do not imply significance. Abbreviations: n.d.: not detected.\label{tbl-inh-hcs-inh-isp-full}} \\
+		\toprule
+		 & & \multicolumn{3}{c}{Inhibitor concentration in \si{\milli\gram\per\litre} after \SIh{48}} \\
+		\multirow{-2}*{Well} & \multirow{-2}*{Test series} &
+		{Furfural} & {Hydroxymethylfurfural} & {Vanillin} \\
+		\hline \endfirsthead
+		\caption[]{\textit{continued from the previous page}} \\
+		\toprule
+		 & & \multicolumn{3}{c}{Inhibitor concentration in \si{\milli\gram\per\litre} after \SIh{48}} \\
+		\multirow{-2}*{Well} & \multirow{-2}*{Test series} &
+		{Furfural} & {Hydroxymethylfurfural} & {Vanillin} \\
+		\hline \endhead
+		\hline
+		\multicolumn{5}{r}{\textit{continued on the next page}} \\
+		\endfoot
+		\bottomrule
+		\endlastfoot
+		\TablesafeInputIfFileExists{data/lch-eps/inh-hcs/inhibitors-ISp-full.tex}{}{\fxfatal{File not found: data/lch-eps/inh-hcs/inhibitors-ISp-full.tex}}
+	\end{longtable}
+	\sisetup{
+		table-number-alignment = center,
+		table-text-alignment = center,
+		table-figures-integer = 4,
+		table-figures-decimal = 7,
+		table-format = 4.7
+	}
+	\begin{longtable}{ll*{3}{S}}
+		\caption[Inhibitor Concentrations After \SIh{48}, Complete Raw Data of ISr]{Inhibitor concentrations after \SIh{48}, complete raw data of ISr. The plate ISr was incubated with \SIml{1.0} SM18 P30S with \SIgpl{2.00} of inhibitor for \SIh{48} at \SIdC{30} and \SIrpm{1000}. Afterwards, the inhibitor concentrations were determined using HPLC-UV analysis. In this table, the raw data of all utilized wells are given. These data were used to build the summary statistics in \vref{tbl-inh-hcs-inh-sum}. For the calculation of the summary statistics, only non-medium values of growing strains of the corresponding test series were used. Since every sample was analysed for all three inhibitors given, all values are given here. Wells H10, H11 and H12 contained medium with \SIgpl{2.00} of inhibitor. Since these raw data were taken directly from the HPLC software, figures do not imply significance. Abbreviations: n.d.: not detected.\label{tbl-inh-hcs-inh-isr-full}} \\
+		\toprule
+		 & & \multicolumn{3}{c}{Inhibitor concentration in \si{\gram\per\litre} after \SIh{48}} \\
+		\multirow{-2}*{Well} & \multirow{-2}*{Test series} &
+		{Acetic acid} & {Formic acid} & {Laevulinic acid} \\
+		\hline \endfirsthead
+		\caption[]{\textit{continued from the previous page}} \\
+		\toprule
+		 & & \multicolumn{3}{c}{Inhibitor concentration in \si{\gram\per\litre} after \SIh{48}} \\
+		\multirow{-2}*{Well} & \multirow{-2}*{Test series} &
+		{Acetic acid} & {Formic acid} & {Laevulinic acid} \\
+		\hline \endhead
+		\hline
+		\multicolumn{5}{r}{\textit{continued on the next page}} \\
+		\endfoot
+		\bottomrule
+		\endlastfoot
+		\TablesafeInputIfFileExists{data/lch-eps/inh-hcs/inhibitors-ISr-full.tex}{}{\fxfatal{File not found: data/lch-eps/inh-hcs/inhibitors-ISr-full.tex}}
+	\end{longtable}
+	\sisetup{
+		table-number-alignment = center,
+		table-text-alignment = center,
+	}
+	\nomenclature[formula_A418]{$A418$}{absorbance at \SInm{418}}
+	\nomenclature[formula_A480]{$A480$}{absorbance at \SInm{480}}
+	\nomenclature[formula_DF]{$DF$}{dilution factor}
+	\nomenclature[formula_c(Glc)]{$c(Glc)$}{\glc{} concentration}
+	\begin{longtable}{llS[table-format = 1.4]S[table-format = 1.4]S[table-format = 3.0]S[table-format = -2.4]}
+		\caption[\GLC{} Concentrations After \SIh{48}, Complete Raw Data of ISp]{\GLC{} concentrations after \SIh{48}, complete raw data of ISp. The plate ISp was incubated with \SIml{1.0} SM18 P30S with \SIgpl{2.00} of inhibitor for \SIh{48} at \SIdC{30} and \SIrpm{1000}. Afterwards, the \glc{} concentrations were determined using a \glc{} assay. In this table, the raw data of all utilized wells are given. These data were used to build the summary statistics in \vref{tbl-inh-hcs-glcc-sum}. For the calculation of the summary statistics, only non-medium values of growing strains of the corresponding test series were used. Since these raw data were taken directly from the photometer software, figures do not imply significance. Abbreviations: $A418$: absorbance at \SInm{418} (dimensionless); $A480$: absorbance at \SInm{480} (dimensionless); $DF$: dilution factor (dimensionless); $c(Glc)$: \glc{} in \si{\gram\per\litre} after \SIh{48}.\label{tbl-inh-hcs-glcc-isp-full}} \\
+		\toprule
+		{Well} & {Test series} & {$A418$} & {$A480$}
+		 & {$DF$} & {$c(Glc)$} \\
+		\hline \endfirsthead
+		\caption[]{\textit{continued from the previous page}} \\
+		\toprule
+		{Well} & {Test series} & {$A418$} & {$A480$}
+		 & {$DF$} & {$c(Glc)$} \\
+		\hline \endhead
+		\hline
+		\multicolumn{6}{r}{\textit{continued on the next page}} \\
+		\endfoot
+		\bottomrule
+		\endlastfoot
+		\TablesafeInputIfFileExists{data/lch-eps/inh-hcs/glc-consumption-isp-full.tex}{}{\fxfatal{File not found: data/lch-eps/inh-hcs/glc-consumption-isp-full.tex}}
+	\end{longtable}
+	\sisetup{
+		table-number-alignment = center,
+		table-text-alignment = center,
+	}
+	\begin{longtable}{llS[table-format = 1.4]S[table-format = 1.4]S[table-format = 3.0]S[table-format = -2.4]}
+		\caption[\GLC{} Concentrations After \SIh{48}, Complete Raw Data of ISr]{\GLC{} concentrations after \SIh{48}, complete raw data of ISr. The plate ISr was incubated with \SIml{1.0} SM18 P30S with \SIgpl{2.00} of inhibitor for \SIh{48} at \SIdC{30} and \SIrpm{1000}. Afterwards, the \glc{} concentrations were determined using a \glc{} assay. In this table, the raw data of all utilized wells are given. These data were used to build the summary statistics in \vref{tbl-inh-hcs-glcc-sum}. For the calculation of the summary statistics, only non-medium values of growing strains of the corresponding test series were used. Since these raw data were taken directly from the photometer software, figures do not imply significance. Abbreviations: $A418$: absorbance at \SInm{418} (dimensionless); $A480$: absorbance at \SInm{480} (dimensionless); $DF$: dilution factor (dimensionless); $c(Glc)$: \glc{} in \si{\gram\per\litre} after \SIh{48}.\label{tbl-inh-hcs-glcc-isr-full}} \\
+		\toprule
+		{Well} & {Test series} & {$A418$} & {$A480$}
+		 & {$DF$} & {$c(Glc)$} \\
+		\hline \endfirsthead
+		\caption[]{\textit{continued from the previous page}} \\
+		\toprule
+		{Well} & {Test series} & {$A418$} & {$A480$}
+		 & {$DF$} & {$c(Glc)$} \\
+		\hline \endhead
+		\hline
+		\multicolumn{6}{r}{\textit{continued on the next page}} \\
+		\endfoot
+		\bottomrule
+		\endlastfoot
+		\TablesafeInputIfFileExists{data/lch-eps/inh-hcs/glc-consumption-isr-full.tex}{}{\fxfatal{File not found: data/lch-eps/inh-hcs/glc-consumption-isr-full.tex}}
+	\end{longtable}
+}
+\nomenclature[chem_Cel]{Cel}{cellobiose}
+\nomenclature[chem_Gen]{Gen}{gentiobiose}
+\afterpage{
+	\clearpage
+	\begin{landscape}
+		\setlength{\tabcolsep}{5pt}
+		\begin{longtable}{ll*{13}{r}}
+			\caption[\EPS{} Monomer Compositions of Inhibitor High-Content Screening]{\EPS{} monomer compositions of inhibitor high-content screening. The \eps{} producers on the plates ISp and ISr were incubated for \SIh{48} in SM18 P30S, a medium which contained \SIgpl{10.0} \glc{} as the main carbon source. The aldose composition of the \eps{}s are summarized in this table. The following analytes were not found in any sample and, thus, left out from the table: \textit{N}-acetyl-\textsc{d}-glucosamine, \iidglc{}, \iidrib{}, \galua{}, \galnac{} and lactose. \GLC{} was present in every sample and was quantified after the gel filtration using the \glc{} assay. The residual \glc{} concentration was subtracted from the monomeric \glc{} found in the HPLC-MS screening. Therefore, it is possible to have the value \enquote{0} for \glc{} which differs from \enquote{not detected}. For three samples, the \glc{} concentration after the gel filtration was greater than the \glc{} concentration found in the HPLC-MS screening and set to zero: ISp.A4 (\SImgpl{453} vs. \SImgpl{519}, \xylj{B7} with \hmf{}), ISp.A10 (\SImgpl{277} vs. \SImgpl{278}, \xyli{F10} with \fur{}) and ISr.F10 (\SImgpl{349} vs. \SImgpl{391}, \xyli{D12} with \laev{}). Since \textsc{l}-arabinose could not be distinguished from \xyl{}, the combined values are given here. Abbreviations: Inhibitors: Acet.: \acet{}; Form.: \fora{}; Fur.:~\fur{}; HMF: \hmf{}; Laev.: \laev{}; Van.: \van{}. Aldoses: Cel:~cellobiose; Fuc:~fucose; Gal:~\gal{}; GalN:~\galn{}; Gen:~gentiobiose; Glc:~\glc{}; GlcN:~\glcn{}; GlcUA:~\glcua{}; Man:~\man{}; Rha:~\rha{}; Rib:~\rib{}; Xyl/Ara:~\xyl{} and \ara{}; Sum:~sum of all values to the left of the same row. Other: n.d.:~not detected. All values are in \si{\milli\gram\per\litre}.\label{tbl-inh-hcs-monomers}}\\
+			\toprule
+			{Well} & {Inhibitor} & {Cel} & {Fuc} & {Gal} & {GalN}
+			 & {Gen} & {Glc} & {GlcN} & {GlcUA} & {Man} & {Rha}
+			 & {Rib} & {Xyl/Ara} & {Sum} \\
+			\hline \endfirsthead
+			\caption[]{\textit{continued from the previous page}} \\
+			\toprule
+			{Well} & {Inhibitor} & {Cel} & {Fuc} & {Gal} & {GalN}
+			 & {Gen} & {Glc} & {GlcN} & {GlcUA} & {Man} & {Rha}
+			 & {Rib} & {Xyl/Ara} & {Sum} \\
+			\hline \endhead
+			\hline
+			\multicolumn{15}{r}{\textit{continued on the next page}} \\
+			\endfoot
+			\bottomrule
+			\endlastfoot
+			\TablesafeInputIfFileExists{data/lch-eps/inh-hcs/monomers.tex}{}{\fxfatal{File not found: data/lch-eps/inh-hcs/monomers.tex}}
+		\end{longtable}
+	\end{landscape}
+	\clearpage
+}
+\clearpage
+\subsection{Strain Selection}
+\begin{texshade}{data/lch-eps/strain/16s.fa}
+	\showcaption[bottom]{\rule[0mm]{0mm}{5mm}16S rDNA sequence of \strain{}. Genomic DNA of \strain{} was amplified according to \vref{subsec-met-16s-pcr}. Sequencing yielded two forward sequences and two reverse sequences. The sequences were sanitized, aligned and the concensus sequence built from them as described in \vref{subsec-met-16s-computation}.\label{fig-lch-pf-strain-16s}}
+	\shortcaption{16S rDNA sequence of \strain{}}
+	\hideconsensus
+	\hidenames
+	\noblockskip
+	\vblockspace{-0.1cm}
+	\setfamily{numbering}{rm}
+	\setsize{residues}{small}
+	\nomatchresidues{black}{white}{upper}{md}
+	\conservedresidues{black}{white}{upper}{md}
+	\allmatchresidues{black}{white}{upper}{md}
+\end{texshade}
+
+\clearpage
+\subsection{Parallel Fermentation with \LCH{}}
+\lstset{language = R}
+\lstinputlisting[caption={[make-pf-plot-data.r: Process Fermentation Data for Plotting]make-pf-plot-data.r: R script to read in and process several data files with fermentation and results from off-line measurements and save the final data for faster plot generation.},label=lst-make-pf-plot-data]{data/lch-eps/lch-pf/make-pf-plot-data.r}
+
+\clearpage
+\subsection{Discussion}
+\begin{texshade}{data/lch-eps/discussion/LCHF1_Ferm_consensus.fa}
+	\showcaption[bottom]{\rule[0mm]{0mm}{5mm}16S rDNA sequence of the contamination of the \lch{} \SIl{7} fermentation of \strain{}. Genomic DNA of the contaminant was amplified according to \vref{subsec-met-16s-pcr}. Sequencing yielded one forward sequence and one reverse sequence. The sequences were sanitized as described in \vref{subsec-met-16s-computation}. The combined sequence was created manually.\label{fig-lch-pf-discussion-7l-contamination-16s}}
+	\shortcaption{16S rDNA sequence of the contamination of the \SIl{7} fermentation}
+	\hideconsensus
+	\hidenames
+	\noblockskip
+	\vblockspace{-0.1cm}
+	\setfamily{numbering}{rm}
+	\setsize{residues}{small}
+	\nomatchresidues{black}{white}{upper}{md}
+	\conservedresidues{black}{white}{upper}{md}
+	\allmatchresidues{black}{white}{upper}{md}
+\end{texshade}
+

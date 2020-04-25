@@ -1,0 +1,145 @@
+	All strains with poor filtration, low/no sedimentation or high EPS concentration	
+	ISp.A3	Glass filtration incomplete
+	ISp.A3	Low or no sedimentation of bacteria after centrifugation
+	ISp.A6	Low or no sedimentation of bacteria after centrifugation
+	ISp.B3	Glass filtration incomplete
+	ISp.B3	Low or no sedimentation of bacteria after centrifugation
+	ISp.B6	No pellet after centrifugation
+	ISp.C3	Glass filtration incomplete
+	ISp.C3	Low or no sedimentation of bacteria after centrifugation
+	ISp.C6	No pellet after centrifugation
+	ISp.D6	Glass filtration incomplete
+	ISp.D6	Low or no sedimentation of bacteria after centrifugation
+	ISp.E6	Glass filtration incomplete
+	ISp.E6	Low or no sedimentation of bacteria after centrifugation
+	ISp.E11	No pellet after centrifugation
+	ISp.F3	Low or no sedimentation of bacteria after centrifugation
+	ISp.F6	Glass filtration incomplete
+	ISp.F6	Low or no sedimentation of bacteria after centrifugation
+	ISp.F7	No pellet after centrifugation
+	ISp.G3	Low or no sedimentation of bacteria after centrifugation
+	ISp.G7	No pellet after centrifugation
+	ISr.A1	1+ g/l EPS
+	ISr.A1	Insufficient filtrate volumes after ten-fold dilution
+	ISr.A1	Low or no sedimentation of bacteria after centrifugation
+	ISr.A4	1+ g/l EPS
+	ISr.A4	Low or no sedimentation of bacteria after centrifugation
+	ISr.A7	1+ g/l EPS
+	ISr.A7	Insufficient filtrate volumes after ten-fold dilution
+	ISr.A7	Low or no sedimentation of bacteria after centrifugation
+	ISr.A8	1+ g/l EPS
+	ISr.A8	Low or no sedimentation of bacteria after centrifugation
+	ISr.B1	1+ g/l EPS
+	ISr.B1	Insufficient filtrate volumes after ten-fold dilution
+	ISr.B1	Low or no sedimentation of bacteria after centrifugation
+	ISr.B12	No pellet after centrifugation
+	ISr.C10	Insufficient filtrate volumes after ten-fold dilution
+	ISr.C10	Low or no sedimentation of bacteria after centrifugation
+	ISr.C12	1+ g/l EPS
+	ISr.C12	Low or no sedimentation of bacteria after centrifugation
+	ISr.D1	Glass filtration incomplete
+	ISr.D1	Low or no sedimentation of bacteria after centrifugation
+	ISr.D3	1+ g/l EPS
+	ISr.D3	Insufficient filtrate volumes after ten-fold dilution
+	ISr.D3	Low or no sedimentation of bacteria after centrifugation
+	ISr.D6	Glass filtration incomplete
+	ISr.D6	Low or no sedimentation of bacteria after centrifugation
+	ISr.D8	Low or no sedimentation of bacteria after centrifugation
+	ISr.D10	Insufficient filtrate volumes after ten-fold dilution
+	ISr.D10	Low or no sedimentation of bacteria after centrifugation
+	ISr.E1	Glass filtration incomplete
+	ISr.E1	Low or no sedimentation of bacteria after centrifugation
+	ISr.E3	1+ g/l EPS
+	ISr.E3	Low or no sedimentation of bacteria after centrifugation
+	ISr.E4	Insufficient filtrate volumes after ten-fold dilution
+	ISr.E4	Low or no sedimentation of bacteria after centrifugation
+	ISr.E5	1+ g/l EPS
+	ISr.E5	Insufficient filtrate volumes after ten-fold dilution
+	ISr.E5	Low or no sedimentation of bacteria after centrifugation
+	ISr.E10	Insufficient filtrate volumes after ten-fold dilution
+	ISr.E10	Low or no sedimentation of bacteria after centrifugation
+	ISr.F4	Insufficient filtrate volumes after ten-fold dilution
+	ISr.F4	Low or no sedimentation of bacteria after centrifugation
+	ISr.F5	1+ g/l EPS
+	ISr.F5	Insufficient filtrate volumes after ten-fold dilution
+	ISr.F5	Low or no sedimentation of bacteria after centrifugation
+	ISr.F7	Low or no sedimentation of bacteria after centrifugation
+	ISr.G1	Glass filtration incomplete
+	ISr.G1	Low or no sedimentation of bacteria after centrifugation
+	ISr.G4	1+ g/l EPS
+	ISr.G4	Insufficient filtrate volumes after ten-fold dilution
+	ISr.G4	Low or no sedimentation of bacteria after centrifugation
+	ISr.G7	1+ g/l EPS
+	ISr.G7	Low or no sedimentation of bacteria after centrifugation
+Number of unique strains	38	
+		
+	Strains with low/no sedimentation and poor filtration	
+	ISp.A3	Glass filtration incomplete
+	ISp.A3	Low or no sedimentation of bacteria after centrifugation
+	ISp.B3	Glass filtration incomplete
+	ISp.B3	Low or no sedimentation of bacteria after centrifugation
+	ISp.C3	Glass filtration incomplete
+	ISp.C3	Low or no sedimentation of bacteria after centrifugation
+	ISp.D6	Glass filtration incomplete
+	ISp.D6	Low or no sedimentation of bacteria after centrifugation
+	ISp.E6	Glass filtration incomplete
+	ISp.E6	Low or no sedimentation of bacteria after centrifugation
+	ISp.F6	Glass filtration incomplete
+	ISp.F6	Low or no sedimentation of bacteria after centrifugation
+	ISr.A1	Insufficient filtrate volumes after ten-fold dilution
+	ISr.A1	Low or no sedimentation of bacteria after centrifugation
+	ISr.A7	Insufficient filtrate volumes after ten-fold dilution
+	ISr.A7	Low or no sedimentation of bacteria after centrifugation
+	ISr.B1	Insufficient filtrate volumes after ten-fold dilution
+	ISr.B1	Low or no sedimentation of bacteria after centrifugation
+	ISr.C10	Insufficient filtrate volumes after ten-fold dilution
+	ISr.C10	Low or no sedimentation of bacteria after centrifugation
+	ISr.D1	Glass filtration incomplete
+	ISr.D1	Low or no sedimentation of bacteria after centrifugation
+	ISr.D3	Insufficient filtrate volumes after ten-fold dilution
+	ISr.D3	Low or no sedimentation of bacteria after centrifugation
+	ISr.D6	Glass filtration incomplete
+	ISr.D6	Low or no sedimentation of bacteria after centrifugation
+	ISr.D10	Insufficient filtrate volumes after ten-fold dilution
+	ISr.D10	Low or no sedimentation of bacteria after centrifugation
+	ISr.E1	Glass filtration incomplete
+	ISr.E1	Low or no sedimentation of bacteria after centrifugation
+	ISr.E4	Insufficient filtrate volumes after ten-fold dilution
+	ISr.E4	Low or no sedimentation of bacteria after centrifugation
+	ISr.E5	Insufficient filtrate volumes after ten-fold dilution
+	ISr.E5	Low or no sedimentation of bacteria after centrifugation
+	ISr.E10	Insufficient filtrate volumes after ten-fold dilution
+	ISr.E10	Low or no sedimentation of bacteria after centrifugation
+	ISr.F4	Insufficient filtrate volumes after ten-fold dilution
+	ISr.F4	Low or no sedimentation of bacteria after centrifugation
+	ISr.F5	Insufficient filtrate volumes after ten-fold dilution
+	ISr.F5	Low or no sedimentation of bacteria after centrifugation
+	ISr.G1	Glass filtration incomplete
+	ISr.G1	Low or no sedimentation of bacteria after centrifugation
+	ISr.G4	Insufficient filtrate volumes after ten-fold dilution
+	ISr.G4	Low or no sedimentation of bacteria after centrifugation
+Number of unique strains	22	
+		
+	Strains with low/no sedimentation, poor filtration and high EPS concentration	
+	ISr.A1	1+ g/l EPS
+	ISr.A1	Insufficient filtrate volumes after ten-fold dilution
+	ISr.A1	Low or no sedimentation of bacteria after centrifugation
+	ISr.A7	1+ g/l EPS
+	ISr.A7	Insufficient filtrate volumes after ten-fold dilution
+	ISr.A7	Low or no sedimentation of bacteria after centrifugation
+	ISr.B1	1+ g/l EPS
+	ISr.B1	Insufficient filtrate volumes after ten-fold dilution
+	ISr.B1	Low or no sedimentation of bacteria after centrifugation
+	ISr.D3	1+ g/l EPS
+	ISr.D3	Insufficient filtrate volumes after ten-fold dilution
+	ISr.D3	Low or no sedimentation of bacteria after centrifugation
+	ISr.E5	1+ g/l EPS
+	ISr.E5	Insufficient filtrate volumes after ten-fold dilution
+	ISr.E5	Low or no sedimentation of bacteria after centrifugation
+	ISr.F5	1+ g/l EPS
+	ISr.F5	Insufficient filtrate volumes after ten-fold dilution
+	ISr.F5	Low or no sedimentation of bacteria after centrifugation
+	ISr.G4	1+ g/l EPS
+	ISr.G4	Insufficient filtrate volumes after ten-fold dilution
+	ISr.G4	Low or no sedimentation of bacteria after centrifugation
+Number of unique strains	7	

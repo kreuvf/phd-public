@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.0" width="76.215591" height="64.004128" viewBox="0 0 76.215592 64.004129" xml:space="preserve" id="svg2" inkscape:version="0.48.4 r9939" sodipodi:docname="Molecule_acetic_acid.svg">
+  <metadata id="metadata24">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs22"/>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="1" inkscape:pageshadow="2" inkscape:window-width="1350" inkscape:window-height="480" id="namedview20" showgrid="false" inkscape:showpageshadow="false" units="mm" inkscape:document-units="mm" fit-margin-top="1" fit-margin-left="1" fit-margin-bottom="1" fit-margin-right="1" inkscape:zoom="3.4117497" inkscape:cx="40.982454" inkscape:cy="36.962975" inkscape:window-x="128" inkscape:window-y="165" inkscape:window-maximized="0" inkscape:current-layer="svg2"/>
+  <g transform="matrix(0.19539,0,0,0.19539,3.5433042,3.5628462)" id="g4">
+    <polygon points="126.5,182.8 4,253.8 2,250.3 0,246.8 126.5,173.8 126.5,173.8 " id="polygon6"/>
+    <path d="m 225,280.8 c -6.4,-7 -9.7,-16.1 -9.7,-27.4 0,-11.3 3.2,-20.5 9.7,-27.5 6.4,-7 14.9,-10.5 25.3,-10.5 10.5,0 18.9,3.5 25.4,10.5 6.5,7 9.6,16.1 9.6,27.5 0,11.3 -3.2,20.4 -9.6,27.4 -6.4,7 -14.9,10.4 -25.4,10.4 -10.4,0.1 -18.8,-3.4 -25.3,-10.4 z m 43.5,-6.2 c 4.6,-5.4 6.9,-12.4 6.9,-21.1 0,-8.8 -2.3,-15.8 -6.9,-21.2 -4.6,-5.4 -10.6,-8.1 -18.1,-8.1 -7.5,0 -13.5,2.7 -18.1,8.1 -4.6,5.4 -6.9,12.5 -6.9,21.2 0,8.7 2.3,15.8 6.9,21.1 4.6,5.3 10.6,8.1 18.1,8.1 7.4,-0.1 13.5,-2.8 18.1,-8.1 z" id="path8" inkscape:connector-curvature="0"/>
+    <path d="m 297,217.5 4.8,0 4.9,0 0,29.4 37.4,0 0,-29.4 4.8,0 4.9,0 0,71.8 -4.8,0 -4.9,0 0,-33.8 -37.4,0 0,33.8 -4.8,0 -4.9,0 0,-71.8 z" id="path10" inkscape:connector-curvature="0"/>
+    <polygon points="126.5,173.8 212.5,223.3 212.5,223.3 208.5,230.3 126.5,182.8 " id="polygon12"/>
+    <path d="m 101,65.3 c -6.4,-7 -9.7,-16.1 -9.7,-27.4 0,-11.3 3.2,-20.5 9.7,-27.5 6.4,-7 14.9,-10.5 25.3,-10.5 10.5,0 18.9,3.5 25.4,10.5 6.5,7 9.6,16.1 9.6,27.5 0,11.3 -3.2,20.4 -9.6,27.4 -6.4,7 -14.9,10.4 -25.4,10.4 -10.4,0.1 -18.8,-3.4 -25.3,-10.4 z m 43.5,-6.2 c 4.6,-5.4 6.9,-12.4 6.9,-21.1 0,-8.8 -2.3,-15.8 -6.9,-21.2 -4.6,-5.4 -10.6,-8.1 -18.1,-8.1 -7.5,0 -13.5,2.7 -18.1,8.1 -4.6,5.4 -6.9,12.5 -6.9,21.2 0,8.7 2.3,15.8 6.9,21.1 4.6,5.3 10.6,8.1 18.1,8.1 7.4,-0.1 13.5,-2.8 18.1,-8.1 z" id="path14" inkscape:connector-curvature="0"/>
+    <rect width="8" height="99" x="109.5" y="86.800003" id="rect16"/>
+    <rect width="8" height="99" x="135.5" y="86.800003" id="rect18"/>
+  </g>
+</svg>

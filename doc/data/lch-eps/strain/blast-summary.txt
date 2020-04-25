@@ -1,0 +1,12 @@
+gb	KF479541.1	Paenibacillus sp. A25 16S ribosomal RNA gene, ...	2634	0.0	
+gb	KF750627.1	Paenibacillus sp. SSG-1 16S ribosomal RNA gene...	2623	0.0	
+gb	JX011004.1	Paenibacillus sp. C82 16S ribosomal RNA gene, ...	2619	0.0	
+emb	LN890143.1	Paenibacillus cineris partial 16S rRNA gene, ...	2617	0.0	
+gb	KF479580.1	Paenibacillus sp. B19 16S ribosomal RNA gene, ...	2617	0.0	
+gb	KF150476.1	Paenibacillus cineris strain JN237 16S ribosom...	2617	0.0	
+gb	JN867753.1	Paenibacillus favisporus strain T2 16S ribosom...	2612	0.0	
+gb	JF309261.1	Paenibacillus sp. 3492BRRJ 16S ribosomal RNA g...	2612	0.0	
+gb	HM776458.1	Paenibacillus sp. 07-G-dH 16S ribosomal RNA ge...	2610	0.0	
+gb	KP728976.1	Paenibacillus sp. FJAT-21993 16S ribosomal RNA...	2608	0.0	
+
+Paenibacillus: 90 (cineris: 11, favisporus: 11, azoreducens: 6); Bacillus: 6.

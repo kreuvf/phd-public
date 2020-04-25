@@ -1,0 +1,33 @@
+\subsection{Determination of \FUR{}, \HMF{} and \VAN{}\label{subsec-inh-ald}} % SK5, p. 57+
+Microorganisms were grown in the presence of an inhibitor---\fur{}, \hmf{} (5-(hydroxymethyl)-2-furaldehyde) or \van{}---and had to be removed. Cultures in deep 96-well plates were centrifuged for \SImin{30} at \SIG{3710} and \SIdC{20}. \SIul{30} supernatant was mixed with \SIul{120} ultra-pure water and \SIul{150} acetonitrile diluting the sample 10-fold and adjusting the acetonitrile concentration to \SIpct{50}. Acetonitrile was necessary to facilitate filtration of \fur{} without measurable retention. \SIul{200} of diluted sample was filtered using a \SIkD{10} PES filtration plate (AcroPrep Advance 350 10K Omega, PC) by centrifuging for \SImin{30} at \SIG{1200} and \SIdC{20}.
+
+\subsubsection{PMP Derivatization}
+PMP derivatization was conducted as described in \vref{pmp-deriv}. After derivatization, the plate was removed from the cycler. Mixing was achieved by putting the plate into a custom-made frame and mixing manually. After mixing, the liquid was gathered at the bottom of the tube by centrifugation for \SImin{3} at \SIG{2000} and \SIdC{20}. \SIul{40} of each well was transferred to a 96-well microplate (F bottom, GBO) and mixed with \SIul{260} \SImM{19.2} \acet{} in \SIpct{40} acetonitrile. Mixing was achieved by pipetting up and down several times. \SIul{280} of the samples was transferred to an \SIum{0.2} RC 96-well filtration plate (CHROMAFIL Multi 96, MNG) and centrifuged for \SImin{15} at \SIG{700} and \SIdC{20}. \SIul{155} flow-through was collected in a new 96-well microplate, the plate sealed with a mat (Whatman Capmats 96 Wells, round, silicone rubber, GHU) and put into the tray of the HPLC autosampler.% Centrifugation: SK5, p. 3
+
+\subsubsection{HPLC-MS Analysis}
+\begin{table}
+	\centering
+	\caption[HPLC-MS Gradient for Inhibitor Analysis]{HPLC-MS gradient for inhibitor analysis. Elution of analytes was facilitated by using a gradient of mobile phase A (\SIpct{85} \SImM{5} ammonium acetate at pH value \num{5.60(2)} and \SIpct{15} acetonitrile) and mobile phase B (pure acetonitrile). Changes between points are linear.\label{tbl-inh-grad}}
+	\begin{tabular}{SSS}
+		\toprule
+		{Time since injection in \si{\minute}} & {Percentage of A in \si{\percent}} & {Percentage of B in \si{\percent}} \\
+		\hline
+		0.00 & 99 & 1 \\
+		5.00 & 95 & 5 \\
+		7.00 & 95 & 5 \\
+		8.00 & 82 & 18 \\
+		9.00 & 70 & 30 \\
+		9.30 & 70 & 30 \\
+		9.70 & 60 & 40 \\
+		11.30 & 60 & 40 \\
+		11.50 & 99 & 1 \\
+		13.00 & 99 & 1 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+The setup used for analysis was the same as described under \vref{pmp-hplc-ms} including mass spectrometer operational parameters. For separation of the inhibitors, the gradient was extended by a minute and an intermediate acetonitrile concentration was used, see \vref{tbl-inh-grad}. This gradient allowed the separation of aldose derivatives as well.
+
+\paragraph{Calibration Standards}
+Calibration standard \enquote{3Mix} comprised of \fur{}, \hmf{} and \van{} in ultra-pure water. Standards were prepared at concentrations of \SIlist{100;50;40;30;20;10;5;4;3;2}{\milli\gram\per\litre}.
+

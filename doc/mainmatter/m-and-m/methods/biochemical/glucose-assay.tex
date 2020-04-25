@@ -1,0 +1,31 @@
+\subsection{\GLC{} Assay\label{subsec-glc-assay}}
+\nomenclature[chem_ABTS]{ABTS}{2,2$'$-azino-bis(3-eth\-yl\-ben\-zo\-thi\-a\-zoline-6-sul\-phon\-ic acid}
+\GLC{} was determined using an in-house protocol \cite{Ruehmann2015a} based on 2,2$'$-Azino-bis(3-eth\-yl\-ben\-zo\-thi\-a\-zoline-6-sul\-phon\-ic acid), commonly abbreviated as \enquote{ABTS}, and enzymatic oxidation of \glc{}. This in-house protocol was based on the Amplex Red Glucose/Glucose Oxidase Assay Kit \cite{Invitrogen2006}.
+
+Upon oxidation of ABTS with hydrogen peroxide a dye formed and absorption at $\lambda{}_1 = \SInm{418}$ and $\lambda{}_2 = \SInm{480}$ was determined. \GLC{} concentrations were calculated from these absorption values using linear calibration of standards \SIlist{0;5;10;25;50;100;250;500}{\micro\M} \glc{}\footnote{Mass concentrations: \SIlist{0;0.9;1.8;4.5;9;18;45;90}{\milli\gram\per\litre}.}.
+
+\subsubsection{Assay Mix}
+For one 96-well plate, \SIml{5.0} assay mix was produced. The following components made up the assay mix:
+\begin{itemize}
+	\item Ultra-pure water: \SIml{4.25}
+	\item Potassium phosphate (\SImM{500}, pH value: \num{6.0}): \SIul{400}
+	\item \GLC{} oxidase from \mo{Aspergillus niger} (\SIUpml{100}): \SIul{200}
+	\item ABTS solution (\SImM{50}): \SIul{150}
+	\item Horseradish peroxidase (\SIUpml{1000}): \SIul{1.00}
+\end{itemize}
+
+\subsubsection{Protocol}
+\SIul{50} of appropriately diluted\footnote{Undiluted samples with \SIgpl{17} \glc{} (approximately \SImM{10}) give values of the \SIuM{100} standard. Therefore, samples were generally diluted by a factor of \numrange{100}{1000} and, if in doubt, the same sample was measured several times at different dilutions.} sample were transferred into a well of a 96-well plate (F bottom, GBO), then \SIul{50} of assay mix was added to each well. The plate was sealed with an adhesive aluminium cover and incubated for \SImin{30} at \SIdC{30} and \SIrpm{150} on a shaker incubator. The cover was removed and the absorptions at \SInm{418} and \SInm{480} were measured on a photometer (Varioskan, TFS). Data were exported to broken\footnote{It is important to note here that upon opening the files in Excel 2010 a popup message explained this to the user. Unfortunately, LibreOffice is not able to open broken Excel files effectively vendor-locking users to Microsoft's Office suite.} Excel files. The differences of absorptions at \SInm{418} and \SInm{480} of various concentrations tested were used to create the calibration curve. The absorption at \SInm{480} is subtracted from the absorption at \SInm{418} to make up for the background absorption of the sample.
+
+\subsubsection{Reaction Scheme}
+\GLC{} oxidase catalyses the oxidation of \glc{} using molecular oxygen to \textsc{d}-(+)-glucono-1,5-lactone and hydrogen peroxide (reaction~\ref{rea-glc-assay-glc}). Then, the oxidation of reduced ABTS with hydrogen peroxide to reduced ABTS and water is catalysed by horseradish peroxidase (reaction~\ref{rea-glc-assay-abts}). Oxidized ABTS can be determined photometrically at \SInm{418}.
+
+\begin{equation}
+	\label{rea-glc-assay-glc}
+	\text{2 \glc{} + \ce{O2 <=>> }2 \textsc{d}-glucono-1,5-lactone + 2 \ce{H2O2}}
+\end{equation}
+\begin{equation}
+	\label{rea-glc-assay-abts}
+	\text{\ce{H2O2} + }\text{2 ABTS}_\text{red.} \ce{<=>>} \text{2 \ce{H2O} + }\text{2 ABTS}_\text{ox.}
+\end{equation}
+

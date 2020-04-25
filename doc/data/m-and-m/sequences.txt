@@ -1,0 +1,5 @@
+Sort key	Name	Sequence	Needed for contents in final version?
+0027f	27f	AGAGTTTGATCMTGGCTCAG	y
+1492r	1492r	GGTTACCTTACGACTT	y
+1525r	1525r	AAGGAGGTGWTCCARCC	y
+

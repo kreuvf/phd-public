@@ -1,0 +1,8 @@
+\section{Materials and Methods}
+\subsection{Computational Methods}
+\lstset{language=python}
+\lstinputlisting[caption={[16S\_sequence.py: Process Raw AB1 Files and Produce 16S Sequence Alignment]16S\_sequence.py: Python script to read in 16S sequencing results from AB1 files, quality-trim the sequences and align forward and reverse sequences with clustalw to generate aligned sequences. The final 16S sequence was generated manually.},label=lst-16s-sequence]{data/16s/16S_sequence.py}
+\lstset{language=diff}
+\lstinputlisting[caption={[select-paired.patch: Enable Processing of FASTQ Files from ZIEL]select-paired.patch: Enable processing of FASTQ files from ZIEL. Patch in unified diff format to be applied to select\_paired.pl. The unpatched version did not process FASTQ files from ZIEL. A short investigation revealed that the regular expressions for finding entries did not match with the entry lines in the FASTQ files. Additionally, this patch adds some debug output, because the order of arguments was confusing at first.},label=lst-select-paired-patch]{data/ngs/select-paired.patch}
+\lstset{language=bash}
+\lstinputlisting[caption={[create\_contig\_table.sh: Extract Contig Information from Assemblies]create\_contig\_table.sh: Extract contig information from assemblies. bash script to generate a file which contains node, length and coverage (as given by velvet) from an assembly.},label=lst-create-contig-table]{data/ngs/create_contig_table.sh}

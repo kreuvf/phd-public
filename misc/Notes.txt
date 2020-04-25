@@ -1,0 +1,52 @@
+Central gathering point for various notes
+=========================================
+* use of 1:500 dilution of RPMI 1640 instead of actual 100:1 concentration factor first documented on p. 1 of SK1
+* scales 1-3: SK 1, p. 6
+* scales 4: SK 1, p. 8
+* scales "5": SK 2, p. 109
+* scales 6: SK 3, p. 62
+* default line width used in graphics: 0.4 mm; thick lines: 0.8 mm; default font: Liberation Sans, 12 pt
+* EPS precipitations: SK2: 18, 26, 30, 33, 34, 60, 86, 96, 100; SK3: 17, 178; SK4: ;
+* SEC/MALLS: SK3: 18, 22, 26-28, 30, 31, 60, 64, 65, 66, 69, 73, 74, 76, 77, 78, 80, 84
+* Linux Libertine as math font:
+\usepackage{amsmath}
+
+\usepackage[libertine]{newtxmath}
+\usepackage[no-math]{fontspec}
+\usepackage{mleftright}
+
+\setmainfont{Linux Libertine O}
+Encountered issues: --- does not automatically convert to em dash
+* Default sort orders:
+	chemicals: chemical (sorting) a->z, manufacturer a->z, date first used a->z
+	consumables: type a->z, name a->z
+	enzymes: enzyme a->z, manufacturer a->z
+	equipment: type a->z, manufacturer a->z, model a->z
+	nucleotides: nucleotide a->z
+	software: software category a->z, name a->z, manufacturer a->z
+
+* hint that slime on pellet consists mainly of cells: SK5, p. 144 on inoculation of second try of LCHF1:
+"Zentrifugation: 10 min@4000xg, 20 °C ab 17:18 Uhr
+
+	2. Zentrifugation: wie vorher, 30 °C, ab 17:30 Uhr
+	nötig, da kein Pellet, sondern etwa halbes
+	Volumen aus Wackelpudding bestehend, obere
+	Phase sehr klar
+
+	--> Schleimphasen nur wenig kleiner, Pellet vernach-
+	lässigbar winzig -> Hauptbiomasse in SChleim;
+	in neue Falcon-Tubes überführt
+
+	g-Zahl reicht offenbar n. aus -> 2 50er-Spritzen benutzen
+
+Animpfvolumen: 37 ml + 49 ml = 86 ml
+angeimpft: 18:00 Uhr"
+	* growth in fermenter strong evidence for slime = lots of biomass
+	* decision to NOT use slime as part of EPS most likely the correct one
+* aim of LCHF1 purification procedure (SK5, p. 150): "Ziel: möglichst viel möglichst mikroorganismenfreies Produkt gewinnen"
+* cross-flow filtrations
+	* 2015-06-11: LCHF0, block 1; 3 x 100 kDa
+	* 2015-06-12: 3 x 100 kDa too wide --> clean; LCHF0, block 1; 2 x 10 kDa
+	* 2015-06-12: LCHF0, block 2; 2 x 10 kDa; brown colour from LCH not removed --> 30 kDa not available; use 100 kDa for LCHF1, accept loss of around 10%
+	* 2015-06-17: LCHF1, lot 1 (diluted, centrifuged); 3 x 100 kDa
+	* 2015-06-18: LCHF1, lot 2 (30 min 60 °C etc.); 3 x 100 kDa; LCHF1, lot 3

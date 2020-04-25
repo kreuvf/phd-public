@@ -1,0 +1,299 @@
+\section{High-Throughput Screening for \LCH{} Tolerance\label{sec-lch-hts}}
+% Source: LV1 (Experiment from 2014-11-17 to 2014-11-21)
+On the availability of \lch{} for experimentation, several of its parameters were analysed---most importantly: concentrations of \glc{}, \xyl{} and \fur{} and the $D_{600}$. Microbial growth in the presence of \lch{} as carbon source was tested analogously to the single inhibitor screening (see \vref{sec-inh-hts}). The medium used as reference was SM19 P30, while the medium with \lch{} was SMLCH P30. The results of this screening were purely informational and not used in the selection process for plates ISp and ISr. Instead, they were used to assess how reliable the results from the single inhibitor screening were for the prediction of the impact of the \lch{} used on microbial growth.
+%Medium: SMLCH P30. Reference: SM19 P30. Abweichungen: 995 ul Medium statt 990 µl Medium in PLatten f. 2014-11-19. Animpfen aus Kryos: 14:30 Uhr 2014-11-17. Leitfähigkeiten der Medien: SMLCH P30: 7,53 mS/cm @ 22,5 °C. SM19 P30: 4,48 mS/cm @ 22,5 °C. 2014-11-19: Xyl1: E10, F10, E12 leer. Xyl2: D5-12 leer (gut), F1, 10, 11, G5 bewachsen (schlecht bis egal). Überimpft mit 10 µl, ab 16 Uhr weiter geschüttelt (49,5 h Wachstum). Referenz und LCH beide aus selben Platten. 2014-11-21: gewachsen bis 16:40 Uhr. kein Wachstum: SM19 P30: Xyl1: E10, E12, F10. Xyl2: D5-12, E1-H12. SMLCH P30: Xyl1: E10, E12, F1, 4, 8-12, G1-4, 12, H2, 3, 9, 11. Xyl2: A4, 8, 11, 12, B4-6, 11, D4-12, E1-H12.
+
+\subsection{\LCH{} Analyses Results\label{subsec-lch-analyses}}
+\begin{table}
+	\centering
+	\sisetup{
+		table-number-alignment = right,
+		table-text-alignment = right,
+	}
+	\caption[\LCH{} Analyses Results]{Results of in-house analyses of the \lch{} supplied by an industrial partner.\label{tbl-lch-tol-lch}}
+	\begin{threeparttable}
+		\begin{tabular}{lS}
+			\toprule
+			{Parameter} & {Value} \\
+			\hline
+			{pH value} & \num{4.86} \\
+			{Buffer capacity} & \SImM{39.1} \\
+			{Conductivity\tnotex{tnote:cond}} & \SImSpcm{6.72} \\
+			{Pelletable particles\tnotex{tnote:part}} & \SIpct{0.044} \\
+			{$D_{600}$\tnotex{tnote:d600}} & \num{0.808} \\
+			{$D_{600}$ (clarified)\tnotex{tnote:d600}} & \num{0.559} \\
+			{\Acet{} concentration} & \SIgpl{9.86} \\
+			{\Fora{} concentration} & \SImgpl{70} \\
+			{\GLC{} concentration} & \SIgpl{75} \\
+			{\XYL{} concentration} & \SIgpl{20} \\
+			{\FUR{} concentration} & \SIgpl{2.7} \\
+			{\HMF{} concentration} & \SImgpl{500} \\
+			\bottomrule
+		\end{tabular}
+		\begin{tablenotes}
+			\item\label{tnote:cond} Measurement temperature: \SIdC{20}.
+			\item\label{tnote:part} Pelletable particles were examined by determining the dry mass of the pellet of approximately \SI{5.2}{\gram} \lch{}. Particles were sedimented by centrifugation for \SImin{10} at \SIG{17000} and room temperature.
+			\item\label{tnote:d600} Reference: ultra-pure water. \LCh{} was clarified by centrifuging for \SImin{10} at \SIG{17000} and room temperature.
+		\end{tablenotes}
+	\end{threeparttable}
+\end{table}
+As outlined earlier (see \vref{subsec-mam-chem-lch}), data on the \lch{} supplied were scarce. The complete results of in-house analyses are given in \vref{tbl-lch-tol-lch}. The \lch{} was acidic as evident from the pH value (\num{4.86}) and \acet{} concentration (\SIgpl{9.86}). Furthermore, the hydrolysate contained roughly \SIgpl{75} \glc{}, \SIgpl{20} \xyl{}, \SIgpl{2.7} \fur{} and \SImgpl{500} \hmf{}.
+% LD0: Buffer capacity: 39.1 mmol/l; pH value: 4.86; D600 gegen Wasser: 0.808; D600 (geklärt) gegen Wasser: 0.559; Conductivity at 20 °C: 6.72 mS/cm; Percentage of sedimented particle dry matter of whole LCH: 0.044 (bestimmt aus insgesamt etwa 5.2 g LCH)
+% LD2 (SK5, S. 137): Acetic acid: 9.86 g/l; Formic acid: 70 mg/l; d-Glucose: 75 g/l; d-Xylose: 20 g/l
+% ISVV7: HMF: 500 mg/l; Furfural: 2.7 g/l (passt auch zu den lch-pf-Werten!)
+
+\subsection{Controls \& Deviations}
+Before inoculation, each well of the main culture plates contained \SIul{995} medium, instead of \SIul{990}. The preculture was incubated for \SIh{49.5}. In the preculture of Xyl1, the negative control Xyl1.E12 did not grow. The strains \xyli{E10} and \xyli{F10} did not show any growth as well. In the preculture of Xyl2, the negative controls Xyl2.D5 to Xyl2.D12 did not grow. However, growth was visible in wells Xyl2.F1, Xyl2.F10, Xyl2.F11 and Xyl2.G5. Therefore, when transferring from the preculture plate Xyl2 to the main culture plates, the bottom half was not used.
+
+All strains which did not show growth in the preculture of the reference did not grow in the main culture as well. Therefore, the calculations of this screening step could not be carried out with these strains and thus, they were not considered for subsequent analyses. The main cultures were incubated for \SIh{48.5}.
+
+Conductivities of SM19 P30 and SMLCH P30 at \SIdC{22.5} were \SImSpcm{4.48} and \SImSpcm{7.53}, respectively.
+
+\subsection{\LCH{} Tolerance}
+\begin{pycode}
+# -*- coding: utf-8 -*-
+import re
+import copy
+import numpy as np
+
+# inh_tol[ ][ ][ ][ ]
+#         |  |  |  ^- coordinate (number, x-axis)
+#         |  |  ^---- coordinate (letter, y-axis)
+#         |  ^------- plate
+#         ^---------- category
+#
+# Category: 0..1 = reference, lignocellulose hydrolysate (lch)
+# plate: 0 = Xyl1, 1 = Xyl2
+# Coordinate (letter): 0...7 = A..H
+# Coordinate (number): 0..11 = 1..12
+# First value: use flag
+#    0: Do not use this value for calculation at all
+#    1: Use this value for calculation as a normal value
+#    2: Use this value for calculation of background intensity only
+# Second value: raw attenuance value (float)
+lch_tol = [
+    [
+        [
+            [
+                [0, ""] for coord_number in range(12)
+            ]
+             for coord_letter in range(8)
+        ]
+        for plate in range(2)
+    ]
+    for category in range(2)
+]
+
+# Define categories for automated conversion of filename to index and back
+category = dict()
+category['ref'] = 0
+category['lch'] = 1
+category[0] = 'Reference'
+category[1] = 'Lignocellulose hydrolysate'
+shortcategory = dict()
+shortcategory[0] = 'Ref.'
+shortcategory[1] = 'LCH'
+
+# Generate list of input files
+# First/second value: filename
+# Third/fourth value: f: full plate; t: top half; b: bottom half
+#     necessary to transform measured wells to original wells
+# No bottom halves in lch-tol
+filelist = [
+    ['ref1.txt', 'ref2.txt', 'f', 't'],
+    ['lch1.txt', 'lch2.txt', 'f', 't']
+]
+dir = 'data/lch-eps/lch-tol/'
+
+# Read files and populate lch_tol (this one is huge when printed in the shell)
+for item in filelist:
+    for plate in range(2):
+        with open(dir + item[plate], 'r') as f:
+            f.readline() # skip first line
+            cat_in = category[re.match('[a-z]{3,4}', item[plate]).group(0)]
+            for coord_letter in range(8):
+                for coord_number in range(12):
+                    line = f.readline()
+                    lch_tol[cat_in][plate][coord_letter][coord_number] = [1, float(re.match('[^\t]+\t[^\t]+\t([0-9]\.[0-9]+)', line).group(1))]
+
+# Set use flag to zero for all bottom halves
+for cat in range(2):
+    for coord_letter in range(4,8):
+        for coord_number in range(12):
+            lch_tol[cat][1][coord_letter][coord_number][0] = 0
+
+# Set use flag for other wells:
+#    2 strains did not grow in the reference --> 2
+#    1 empty well on Xyl1 --> 2
+
+for cat in range(2):
+    # 2 strains from Xyl1:      E10, F10
+    lch_tol[cat][0][4][9][0] = 2
+    lch_tol[cat][0][5][9][0] = 2
+    # 1 empty well on Xyl1:     E12
+    lch_tol[cat][0][4][11][0] = 2
+    # 8 empty wells on Xyl2:    D5, D6, D7, D8, D9, D10, D11, D12
+    lch_tol[cat][1][3][4][0]  = 2
+    lch_tol[cat][1][3][5][0]  = 2
+    lch_tol[cat][1][3][6][0]  = 2
+    lch_tol[cat][1][3][7][0]  = 2
+    lch_tol[cat][1][3][8][0]  = 2
+    lch_tol[cat][1][3][9][0]  = 2
+    lch_tol[cat][1][3][10][0] = 2
+    lch_tol[cat][1][3][11][0] = 2
+
+# Calculation of median background attenuance on a per-plate basis
+# First value: average background attenuance, second value: list of all values,
+# third value: inter-quartile range
+lch_bg = [[ [0.0, [], 0.0] for plate in range(2)] for cat in range(2)]
+
+for cat in range(2):
+    for plate in range(2):
+        for coord_letter in range(8):
+            for coord_number in range(12):
+                well = lch_tol[cat][plate][coord_letter][coord_number]
+                if well[0] == 2:
+                    lch_bg[cat][plate][1].append(well[1])
+        lch_bg[cat][plate][0] = round(np.median(lch_bg[cat][plate][1]), 7)
+        lch_bg[cat][plate][2] = round(np.subtract(*np.percentile(lch_bg[cat][plate][1], [75, 25])), 7)
+
+# Subtract background from each plate's used (=1) values
+for cat in range(2):
+    for plate in range(2):
+        for coord_letter in range(8):
+            for coord_number in range(12):
+                # Use mutability...
+                well = lch_tol[cat][plate][coord_letter][coord_number]
+                if well[0] == 1:
+                    well[1] = round(well[1] - lch_bg[cat][plate][0], 7)
+
+# Divide attenuance of inhibitor plate by attenuance of the reference plate
+# Multiply with 100 to get percent values
+# Reference plates remain untouched
+for plate in range(2):
+    for coord_letter in range(8):
+        for coord_number in range(12):
+            # Use mutability...
+            ref = lch_tol[0][plate][coord_letter][coord_number]
+            well = lch_tol[1][plate][coord_letter][coord_number]
+            if well[0] == 1:
+                #print("{0}.{1}.{2}.{3}: {4}; Ref.: {5}".format(cat, plate, coord_letter, coord_number, well[1], ref[1]))
+                well[1] = round(100 * (well[1] / ref[1]), 1)
+
+# Generate list for stats, never use index 0
+# List is generated with 7 entries for consistency's sake
+# stats contains the amount of strains in a certain interval
+# The intervals are:
+# 0:  <   5%          no growth
+# 1: >=   5%, <  20%  rudimentary growth
+# 2: >=  20%, <  40%  strongly inhibited growth
+# 3: >=  40%, <  60%  moderately inhibited growth
+# 4: >=  60%, <  80%  slightly inhibited growth
+# 5: >=  80%, < 100%  normal growth
+# 6: >= 100%, < 120%  normal growth
+# 7: >= 120%          overshooting growth
+lch_stats = [ [0, 0, 0, 0, 0, 0, 0, 0] for cat in range(2) ]
+for plate in range(2):
+    for coord_letter in range(8):
+        for coord_number in range(12):
+            well1 = lch_tol[1][plate][coord_letter][coord_number]
+            if well1[0] == 1:
+                if well1[1] >= 120:
+                    lch_stats[1][7] = lch_stats[1][7] + 1
+                elif well1[1] >= 100:
+                    lch_stats[1][6] = lch_stats[1][6] + 1
+                elif well1[1] >= 80:
+                    lch_stats[1][5] = lch_stats[1][5] + 1
+                elif well1[1] >= 60:
+                    lch_stats[1][4] = lch_stats[1][4] + 1
+                elif well1[1] >= 40:
+                    lch_stats[1][3] = lch_stats[1][3] + 1
+                elif well1[1] >= 20:
+                    lch_stats[1][2] = lch_stats[1][2] + 1
+                elif well1[1] >= 5:
+                    lch_stats[1][1] = lch_stats[1][1] + 1
+                else:
+                    lch_stats[1][0] = lch_stats[1][0] + 1
+
+# Output data
+# For use in LaTeX document
+# Background data
+lch_bg_attenuance = []
+for cat in range(2):
+    # Curly braces are escaped not by a '\' but by another curly brace!
+    bg_line = "{} & \\num{{{:.4f} \\pm {:.4f}}} & \\num{{{:.4f} \\pm {:.4f}}} \\\\".format(category[cat], round(lch_bg[cat][0][0], 4), round(lch_bg[cat][0][2]/2.0, 4), round(lch_bg[cat][1][0], 4), round(lch_bg[cat][1][2]/2.0, 4))
+    # Store strings
+    lch_bg_attenuance.append(bg_line)
+
+# Distribution data
+lch_dist_data = []
+for cat in range(1,2):
+    # Curly braces are escaped not by a '\' but by another curly brace!
+    dist_line = "{} & \\num{{{}}} & \\num{{{}}} & \\num{{{}}} & \\num{{{}}} & \\num{{{}}} & \\num{{{}}} & \\num{{{}}} & \\num{{{}}} \\\\".format(category[cat], lch_stats[cat][0], lch_stats[cat][1], lch_stats[cat][2], lch_stats[cat][3], lch_stats[cat][4], lch_stats[cat][5], lch_stats[cat][6], lch_stats[cat][7])
+    # Store strings
+    lch_dist_data.append(dist_line)
+\end{pycode}
+The results were analysed analogously to the results of the single inhibitor experiments (see \vref{subsec-inh-hts-results}). The median background attenuances $\pm$ half the corresponding inter-quartile ranges were \py{str("\\num{{{:.4f} \\pm {:.4f}}}".format(round(lch_bg[0][0][0], 4), round(lch_bg[0][0][2]/2.0, 4)))}, \py{str("\\num{{{:.4f} \\pm {:.4f}}}".format(round(lch_bg[0][1][0], 4), round(lch_bg[0][1][2]/2.0, 4)))}, \py{str("\\num{{{:.4f} \\pm {:.4f}}}".format(round(lch_bg[1][0][0], 4), round(lch_bg[1][0][2]/2.0, 4)))} and \py{str("\\num{{{:.4f} \\pm {:.4f}}}".format(round(lch_bg[1][1][0], 4), round(lch_bg[1][1][2]/2.0, 4)))} for reference plates Xyl1 and Xyl2 and the \lch{} plates Xyl1 and Xyl2, respectively. For Xyl1, three wells were used for background calculation and for Xyl2, eight wells were used for background calculation. Details are given in \vref{tbl-inh-tol-bg}.
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.45\textwidth]{fig/lch-tol_lch_600dpi.png}
+		\caption[Tolerance Towards \LCH{}]{Tolerance towards \lch{}. The strains in the plates Xyl1 and Xyl2 were grown without \lch{} (SM19 P30) and with \lch{} (SMLCH P30). SM19 P30 contained the same amount of \glc{} and \xyl{} as SMLCH P30. After subtraction of the background attenuance, the attenuance in the presence of \lch{} was divided by the attenuance without \lch{}. The strains of both plates were classified into eight classes (see \vref{tbl-inh-tol-classes}) and the results plotted as bar graphs. The data are available in \vref{tbl-inh-tol-dist}.\label{fig-lch-tol-dist}}
+	\end{center}
+\end{figure}
+
+In the next step, the relation of each attenuance to the corresponding attenuance in the reference plate was calculated. The resulting percentages were classified into eight classes. The data are given, explained in detail and visualized in \vref{fig-lch-tol-dist}.
+
+Most strains were not affected by \SI{30}{\volpercent} \lch{}: 67 of 133 strains showed normal growth, 22 were slightly inhibited, nine moderately inhibited, four strongly inhibited and seven showed excessive growth. 20 strains showed no growth, while four exhibited at least rudimentary growth.
+
+\paragraph{Comparison with Single Inhibitor Experiments}
+\begin{table}
+	\centering
+	\caption[Comparison of Single Inhibitor and \LCH{} Results of High-Performing Strains]{Comparison of single inhibitor and \lch{} results of high-performing strains. In this table, the ranks of the strains highlighted earlier for reaching the top 27/28 of at least four inhibitors (see \vref{tbl-inh-tol-special-strains}) are compared with the corresponding ranks in the \lch{} screening. Complete data for all strains is given in \vref{tbl-inh-lch-tol-ranks}. Abbreviations: Fur.: \fur{}; HMF: \hmf{}; Van.: \van{}; Acet.: \acet{}; Form.: \fora{}; Laev.: \laev{}; LCH: \lch{}.\label{tbl-lch-tol-inh-lch-comp}}
+	\begin{tabular}{l*{7}{r}}
+		\toprule
+		 & \multicolumn{7}{c}{Rank in experiment with} \\
+		\multirow{-2}*{Strain} & {Fur.} & {HMF} & {Van.} & {Acet.} & {Form.} & {Laev.} & {LCH} \\
+		\hline
+		\xyli{A10} & 27 & 16 & 21 & 22 & 36 & 37 & 42 \\
+		\xyli{C4} & 25 & 31 & 7 & 1 & 16 & 43 & 95 \\
+		\xyli{C5} & 2 & 34 & 12 & 2 & 18 & 34 & 92 \\
+		\xyli{G5} & 6 & 14 & 24 & 4 & 6 & 6 & 45 \\
+		\xyli{G11} & 21 & 20 & 27 & 23 & 25 & 71 & 16 \\
+		\xylj{A1} & 19 & 33 & 8 & 52 & 17 & 10 & 65 \\
+		\xylj{A6} & 8 & 6 & 1 & 13 & 31 & 23 & 4 \\
+		\xylj{A9} & 44 & 19 & 3 & 9 & 33 & 28 & 3 \\
+		\xylj{B7} & 22 & 25 & 19 & 89 & 52 & 27 & 28 \\
+		\xylj{B8} & 14 & 10 & 120 & 11 & 22 & 2 & 11 \\
+		\xylj{C4} & 7 & 9 & 25 & 8 & 29 & 5 & 25 \\
+		\xylj{C5} & 3 & 12 & 28 & 12 & 11 & 74 & 40 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+\begin{table}
+	\centering
+	\caption[Comparison of \LCH{} High-Performing Strains Excluded from Further Screening]{Comparison of \lch{} high-performing strains excluded from further screening. For the next screening step, strains had to achieve a rank among the top 27/28 in single inhibitor experiments. The strains in this table were not included in any further screening due to a low rank, but were among the top performers on \lch{}. Single inhibitor screening data for \xylj{C1} are missing, because it did not grow in these screenings. Complete data for all strains is given in \vref{tbl-inh-lch-tol-ranks}. Abbreviations: Fur.: \fur{}; HMF: \hmf{}; Van.: \van{}; Acet.: \acet{}; Form.: \fora{}; Laev.: \laev{}; LCH: \lch{}.\label{tbl-lch-tol-lch-losers-comp}}
+	\begin{tabular}{l*{7}{r}}
+		\toprule
+		 & \multicolumn{7}{c}{Rank in experiment with} \\
+		\multirow{-2}*{Strain} & {Fur.} & {HMF} & {Van.} & {Acet.} & {Form.} & {Laev.} & {LCH} \\
+		\hline
+		\xyli{C3} & 29 & 94 & 29 & 74 & 61 & 89 & 27 \\
+		\xyli{C6} & 36 & 63 & 60 & 73 & 88 & 69 & 17 \\
+		\xyli{C9} & 45 & 60 & 62 & 80 & 85 & 33 & 21 \\
+		\xyli{C11} & 33 & 69 & 63 & 49 & 98 & 48 & 20 \\
+		\xyli{F7} & 116 & 104 & 90 & 125 & 63 & 100 & 7 \\
+		\xyli{H5} & 75 & 85 & 99 & 65 & 116 & 118 & 19 \\
+		\xylj{B2} & 89 & 76 & 115 & 57 & 90 & 83 & 13 \\
+		\xylj{B3} & 122 & 124 & 116 & 111 & 66 & 102 & 14 \\
+		\xylj{C1} & {-} & {-} & {-} & {-} & {-} & {-} & 2 \\
+		\xylj{C2} & 31 & 68 & 35 & 50 & 96 & 62 & 23 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+The strains highlighted previously (see \vref{tbl-inh-tol-special-strains}) were also tested in the \lch{} screening and the results are given in \vref{tbl-lch-tol-inh-lch-comp}. \xyli{A10}, \xyli{C4}, \xyli{C5}, \xyli{G5}, \xylj{A1} and \xylj{C5} or half of the highlighted strains did not reach the top 28 of the \lch{} screening. On the other hand, ten of the top 28 strains of the \lch{} screening did not reach the top 27/28 of \textit{any} single inhibitor and are given in \vref{tbl-lch-tol-lch-losers-comp}.
+
+%The following ten strains were among the top 28 in the \lch{} screening, but did not qualify for the high-content screening (from best to worst): \xylj{C1}, \xyli{F7}, \xylj{B2}, \xylj{B3}, \xyli{C6}, \xyli{H5}, \xyli{C11}, \xyli{C9}, \xylj{C2} and \xyli{C3}. \xylj{C1} was the only strain of the plate Xyl2 which did not grow in the single inhibitor screening. \xyli{F7} was ranked 90th or worse with the exception of the formic acid screening (63rd). \xylj{B2} was usually in the second half, the only notable difference being rank 57 in the acetic acid screening. \xylj{B3} was ranked 111th or worse with the exception of the formic acid screening (66th). \xyli{C6} placed in the middle of all single inhibitors except furfural (36th). \xyli{H5} was ranked in the second half only, ranging from 65th to 118th. \xyli{C11} showed the best performance in presence of furfural (33rd) and the worst in presence of formic acid (98th). \xyli{C9} was placed 33rd in the laevulinic acid screening and 45th in the furfural screening and ranked 60th to 85th in the other four test series. \xylj{C2} was almost included in the high-content screening of furfural (31st) and reached places in the middle with the exception of formic acid (96th)\footnote{Place 35 for vanillin showed virtually no growth: less than \SIpct{0.5} of the reference.}. \xyli{C3} was placed 29th for both, furfural and vanillin\footnote{Place 29 grew to \SIpct{2.5} of the reference.}, almost making it into the top 27 of these two inhibitors. The results for acetic and formic acid were mediocre; the ranks for laevulinic acid (89th) and hydroxymethylfurfural (94th) were worse.
+
+In order to assess how well the single inhibitor experiments matched the \lch{} screening, the top 28 strains were compared. There were eight matches (\py{str("\\SIpct{{{:.1f}}}".format(round(100*8/28.0, 1)))}) between \fur{} and \lch{}, seven (\py{str("\\SIpct{{{:.1f}}}".format(round(100*7/28.0, 1)))}), ten (\py{str("\\SIpct{{{:.1f}}}".format(round(100*10/28.0, 1)))}), two (\py{str("\\SIpct{{{:.1f}}}".format(round(100*2/28.0, 1)))}), eleven (\py{str("\\SIpct{{{:.1f}}}".format(round(100*11/28.0, 1)))}) and nine matches (\py{str("\\SIpct{{{:.1f}}}".format(round(100*9/28.0, 1)))}) between \hmf{}, \van{}, \fora{}, \acet{} and \laev{} and \lch{}, respectively. Combining the matches of the single inhibitors, 18 (\py{str("\\SIpct{{{:.1f}}}".format(round(100*18/28.0, 1)))}) matches were found. Using only two inhibitors as indicators, the combination of \van{} and \acet{} gave the best results with 16 matches (\py{str("\\SIpct{{{:.1f}}}".format(round(100*16/28.0, 1)))}). Given the fact that only 27 strains were considered as growing in the \van{} screening, one should note that ten of these are also present in the top 28 of the \lch{} screening.
+

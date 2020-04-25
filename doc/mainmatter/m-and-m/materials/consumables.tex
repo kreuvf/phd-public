@@ -1,0 +1,32 @@
+\subsection{Consumables}
+%All items listed are single use, if not stated otherwise.
+\nomenclature[latabbr_Art._no.]{Art. no.}{article number}
+\nomenclature[latabbr_PCR]{PCR}{polymerase chain reaction}
+\nomenclature[chem_PP]{PP}{polypropylene}
+\nomenclature[chem_PMMA]{PMMA}{polymethylmethacrylate}
+\nomenclature[chem_PS]{PS}{polystyrene}
+\nomenclature[chem_CN]{CN}{cellulose nitrate}
+\nomenclature[chem_RC]{RC}{regenerated cellulose}
+\nomenclature[chem_SEC]{SEC}{size exclusion chromatography}
+\nomenclature[chem_CA]{CA}{cellulose acetate}
+\nomenclature[chem_PES]{PES}{polyethersulfone}
+{
+\setlength{\tabcolsep}{5pt}
+\begin{longtable}{L{4.0cm}R{5.5cm}R{3cm}R{1cm}}
+	\caption[List of Consumables Used in This Work]{List of consumables used in this work. Abbreviations: Art. no.: Article number; M./V.: Manufacturer or vendor.\label{tbl-mat-cons}}\\
+	\toprule
+	{Type} & {Name} & {Art. no.} & {M./V.} \\
+	\hline \endfirsthead
+	\caption[]{\textit{continued from the previous page}} \\
+	\toprule
+	{Type} & {Name} & {Art. no.} & {M./V.} \\
+	\hline \endhead
+	\hline
+	\multicolumn{4}{r}{\textit{continued on the next page}} \\
+	\endfoot
+	\bottomrule
+	\endlastfoot
+	\TablesafeInputIfFileExists{data/m-and-m/consumables.tex}{}{}
+\end{longtable}
+}
+

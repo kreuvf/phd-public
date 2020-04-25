@@ -1,0 +1,72 @@
+\subsubsection{Slime Media\label{subsec-slime-media}}
+\nomenclature[chem_MOPS]{MOPS}{3-morpholinopropane-1-sulphonic acid}
+\nomenclature[chem_SM]{SM}{slime media (see \vref{subsec-slime-media})}
+\begin{itemize}
+	\item Carbon source: as desired (see \vref{tbl-csc})
+	\item \SIg{5.00} Casein peptone
+	\item Salts \& buffer:
+		\SIg{20.0} MOPS, 
+		\SIg{1.33} \ce{MgSO4*7H2O} and
+		\SIml{20.0} \ce{NaOH} (\SIM{2})
+	\item Post-autoclaving additives
+		\SIml{20.0} \ce{KH2PO4} (\SIg{83.5}), 
+		\SIml{1.00} \ce{CaCl2*2H2O} (\SIg{50.0}), 
+		\SIml{2.00} vitamins solution (RPMI 1640) and
+		\SIml{1.00} trace elements solution
+	\item pH value: \num{7.0}
+\end{itemize}
+
+This set of media was used for most exopolysaccharide production experiments and is based on the screening medium used in \cite{Ruehmann2015a}. \ce{KH2PO4} solution and \ce{CaCl2*2H2O} solution were autoclaved separately and used as sterile stocks. Trace elements solution was sterile filtered and stored at \SIdC{4} as sterile stock. Carbon source, peptone and salts \& buffer were autoclaved separately. All autoclaved solutions were mixed under sterile conditions, then post-autoclaving additives were added from sterile stocks. pH was adjusted afterwards.
+
+\paragraph{Nomenclature}
+The basic slime medium given above was adjusted to suit different needs. Most often carbon source and peptone content were varied. For high-throughput screening less MOPS was used and for fermentation no MOPS was used at all.\footnote{Since small molecules were not removed completely by gel filtration, the overall amount of small molecules was reduced by lowering the MOPS concentration. Fermentations were carried out with pH control and, therefore, did not need MOPS.} In order to easily specify the contents of the medium used, a shorthand notation was developed and used.
+\begin{itemize}
+	\item The carbon source and its respective concentration were coded by a number following the medium abbreviation directly, such as \enquote{SM19} for \enquote{Slime Medium with \SIgpl{24.0} \glc{} and \SIgpl{6.00} \xyl{}}. The carbon source codes used in this work are summarized in \vref{tbl-csc}.
+	\item The peptone concentration was indicated by adding a space after the medium abbreviation, followed by a \enquote{P} and then followed by the percentage of peptone used (in relation to the default medium value of \SIgpl{5.00}).
+	\item For screening purposes, a reduced MOPS concentration of \SIgpl{10.0} was used and indicated by an \enquote{S}. If the medium contained \SIpct{100} peptone, the \enquote{S} was given after a space after the medium shorthand, such as \enquote{SM19 S}. If the medium contained a different amount of peptone, the 'S' was given directly after the peptone percentage, such as \enquote{SM19 P30S}.
+	\item In fermentations, MOPS-free slime medium was used, designated by an \enquote{F}. If the medium contains \SIpct{100} peptone, the \enquote{F} was given after a space after the medium shorthand, such as \enquote{SM19F}. If the medium contained a different amount of peptone, the \enquote{F} was given directly after the peptone percentage, such as \enquote{SM19 P200F}.
+\end{itemize}
+
+\nomenclature[chem_LCH]{LCH}{\lch{}}
+\begin{table}
+	\centering
+	\caption[Carbon Source Code List]{Carbon source code list. Carbon sources are indicated using the medium shorthand and the carbon source code. Carbon source codes are not limited to one and only one carbon source and, thus, may stand for an arbitrary number of different carbon sources used in a mix. The advantage of this approach is that all the carbon sources used in a medium were indicated by one and only one number.\label{tbl-csc}}
+	\begin{threeparttable}
+		\begin{tabular}{clS[table-number-alignment=center, table-format=2.2]}
+			\toprule
+			{Code} & {Carbon Source(s)} & {Concentration in \si{\gram\per\litre}} \\
+			\hline
+			0 & no C source & 0.00 \\
+			%1 & \glc{} & 30.00 \\
+			2 & \xyl{} & 30.00 \\
+			%3 & \textsc{l}-arabinose & 25.00 \\
+			%4 & saccharose & 30.00 \\
+			%5 & glycerol & 15.33 \\
+			% & \glc{} & 15.00 \\
+			%\multirow{-2}*{6} & \xyl{} & 12.50 \\
+			% & \glc{} & 15.00 \\
+			%\multirow{-2}*{7} & \xyl{} & 15.00 \\
+			%8 & \xyl{} & 25.00 \\
+			%9 & \glc{} & 40.00 \\
+			%10 & \xyl{} & 40.00 \\
+			% & \glc{} & 20.00 \\
+			%\multirow{-2}*{11} & \xyl{} & 20.00 \\
+			%12 & glycerol & 30.65 \\
+			%13 & saccharose & 28.50 \\
+			%14 & \textsc{d}-sorbitol & 30.35 \\
+			%15 & \textsc{l}-arabinose & 30.00 \\
+			%16 & \glc{} & 50.00 \\
+			17 & \xyl{} & 10.00 \\
+			18 & \glc{} & 10.00 \\
+			 & \glc{} & 24.00 \\
+			\multirow{-2}*{19} & \xyl{} & 6.00 \\
+			 & \glc{} & 24.00 \\
+			\multirow{-2}*{LCH\tnotex{tnote:lch}} & \xyl{} & 6.00 \\
+			\bottomrule
+		\end{tabular}
+		\begin{tablenotes}
+			\item\label{tnote:lch} LCH stands for \enquote{\lch{}} and was a dark brown liquid. It contained numerous other substances, some of them known inhibitors of microbial growth. Table~\ref{tbl-csc} lists the \textit{main carbon sources} of a medium with \SI{30}{\volpercent} \lch{}. See \vref{subsec-mam-chem-lch} for further data on the \lch{} employed.
+		\end{tablenotes}
+	\end{threeparttable}
+\end{table}
+

@@ -1,0 +1,83 @@
+Type	Name	Manufacturer or vendor	Article number	Lot	Comment	Needed for contents in final version?
+96 well plates	\SIml{2.0}; V bottom, sterile	Greiner Bio-One GmbH, Frickenhausen	736-0134	?	Duplikat von GBO mit Nr. 780271 (736-0134 ist Artikelnummer von VWR)	n
+96 well plates	96-well PCR plate, non-skirted, elevated wells, colorless, PP, DNase-free, RNase-free, DNA-free	BRAND GmbH + Co. KG, Wertheim	781350	?	PCR-Platte für PMP	y
+96 well plates	F bottom; \SI{340}{\micro\litre}	Greiner Bio-One GmbH, Frickenhausen	655161	?		y
+96 well plates	F96 Non-treated Black	Thermo Fisher Scientific Inc., Waltham, MA, USA	237108	?	schwarz, für Fluoreszenz	n
+96 well plates	V bottom; \SI{1.1}{\milli\litre}	Harvard Apparatus, Holliston, MA, USA	745565	?	Auffangplatte	y
+96 well plates	V bottom; \SI{2}{\milli\litre}	Greiner Bio-One GmbH, Frickenhausen	780271	?		y
+Cellophane membrane	Model 583 Gel Dryer	Bio-Rad Laboratories GmbH, Munich	165-0963	?		y
+Cross-flow filtration membrane	Hydrosart; pore size: \SI{0.45}{\micro\metre}	Sartorius Stedim Biotech GmbH, Göttingen	3051860601W--SG	20618123		y
+Cross-flow filtration membrane	Hydrosart; pore size: \SI{10}{\kilo\dalton}	Sartorius Stedim Biotech GmbH, Göttingen	3051443901E--SW	20484123		y
+Cross-flow filtration membrane	Hydrosart; pore size: \SI{10}{\kilo\dalton}	Sartorius Stedim Biotech GmbH, Göttingen	3051443901E--SW	30709123		y
+Cross-flow filtration membrane	Hydrosart; pore size: \SI{10}{\kilo\dalton}	Sartorius Stedim Biotech GmbH, Göttingen	3051443901E--SW	20727123		y
+Cross-flow filtration membrane	Hydrosart; pore size: \SI{10}{\kilo\dalton}	Sartorius Stedim Biotech GmbH, Göttingen	3051443901E--SW	10602123		y
+Cross-flow filtration membrane	Hydrosart; pore size: \SI{100}{\kilo\dalton}	Sartorius Stedim Biotech GmbH, Göttingen	3051446801E--SG	20340123		y
+Cryo vials	CryoPure; \SIml{1.8}; polypropylene	Sarstedt AG \& Co. KG, Nümbrecht	72.379	?		y
+Cuvettes	PMMA, semi-micro	Carl Roth GmbH + Co. KG, Karlsruhe	P951	?		y
+Cuvettes	PMMA, semi-micro, path length \SI{10}{\milli\metre}	VWR International bvba/sprl, Leuven, Belgium	634-0678	?	Duplikat von Carl Roth Nr. P951 (Hersteller vermutlich ebenfalls BRAND)	n
+Cuvettes	PS, semi-micro, path length \SI{10}{\milli\metre}	BRAND GmbH + Co. KG, Wertheim	759015	?		y
+Cuvettes	PS, semi-micro, path length \SI{10}{\milli\metre}	VWR International bvba/sprl, Leuven, Belgium	634-0676	?	Duplikat von BRAND Nr. 759015	n
+Filter membrane	Cellulose nitrate (CN); pore size: \SI{0.45}{\micro\metre}; sterile	Sartorius Stedim Biotech GmbH, Göttingen	11407--50----ACN	0909 11407 0900963	CN; diameter: \SI{50}{\milli\metre}	y
+Filter membrane	Regenerated cellulose (RC); pore size: \SI{0.2}{\micro\metre}; non-sterile	Sartorius Stedim Biotech GmbH, Göttingen	18407--47------N	0813 18407 1302213	RC; diameter: \SI{47}{\milli\metre}	y
+Filter plates (96 well)	AcroPrep 96 Filter Plate with \SIum{1.0} Glass Fibre media	Pall Corporation, Ann Arbor, MI, USA	5032	?	Glass fibre	y
+Filter plates (96 well)	AcroPrep Advance 350 \SI{0.2}{\micro\metre} Supor	Pall Corporation, Ann Arbor, MI, USA	8019	228703	PES	y
+Filter plates (96 well)	AcroPrep Advance 350 10K Omega	Pall Corporation, Ann Arbor, MI, USA	8034	FZ2473	PES	y
+Filter plates (96 well)	CHROMAFIL Multi 96, Regenerated cellulose (RC); pore size: \SI{0.2}{\micro\metre}	Macherey-Nagel GmbH \& Co. KG, Düren	738656.M	?	RC	y
+Filter plates (96 well)	Micro SpinColumns, G-25 Packing Material	Harvard Apparatus, Holliston, MA, USA	745612	?	Gelfiltration	y
+Filter plates (96 well)	MultiScreen Solvinert, \SIum{0.45}, PTFE	Merck KGaA, Darmstadt	MSRLN0410	?	PTFE/PP	n
+Gel extraction kit	NucleoSpin Gel and PCR Clean-up Kit 	Macherey-Nagel GmbH \& Co. KG, Düren	740609.250	1209/001		y
+Gel extraction kit	QIAEX II Gel Extraction Kit	QIAGEN GmbH Deutschland, Hilden	20021	136254388		y
+HPLC column	EC 100/2 Nucleodur C18 Gravity, \SI{1.8}{\micro\metre}	Macherey-Nagel GmbH \& Co. KG, Düren	E14080976	37200023	First use: 2015-02-11	y
+HPLC column	EC 100/2 Nucleodur C18 Gravity, \SI{1.8}{\micro\metre}	Macherey-Nagel GmbH \& Co. KG, Düren	E14010920	37201014	First use: 2014-07-24	y
+HPLC column	Metrosep A Supp 16 - 250/2.0	Deutsche METROHM GmbH \& Co. KG, Filderstadt	6.1031.230	?		y
+HPLC column	Rezex ROA-Organic Acid H+ (\SIpct{8})	Phenomenex Ltd., Aschaffenburg	00H-0138-K0	?		y
+Miniprep kit	QIAprep Spin MiniPrep Kit	QIAGEN GmbH Deutschland, Hilden	27106	139305941		y
+Pasteur pipettes	plastic	VWR International bvba/sprl, Leuven, Belgium	612-1681	?		y
+PCR tube caps	strips of eight caps	VWR International bvba/sprl, Leuven, Belgium	732-1518	?		y
+PCR tubes	PCR tubes with attached flat caps	VWR International bvba/sprl, Leuven, Belgium	732-0548	?	single	y
+PCR tubes	strips of eight tubes	VWR International bvba/sprl, Leuven, Belgium	732-1517	?		y
+Petri dishes	Diameter: \SImm{92}; height: \SImm{16}	Sarstedt AG \& Co. KG, Nümbrecht	82.1472.001	?		y
+pH electrode	InLab Expert DIN	Mettler-Toledo GmbH, Gießen	51343103	?		y
+pH electrode	InLab Micro Pro	Mettler-Toledo GmbH, Gießen	51343162	?		y
+Pipette tips	epT.I.P.S. Standard; uncoloured; \SI{1250}{\micro\litre}	VWR International bvba/sprl, Leuven, Belgium	613-3506	?		y
+Pipette tips	green; \SIul{1250}	Eppendorf AG, Hamburg	0030 000.935	?		y
+Pipette tips	uncoloured; \SI{1000}{\micro\litre}	Sarstedt AG \& Co. KG, Nümbrecht	70.762	?		y
+Pipette tips	uncoloured; \SI{20}{\micro\litre}	Sarstedt AG \& Co. KG, Nümbrecht	70.1116	?		y
+Pipette tips	uncoloured; \SI{200}{\micro\litre}	Sarstedt AG \& Co. KG, Nümbrecht	70.760.002	?		y
+Pipette tips	uncoloured; \SIml{10}	Zefa-Laborservice GmbH, Harthausen	104902603	?		y
+Pipette tips	uncoloured; \SIml{5}	Zefa-Laborservice GmbH, Harthausen	294902595	?		y
+Pipette tips	yellow; \SI{300}{\micro\litre}	Eppendorf AG, Hamburg	0030 000.897	?		y
+Plastic tubes	\SI{15}{\milli\litre}	Sarstedt AG \& Co. KG, Nümbrecht	62.554.502	?		y
+Plastic tubes	\SI{50}{\milli\litre}	Sarstedt AG \& Co. KG, Nümbrecht	62.547.254	?		y
+Plastic tubes	PP; with attached cap; \SI{1.5}{\milli\litre}	Sarstedt AG \& Co. KG, Nümbrecht	72.690.001	?		y
+Plastic tubes	PP; with attached cap; \SI{2}{\milli\litre}	Sarstedt AG \& Co. KG, Nümbrecht	72.695	?		y
+Plastic tubes	safe-lock; \SIml{1.5}	Sarstedt AG \& Co. KG, Nümbrecht	72.706	?		y
+Plastic tubes	safe-lock; \SIml{2.0}	Sarstedt AG \& Co. KG, Nümbrecht	72.695.500	?		y
+Plate mats	PCR-sealing mat for 96-well plates, TPE	BRAND GmbH + Co. KG, Wertheim	781405	?	Matte für PMP	y
+Plate mats	Whatman Capmats 96 Wells, Round, Silicone Rubber	GE Healthcare UK Ltd., Buckinghamshire, United Kingdom	7704-0105	120628-000	used for sealing plate for HPLC-MS	y
+Plate seals	Axygen breathable sealing film, sterile	VWR International bvba/sprl, Leuven, Belgium	BF-400-S	?	luftdurchlässig, steril	y
+Plate seals	Axygen sealing film, aluminium, non-sterile	VWR International bvba/sprl, Leuven, Belgium	732-7505	?	thickness: \SIum{35}	y
+Polyacrylamide gel	Novex TBE Gel, \SIpct{6}, 10 wells	Thermo Fisher Scientific Inc., Waltham, MA, USA	EC6265BOX	?	Freising, ZIEL	n
+Sealing film	Parafilm M	VWR International bvba/sprl, Leuven, Belgium	291-1213	?		y
+SEC column	TSK-GEL Alpha-M	Tosoh Bioscience GmbH, Stuttgart	18344	W00053 (Gel: 01W)	Inner diameter: \SImm{7.8}; length: \SIcm{30.0}	y
+SEC guard column	TSK-GEL Alpha-M	Tosoh Bioscience GmbH, Stuttgart	18345	W00063	Inner diameter: \SImm{6.0}; length: \SIcm{4.0}	y
+Spin filter	modified PES, \SI{10}{\kilo\dalton}	VWR International bvba/sprl, Leuven, Belgium	516-0230	?	10-kDa-Filter (Periodattest, SK2 205)	y
+Sterilization tape	dry air, \SIdC{180}	A. Hartenstein GmbH, Würzburg	STKH	?	dry/200 °C	y
+Sterilization tape	steam, \SIdC{121}	A. Hartenstein GmbH, Würzburg	STKD	?	wet/121 °C	y
+Syringe filters	?	?	?	?	PES, diameter?	y
+Syringe filters	?	?	?	?	Nylon, 0.2 µm	y
+Syringe filters	?	?	?	?	GHP, 0,2 µm	y
+Syringe filters	Cellulose acetate (CA); pore size: \SI{0.2}{\micro\metre}	VWR International bvba/sprl, Leuven, Belgium	514-0060	?	CA; diameter: 	y
+Syringe filters	Cellulose acetate (CA); pore size: \SI{0.2}{\micro\metre}; sterile	VWR International bvba/sprl, Leuven, Belgium	514-0061	?	CA; diameter: 	y
+Syringe filters	Cellulose acetate (CA); pore size: \SI{0.45}{\micro\metre}	VWR International bvba/sprl, Leuven, Belgium	514-0062	?	CA; diameter: 	y
+Syringe filters	Cellulose acetate (CA); pore size: \SI{0.45}{\micro\metre}; sterile	VWR International bvba/sprl, Leuven, Belgium	514-0063	?	CA; diameter: 	y
+Syringe filters	Cellulose mixed esters (MV); pore size: \SI{0.2}{\micro\metre}	Macherey-Nagel GmbH \& Co. KG, Düren	729206	?	MV; diameter: \SI{25}{\milli\metre}	n
+Syringe filters	Polyvinyldifluoride (PVDF); pore size: \SI{0.22}{\micro\metre}	Restek Corporation, Bellefonte, PA, USA	26150	130108132	PVDF; diameter: \SI{13}{\milli\metre}	n
+Syringe filters	Regenerated cellulose (RC); pore size: \SI{0.2}{\micro\metre}	Macherey-Nagel GmbH \& Co. KG, Düren	729236	?	RC; diameter: \SI{13}{\milli\metre}	n
+Syringes	\SI{50}{\milli\litre}; LuerLock	A. Hartenstein GmbH, Würzburg	SE24	?		y
+Syringes	\SIml{10}	B. Braun Melsungen AG, Melsungen	4606108V	?	\SI{10}{\milli\litre}	y
+Syringes	\SIml{2.0}; free from latex, free from silicone oil	Henke-Sass, Wolf GmbH, Tuttlingen	4020-000V0	?	\SI{2}{\milli\litre}	y
+Syringes	\SIml{20}	A. Hartenstein GmbH, Würzburg	SE23	?	\SI{20}{\milli\litre}	y
+Syringes	\SIml{5.0}; free from latex, free from silicone oil	Henke-Sass, Wolf GmbH, Tuttlingen	4050-000V0	?	\SI{5}{\milli\litre}	y
+Syringes	\SIml{50}; LuerLock	Dispomed Witt oHG, Gelnhausen	22050	?	\SI{50}{\milli\litre}	y
+

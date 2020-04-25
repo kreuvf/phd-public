@@ -1,0 +1,5 @@
+The following files are considered "tainted" in the sense that these files contain data in need of revision:
+* Data of highlighted strains, because other strains need to be highlighted
+	* all fixed
+* Inhibitor data as \man{}, \glcua{}, \galua{}, \glcn{}, \iidglc{} and \lrha{} are likely to be off
+	* all fixed

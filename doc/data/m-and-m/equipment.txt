@@ -1,0 +1,131 @@
+Type	Model	Manufacturer or vendor	Serial Number	Comments	Needed for contents in final version?
+Analytical balance	PA214C	Ohaus Corp., Pine Brook, NJ, USA	8730154280	Referred to as \enquote{Waage 1} in SK lab books	y
+Autoclave	Varioklav 135 S	HP Medizintechnik GmbH, Oberschleißheim	14031914	2013/new one	y
+Autoclave	Varioklav 135 S	Thermo Electron LED GmbH, Langenselbold	40965937	2008/old one	y
+Balance	TB-215 D	Denver Instrument, Bohemia, NY, USA	?	Referred to as \enquote{Waage 4} in SK lab books	y
+Balance	440-47N	KERN \& SOHN GmbH, Balingen	WC0034252	Referred to as \enquote{Waage 5} in SK lab books	y
+Balance	TE1502 S	Sartorius AG, Göttingen	23907102	Referred to as \enquote{Waage 3} in SK lab books	y
+Balance	TE6101	Sartorius AG, Göttingen	23808005	Referred to as \enquote{Waage 2} in SK lab books	y
+Balance	AW 320	Shimadzu, Kyoto, Japan	D439300150	Referred to as \enquote{Giftwaage} in SK lab books	y
+Capillary electrophoresis system	2100 Bioanalyzer	Agilent Technologies, Waldbronn	?	S/N n. e.	y
+Carbon dioxide sensor	BCP-CO2	BlueSens gas sensor GmbH, Herten	-		y
+Cell density meter	Ultrospec 10	GE Healthcare Europe GmbH, Freiburg	101478		y
+Centrifuge	ROTANTA 460 R	Andreas Hettich GmbH \& Co. KG, Tuttlingen	?	S/N n. e.	y
+Centrifuge	Heraeus Fresco 21	Thermo Fisher Scientific Inc., Waltham, MA, USA	40937265	Rotor: 75003424; 1.C01.2	y
+Centrifuge	Heraeus Fresco 21	Thermo Fisher Scientific Inc., Waltham, MA, USA	40937259	Rotor: 75003424; 1.B07	y
+Centrifuge	Heraeus Pico 17	Thermo Fisher Scientific Inc., Waltham, MA, USA	41254013	1.B08	y
+Centrifuge	Sorvall RC 6+	Thermo Fisher Scientific Inc., Waltham, MA, USA	A2443	1.C01.1	y
+Climate cabinet	KBF 240	BINDER GmbH, Tuttlingen	09-05438		y
+Conductivity meter	Lab 970	SI Analytics GmbH, Mainz	13101513		y
+Conductivity probe	LF413T-ID	SI Analytics GmbH, Mainz	?	S/N nicht vorhanden?	y
+Deep freezer (\SI{-20}{\celsius})	GNP 3056 Premium	Liebherr Hausgeräte, Ochsenhausen	?	S/N n. e.	y
+Deep freezer (\SI{-80}{\celsius})	6380	GFL Gesellschaft für Labortechnik mbH, Burgwedel	169828		y
+Deep freezer (\SI{-80}{\celsius})	Forma 906	Thermo Fisher Scientific Inc., Waltham, MA, USA	41127670		y
+Double-bladed lancet needle	PRL	A. Hartenstein GmbH, Würzburg	-		y
+Fermenter	BIOSTAT Cplus, \SIl{10}	Sartorius Stedim Biotech GmbH, Göttingen	06315/09		y
+Fermenter module (gas mixing)	MX4/4	DASGIP GmbH, Jülich	?	Gasmischer; S/N n. e.	y
+Fermenter module (off-gas analysis)	GA4	DASGIP GmbH, Jülich	?	Abgasanalyse; S/N n. e.	y
+Fermenter module (pumps)	MP8	DASGIP GmbH, Jülich	?	Pumpen; S/N n. e.	y
+Fermenter module (sensors)	PH4PO4RD4	DASGIP GmbH, Jülich	?	Sensoren; S/N n. e.	y
+Fermenter module (temperature, agitation)	TC4SC4B	DASGIP GmbH, Jülich	?	Temperatur- und Rührsteuermodul; S/N n. e.	y
+Gel caster with trays	for Mini-Sub Cell GT	Bio-Rad Laboratories GmbH, Munich	-	Article number: 1704412	y
+Gel documentation system	Gel iX Imager	Intas-Science-Imaging Instruments GmbH, Göttingen	?	S/N n. e.	y
+Gel electrophoresis chamber	Mini-Sub Cell GT System	Bio-Rad Laboratories GmbH, Munich	-		y
+Heating cabinet	U 27	Memmert GmbH + Co. KG, Schwabach	LG00082	f. 60-°C-Agar	y
+Heating cabinet	Function Line T12	Thermo Fisher Scientific Inc., Waltham, MA, USA	50042303	Labor Rot/Medienküche (unter Abzug)	y
+Heating cabinet	Function Line T12	Thermo Fisher Scientific Inc., Waltham, MA, USA	40936826	1.B07	y
+Heating cabinet	Heratherm OGS100	Thermo Fisher Scientific Inc., Waltham, MA, USA	41293647	Labor Schwarz	y
+Heating stirrer plate	MR Hei-Standard	Heidolph Instruments GmbH \& Co. KG, Schwabach	011354841	1.B09	y
+Heating stirrer plate	MR Hei-Standard	Heidolph Instruments GmbH \& Co. KG, Schwabach	101252171	1.B08	y
+Heating stirrer plate	MR Hei-Standard	Heidolph Instruments GmbH \& Co. KG, Schwabach	101142577	1.B08	y
+Heating stirrer plate	MR Hei-Standard	Heidolph Instruments GmbH \& Co. KG, Schwabach	101142578	1.B04	y
+Heating stirrer plate	MR Hei-Standard	Heidolph Instruments GmbH \& Co. KG, Schwabach	101251940	1.B04	y
+HPLC autosampler	WPS-3000TRS	Thermo Fisher Scientific Inc., Waltham, MA, USA	8019335	Module for Ludwig	y
+HPLC autosampler	WPS-3000TSL	Thermo Fisher Scientific Inc., Waltham, MA, USA	8015018	Module for Monique	y
+HPLC autosampler	WPS-3000TRS	Thermo Fisher Scientific Inc., Waltham, MA, USA	8019347	Module for Rudi	y
+HPLC binary pump	HPG-3400RS	Thermo Fisher Scientific Inc., Waltham, MA, USA	8019466	Module for Ludwig	y
+HPLC binary pump	LPG-3400SD	Thermo Fisher Scientific Inc., Waltham, MA, USA	8026324	Module for Monique	y
+HPLC binary pump	HPG-3400RS	Thermo Fisher Scientific Inc., Waltham, MA, USA	8019470	Module for Rudi	y
+HPLC column compartment	TCC-3000RS	Thermo Fisher Scientific Inc., Waltham, MA, USA	8018856	Module for Ludwig	y
+HPLC column compartment	TCC-3000RS	Thermo Fisher Scientific Inc., Waltham, MA, USA	8026597	Module for Monique	y
+HPLC column compartment	TCC-3000RS	Thermo Fisher Scientific Inc., Waltham, MA, USA	8019333	Module for Rudi	y
+HPLC degassing module	SRD-3400	Thermo Fisher Scientific Inc., Waltham, MA, USA	8019269	Module for Ludwig	y
+HPLC degassing module	SRD-3400	Thermo Fisher Scientific Inc., Waltham, MA, USA	8026629	Module for Monique	y
+HPLC degassing module	SRD-3400	Thermo Fisher Scientific Inc., Waltham, MA, USA	8019675	Module for Rudi	y
+HPLC diode array detector	DAD-3000RS	Thermo Fisher Scientific Inc., Waltham, MA, USA	8019592	Module for Ludwig	y
+HPLC photo diode array detector	PDA-3000	Thermo Fisher Scientific Inc., Waltham, MA, USA	07110210	Module for Monique	y
+HPLC post-column splitter	Acurate	Thermo Fisher Scientific Inc., Waltham, MA, USA	4518	Splitter for Ludwig-Chantalle; Part number: 162127; „Acurate“ is a trademark	y
+HPLC refractive index detector	RI-101	Showa Denko K.K., Kawasaki, Japan	128990	Module for Monique	y
+HPLC system	UltiMate 3000 RS	Thermo Fisher Scientific Inc., Waltham, MA, USA	-	commonly called \enquote{Ludwig}	y
+HPLC system	UltiMate 3000 RS	Thermo Fisher Scientific Inc., Waltham, MA, USA	-	commonly called \enquote{Monique}	y
+HPLC system	UltiMate 3000 RS	Thermo Fisher Scientific Inc., Waltham, MA, USA	-	commonly called \enquote{Rudi}	y
+Incubation hood for TiMiX 5 Control	TH15	Edmund Bühler GmbH, Hechingen	?	S/N n. e.	y
+Incubator	BK 6160	Thermo Fisher Scientific Inc., Waltham, MA, USA	40970988	1.C01.2	y
+Incubator	Function Line B12	Thermo Fisher Scientific Inc., Waltham, MA, USA	40962492	1.C01.2	y
+Lyophilizer	Alpha 2-4 LDplus	Martin Christ Gefriertrocknungsanlagen GmbH, Osterode am Harz	15221		y
+Magnetic stirrer	MR 3001 K	Heidolph Instruments GmbH \& Co. KG, Schwabach	080152304	1.B07 (pH-Platz)	y
+Magnetic stirrer	M2	Ingenieurbüro CAT, M. Zipperer GmbH, Staufen	100994	10-l-Fermenter	y
+Magnetic stirrer	Telesystem 15	Thermo Fisher Scientific Inc., Waltham, MA, USA	CN09270	untertauchbar (SK1, 195)	y
+Magnetic stirrer	VMS-C7	VWR International bvba/sprl, Leuven, Belgium	07.147494		y
+Mass spectrometer	HCT	Bruker Daltonik GmbH, Bremen	US93002002	commonly called \enquote{Chantalle}	y
+Membrane pump	SartoJet	Sartorius Stedim Biotech GmbH, Göttingen	12A3-0541	Pump for cross-flow system; Article number: 17521---110	y
+Micro balance	MSE3.6P-000DM	Sartorius Lab Instruments GmbH \& Co. KG, Göttingen	28201361		y
+Microscope	AxioCam Erc 5s	Carl Zeiss Microscopy GmbH, Jena	?		y
+Microscope	BA310	Motic Deutschland GmbH, Wetzlar	1220000010		y
+Motor	RZR 2051control	Heidolph Instruments GmbH \& Co. KG, Schwabach	101101840		y
+Oxygen sensor	BCP-O2	BlueSens gas sensor GmbH, Herten	-		y
+p\ce{O2} probe	VisiFerm DO 225	Hamilton Bonaduz AG, Bonaduz, Switzerland	?	Article number: 242452-02; S/N nicht mehr nachvollziehbar	y
+PCR cycler	MJ Mini	Bio-Rad Laboratories GmbH, Munich	MM008659	1.B06	y
+PCR cycler	MJ Mini	Bio-Rad Laboratories GmbH, Munich	MM008648	1.B06	y
+PCR cycler	labcycler Gradient	SensoQuest Biomedizinische Elektronik GmbH, Göttingen	1123240128	Spezialanfertigung für Lehrstuhl	y
+pH electrode	InLab Expert Pro pH 0-14, 0-100 °C	Mettler-Toledo GmbH, Gießen	?	S/N nicht mehr nachvollziehbar	y
+pH electrode	InLab Micro Pro pH 0-14, 0-100 °C	Mettler-Toledo GmbH, Gießen	?	S/N nicht mehr nachvollziehbar	y
+pH meter	FE20	Mettler-Toledo GmbH, Gießen	1230255420	FiveEasy	y
+pH meter	FG2	Mettler-Toledo GmbH, Gießen	1229375316	FiveGo	y
+pH probe	405-DPAS-SC-K8S	Mettler-Toledo GmbH, Gießen	225	Fermenter; Article number: 10 405 4481; not sure about serial number	y
+Photometer	P330	Implen GmbH, München	5692		y
+Pipette (\SI{10}{\micro\litre})	Transferpette S	BRAND GmbH + Co. KG, Wertheim	03H93015	CBR ID: 17-1	y
+Pipette (\SI{100}{\micro\litre})	Transferpette S	BRAND GmbH + Co. KG, Wertheim	03H84766	CBR ID: 17-2	y
+Pipette (\SI{1000}{\micro\litre})	Transferpette S	BRAND GmbH + Co. KG, Wertheim	03H91005	CBR ID: 17-3	y
+Pipette (\SI{10000}{\micro\litre})	Transferpette S	BRAND GmbH + Co. KG, Wertheim	09H73397		y
+Pipette (\SI{5000}{\micro\litre})	Transferpette S	BRAND GmbH + Co. KG, Wertheim	10F92953		y
+Pipette (12 x \SI{200}{\micro\litre})	Transferpette S-12	BRAND GmbH + Co. KG, Wertheim	02G46329		y
+Pipette (12 x \SI{300}{\micro\litre})	Research pro	Eppendorf AG, Hamburg	3715438		y
+Pipette (8 x \SI{100}{\micro\litre})	Transferpette S-8	BRAND GmbH + Co. KG, Wertheim	02G43885		y
+Pipette (8 x \SI{1200}{\micro\litre})	Research pro	Eppendorf AG, Hamburg	2766139		y
+Pipette (8 x \SI{200}{\micro\litre})	Transferpette S-8 electronic	BRAND GmbH + Co. KG, Wertheim	05E73938		y
+Pipette (8 x \SI{200}{\micro\litre})	Transferpette S-8 electronic	BRAND GmbH + Co. KG, Wertheim	06F37468		y
+Pipette (8 x \SI{50}{\micro\litre})	Transferpette S-8	BRAND GmbH + Co. KG, Wertheim	03H99855		y
+Power supply	PowerPac Basic	Bio-Rad Laboratories GmbH, Munich	041BR67855	Article number: 1645050	y
+Power supply	PowerPac HC	Bio-Rad Laboratories GmbH, Munich	043BR31923	Article number: 1645050	y
+Pressure gauge (analogue)	DN10	Sartorius AG, Göttingen	-	Article number: 17521---033	y
+Pressure gauge (digital)	PF2954	ifm electronic, Essen	-		y
+Quartz cuvette	104.002-QS	Hellma GmbH \& Co. KG, Müllheim	-		y
+Refrigerator	KT 1440	Liebherr Hausgeräte, Ochsenhausen	?	S/N n. e.	y
+Replicator	96 pins	Boekel Scientific, Feasterville, PA, USA	140500		y
+Rheometer	MCR 300	Anton Paar GmbH, Graz, Austria	609487		y
+Rocking platform	single tier	VWR International bvba/sprl, Leuven, Belgium	09020653	Article number: 444-0142	y
+SEC-MALLS autosampler	1260 Infinity Standard Autosampler	Agilent Technologies, Waldbronn	DEAAC15326		y
+SEC-MALLS column oven	SECcurity TCC6000 column compartment	PSS Polymer Standards Service GmbH, Mainz	220826		y
+SEC-MALLS degasser	SECcurity vacuum degasser	PSS Polymer Standards Service GmbH, Mainz	0001-6622	? 2 channel degasser: 409-0024	y
+SEC-MALLS detector	BI-MwA	Brookhaven Instruments Corporation, Holtsville, NY, USA	91077	Angles: 35°, 50°, 75°, 90°, 105°, 130°, 145°; Wavelength: 637 nm	y
+SEC-MALLS pump	1260 Infinity isocratic pump	Agilent Technologies, Waldbronn	DEAB901844		y
+SEC-MALLS RID	1260 Infinity	Agilent Technologies, Waldbronn	DEAA602889		y
+SEC-MALLS system	SECcurity	PSS Polymer Standards Service GmbH, Mainz	-		y
+Shaker	Tmix	Analytik Jena AG, Jena	BYQ6008H-147		y
+Shaker	TiMix 5 Control	Edmund Bühler GmbH, Hechingen	6167 CZ 01013	eccentricity e = \SImm{1.5}; Schüttler 1	y
+Shaker	MaxQ 2000	Thermo Fisher Scientific Inc., Waltham, MA, USA	?	1.C01.2; S/N n. e; eccentricity e = \SIcm{1.9}	y
+Shaker	MaxQ 2000	Thermo Fisher Scientific Inc., Waltham, MA, USA	222463-28	1.B04; eccentricity e = \SIcm{1.9}	y
+Shaker incubator	KS 4000 ic control	IKA-Werke GmbH \& Co. KG, Staufen	?	S/N n. e.	y
+Shaker incubator	HT Minitron	Infors AG, Bottmingen/Basel, Switzerland	?	S/N n. e.	y
+Stirrer (PTFE, crescent)	K074.1	Carl Roth GmbH + Co. KG, Karlsruhe	-		y
+Stirrer plate	RO 15 power	IKA-Werke GmbH \& Co. KG, Staufen	01.740329		y
+Ultrapure water system	PURELAB Classic	ELGA Lab Water, Celle	?	S/N n. e.	y
+UV/Vis Photometer	Multiskan Spectrum	Thermo Fisher Scientific Inc., Waltham, MA, USA	1500-883		y
+UV/Vis Photometer	Varioskan	Thermo Fisher Scientific Inc., Waltham, MA, USA	3001-15		y
+Vacuum drying oven	VDL 53	BINDER GmbH, Tuttlingen	-		y
+Vacuum pump	DC 2004 VARIO	VACUUBRAND GmbH + Co. KG, Wertheim	-	Laborvakuum	y
+Vacuum pump	RC 6	VACUUBRAND GmbH + Co. KG, Wertheim	33249010		y
+Vortex mixer	444-1372	VWR International bvba/sprl, Leuven, Belgium	030933816		y
+Water bath	CC 1	Peter Huber Kältemaschinenbau GmbH, Offenburg	64180		y
+

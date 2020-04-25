@@ -1,0 +1,41 @@
+Abbreviation	Full name (de)	Full name (en)	TeX name (en)
+Agr	Agrobacterium	Agrobacterium	\mo{Agrobacterium}
+Anc	Ancylobacter	Ancylobacter	\mo{Ancylobacter}
+Art	Arthrobacter	Arthrobacter	\mo{Arthrobacter}
+Bac	Bacillus	Bacillus	\mo{Bacillus}
+BeI	Beijerinckia indica	Beijerinckia indica	\mo{Beijerinckia indica}
+BM\textasciitilde{}	Beijerinckia mobilis ähnlich	similar to Beijerinckia mobilis	similar to \mo{Beijerinckia mobilis}
+Bre	Brevundimonas	Brevundimonas	\mo{Brevundimonas}
+Bur	Burkholderia	Burkholderia	\mo{Burkholderia}
+Br\textasciitilde{}	Burkholderia ähnlich	similar to Burkholderia	similar to \mo{Burkholderia}
+Cau	Caulobacter	Caulobacter	\mo{Caulobacter}
+Cel	Cellulosimicrobium	Cellulosimicrobium	\mo{Cellulosimicrobium}
+Cur	Curtobacterium	Curtobacterium	\mo{Curtobacterium}
+Dye	Dyella	Dyella	\mo{Dyella}
+Er\textasciitilde{}	Erwinia ähnlich	similar to Erwinia	similar to \mo{Erwinia}
+Glu	Gluconacetobacter	Gluconacetobacter	\mo{Gluconacetobacter}
+Her	Herbaspirillum	Herbaspirillum	\mo{Herbaspirillum}
+KaA	Kaistobacter assoziert	associated with Kaistobacter	associated with \mo{Kaistobacter}
+Koz	Kozakia	Kozakia	\mo{Kozakia}
+μba	Microbacterium	Microbacterium	\mo{Microbacterium}
+μb\textasciitilde{}	Microbacterium ähnlich	similar to Microbacterium	similar to \mo{Microbacterium}
+μbA	Microbacterium assoz.	associated with Microbacterium	associated with \mo{Microbacterium}
+μco	Micrococcus	Micrococcus	\mo{Micrococcus}
+Noc	Nocardiopsis	Nocardiopsis	\mo{Nocardiopsis}
+Pae	Paenibacillus	Paenibacillus	\mo{Paenibacillus}
+Par	Paracoccus	Paracoccus	\mo{Paracoccus}
+P/R	Paracoccus/Rhodobacter	Paracoccus/Rhodobacter	\mo{Paracoccus}/\mo{Rhodobacter}
+Pse	Pseudomonas	Pseudomonas	\mo{Pseudomonas}
+Rah	Rahnella	Rahnella	\mo{Rahnella}
+Rao	Raoultella	Raoultella	\mo{Raoultella}
+Rhi	Rhizobium	Rhizobium	\mo{Rhizobium}
+ϱd\textasciitilde{}	Rhodanobacter ähnlich	similar to Rhodanobacter	similar to \mo{Rhodanobacter}
+ϱba	Rhodobacter	Rhodobacter	\mo{Rhodobacter}
+ϱco	Rhodococcus	Rhodococcus	\mo{Rhodococcus}
+She	Shewanella	Shewanella	\mo{Shewanella}
+Sin	Sinorhizobium	Sinorhizobium	\mo{Sinorhizobium}
+SbC	Nähe Sphingobacterium	close to Sphingobacterium	close to \mo{Sphingobacterium}
+Sph	Sphingomonas	Sphingomonas	\mo{Sphingomonas}
+Sp\textasciitilde{}	Sphingomonas ähnlich	similar to Sphingomonas	similar to \mo{Sphingomonas}
+Xan	Xanthomonas	Xanthomonas	\mo{Xanthomonas}
+

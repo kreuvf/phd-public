@@ -1,0 +1,22 @@
+\section{Materials}
+Whenever a manufacturer or vendor is mentioned, the country is given only if it is not Germany. This applies to the whole document. The manufacturer/vendor abbreviations used and their respective meanings are given in \vref{tbl-mat-abbr}.
+{
+\setlength{\tabcolsep}{5pt}
+\begin{longtable}{L{2.1cm}R{11.9cm}}
+	\caption[Manufacturer/Vendor Abbreviations Used Throughout the Document]{Manufacturer/vendor abbreviations used throughout the document. \label{tbl-mat-abbr}}\\
+	\toprule
+	{Abbreviation} & {Manufacturer/Vendor} \\
+	\hline \endfirsthead
+	\caption[]{\textit{continued from the previous page}} \\
+	\toprule
+	{Abbreviation} & {Manufacturer/Vendor} \\
+	\hline \endhead
+	\hline
+	\multicolumn{2}{r}{\textit{continued on the next page}} \\
+	\endfoot
+	\bottomrule
+	\endlastfoot
+	\TablesafeInputIfFileExists{data/m-and-m/matabbr.tex}{}{}
+\end{longtable}
+}
+

@@ -1,0 +1,17 @@
+Zeitpunkt nach Animpfen (hh:mm)	D600(F1)	D600(F2)	D600(F3)	D600(F4)	D600(F5)	D600(F6)	D600(F7)	D600(F8)
+01:00	0,0	0,0	0,0	0,0	0,2	0,2	0,2	0,2
+14:00	3,0	3,2	0,4	3,2	0,2	0,2	0,2	0,2
+25:10	4,6	6,0	3,8	4,8	0,0	0,0	0,0	0,0
+37:30	6,6	7,8	6,4	6,6	0,0	0,0	0,0	0,0
+48:00	6,8	7,2	6,0	5,8	0,6	1,2	0,6	0,8
+62:10	6,5	6,7	6,0	6,2	3,8	3,7	3,8	3,7
+72:10	6,8	7,6	6,0	6,8	5,2	4,4	4,4	5,0
+88:00	7,2	7,6	6,8	7,4	4,0	4,6	5,0	4,4
+91:30	7,8	7,8	6,4	7,0	-	-	-	-
+96:20	-	-	-	-	2,8	4,0	4,4	3,0
+112:00	-	-	-	-	3,6	4,4	4,4	3,8
+120:00	-	-	-	-	4,4	5,2	5,0	4,6
+134:00	-	-	-	-	4,6	4,8	5,2	4,4
+
+pH-Wertregelung der Fermenter F1 bis F4 von 7,0 auf 6,4 gestellt bei 48:10. Ernte der Fermenter F1 bis F4 bei 91:30. pH-Wertregelung der Fermenter F5 bis F8 von 7,0 (bzw. "7,25" für Fermenter 7) auf 6,4 (bzw. "6,65" für Fermenter 7) gestellt bei 89:20. Ernte der Fermenter F5 bis F8 um 135:00.
+

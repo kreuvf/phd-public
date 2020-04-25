@@ -1,0 +1,39 @@
+Screeningpaper 
+1. Konzept
+a) Aufhänger
+* mikrobielle EPS industriell hergestellt und genutzt
+* C-Quelle meist Glucose/Fructose/Saccharose
+	* Eigenschaften von LCH als C-Quelle (billig, Inhibitoren, Farbe)
+* Ziel
+	* Analyseverfahren entwickeln („Screening“ für Dauer des Gesamtprozesses irrefüh­rend?)
+	* Ausgangspunkt: Stammsammlung bekannter Produktbildner
+	* Stämme selektieren, die mit LCH gut zurechtkommen und noch Produkt bilden
+	* Proof of concept
+
+b) Ergebnisse
+* Schritt 1: Kryokultur in 96-Wellformat anlegen
+	--> Beschreibung der Stammsammlung im Materialienteil der Arbeit
+* Schritt 2: Screening auf Wachstum auf Xylose
+	--> eigene Datei
+* Schritt 3: High-Content-Screening auf Xyloseverwertung und Polymerbildung
+	--> eigene Datei
+* Schritt 4: Screening auf Inhibitorverträglichkeit
+	--> eigene Datei
+* Schritt 4b: Screening auf LCH-Verträglichkeit
+	--> eigene Datei
+* Schritt 5: High-Content-Screening auf Inhibitorabbau und Polymerbildung
+	--> eigene Datei
+* Schritt 6: Auswahl eines Stammes für Fermentationen
+	--> Teil der Parallelfermentation
+* Schritt 7: Parallelfermentation
+	--> eigene Datei
+
+c) Diskussion
+* „nur“ Aldosen nachweisbar
+* LCH-Zusammensetzung nicht genau bekannt (→ SPME-Methode von Michaela Kolb)
+* gute Übereinstimmung zwischen LCH-Verträglichkeit und Einzelinhibitorverträglichkeiten
+* Dauer des kompletten Verfahrens (inkl. Fermentation, ohne Pipelining): drei Monate
+* Verfahren funktioniert!
+
+d) Ausblick
+* Geschwindigkeit steigerbar durch Standardisierung und Automatisierung der einzelnen Verfahrensschritte

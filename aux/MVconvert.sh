@@ -1,0 +1,52 @@
+#!/bin/bash
+
+# Convert long manufacturer/vendor strings into abbreviations
+find ../doc/mainmatter/ -regex '^.*/[^_][^/]*\.tex$' -exec sed -r -i \
+	-e 's/Andreas Hettich GmbH \\& Co\. KG, Tuttlingen/AHT/g' \
+	-e 's/Analytik Jena AG, Jena/AJA/g' \
+	-e 's/Anton Paar GmbH, Graz, Austria/APG/g' \
+	-e 's/\(Agilent Technologies, Waldbronn/AT/g' \
+	-e 's/Beckman Coulter GmbH, Krefeld/BCG/g' \
+	-e 's/Bruker Daltonik GmbH, Bremen/BDG/g' \
+	-e 's/BINDER GmbH, Tuttlingen/BG/g' \
+	-e 's/BlueSens gas sensor GmbH, Herten/BGS/g' \
+	-e 's/\(Brookhaven Instruments Corporation, Holtsville, (New York|NY), USA/BIC/g' \
+	-e 's/Bio-Rad Laboratories GmbH, Munich/BRL/g' \
+	-e 's/Boekel Scientific, Feasterville, PA, USA/BS/g' \
+	-e 's/BRAND GmbH \+ Co\. KG, Wertheim/BGK/g' \
+	-e 's/Carl Roth GmbH \+ Co\. KG, Karlsruhe/CRG/g' \
+	-e 's/Dionex Corporation, Sunnyvale, (California|CA), USA/DC/g' \
+	-e 's/Edmund Bühler GmbH, Hechingen/EBG/g' \
+	-e 's/Greiner Bio-One GmbH, Frickenhausen/GBO/g' \
+	-e 's/GE Healthcare Europe GmbH, Freiburg/GHE/g' \
+	-e 's/GE Healthcare UK Ltd\., Buckinghamshire, United Kingdom/GHU/g' \
+	-e 's/Harvard Apparatus, Holliston, (Maine|MA), USA/HA/g' \
+	-e 's/Hamilton Bonaduz AG, Bonaduz, Switzerland/HBA/g' \
+	-e 's/Hellma GmbH \\& Co\. KG, Müllheim/HG/g' \
+	-e 's/Heidolph Instruments GmbH \\& Co\. KG, Schwabach/HIG/g' \
+	-e 's/HP Medizintechnik GmbH, Oberschleißheim/HPM/g' \
+	-e 's/Implen GmbH, München/IG/g' \
+	-e 's/Intas-Science-Imaging Instruments GmbH, Göttingen/IIG/g' \
+	-e 's/Spencer Kimball, Peter Mattis and the GIMP Development Team/KMG/g' \
+	-e 's/Martin Christ Gefriertrocknungsanlagen GmbH, Osterode am Harz/MCG/g' \
+	-e 's/Macherey-Nagel( GmbH \\& Co\. KG)?, Düren/MNG/g' \
+	-e 's/Mettler-Toledo (AG|GmbH), Gießen/MTG/g' \
+	-e 's/New England Biolabs GmbH, Frankfurt am Main/NEB/g' \
+	-e 's/Ohaus Corp\., Pine Brook, (New Jersey|NJ), USA/OC/g' \
+	-e 's/Pall Corporation, Ann Arbor, (Michigan|MI), USA/PC/g' \
+	-e 's/Phenomenex Ltd\., Aschaffenburg/PL/g' \
+	-e 's/\(PSS Polymer Standards Service GmbH, Mainz/(PSS/g' \
+	-e 's/QIAGEN GmbH( Deutschland)?, Hilden/QGD/g' \
+	-e 's/Sigma-Aldrich Chemie GmbH, Steinheim/SAC/g' \
+	-e 's/Sarstedt AG \\& Co\. KG, Nümbrecht/SAK/g' \
+	-e 's/SensoQuest Biomedizinische Elektronik GmbH, Göttingen/SBE/g' \
+	-e 's/Showa Denko K\.K\., Kawasaki, Japan/SDK/g' \
+	-e 's/SI Analytics GmbH, Mainz/SIA/g' \
+	-e 's/Sartorius Lab Instruments GmbH \\& Co\. KG, Göttingen/SLI/g' \
+	-e 's/Sartorius Stedim Biotech GmbH, Göttingen/SSB/g' \
+	-e 's/Sartorius Stedim Systems, Göttingen/SSS/g' \
+	-e 's/Tosoh Bioscience GmbH, Stuttgart/TBG/g' \
+	-e 's/Thermo Electron LED GmbH, Langenselbold/TEL/g' \
+	-e 's/Thermo Fisher Scientific Inc\., Waltham, (Maine|MA), USA/TFS/g' \
+	-e 's/VWR International bvba\/sprl, Leuven, Belgium/VWR/g' \
+	{} \;

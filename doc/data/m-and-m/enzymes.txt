@@ -1,0 +1,12 @@
+Enzyme	Manufacturer or vendor	Article number	Lot	Comment	Needed for contents in final version?
+Glucose oxidase from \mo{Aspergillus niger}	Sigma-Aldrich Chemie GmbH, Steinheim	P6782-25MG	-		y
+Horseradish peroxidase	Sigma-Aldrich Chemie GmbH, Steinheim	G2133-50KU	-		y
+Lysozyme	Carl Roth GmbH + Co. KG, Karlsruhe	8259.2	403203309		y
+Phusion DNA Polymerase	New England Biolabs GmbH, Frankfurt am Main	M0530 L	0051403		y
+Phusion DNA Polymerase	New England Biolabs GmbH, Frankfurt am Main	M0530 L	0051409		y
+Proteinase K	Thermo Fisher Scientific Inc., Waltham, MA, USA	EO0491	00052231	Activity: \SI{895}{\unit\per\milli\litre}; Concentration: \SI{19.6}{\gram\per\litre}; Expiry date: 2013-09	y
+Proteinase K	New England Biolabs GmbH, Frankfurt am Main	P8102 S	0171206	Concentration: \SI{20}{\gram\per\litre}; Expiry date: 2014-06	y
+Proteinase K	New England Biolabs GmbH, Frankfurt am Main	P8107 S	0091409	Concentration: \SI{20}{\gram\per\litre}; Expiry date: 2014-06	y
+RNase A/T1 mix	Thermo Fisher Scientific Inc., Waltham, MA, USA	EN0551	00051182	Concentration of RNase A: \SI{2}{\gram\per\litre}; Activity of RNase T1: \SI{5000}{\unit\per\milli\litre}; Expiry date: 2012-04	y
+RNase A/T1 mix	Thermo Fisher Scientific Inc., Waltham, MA, USA	EN0551	00126839	Concentration of RNase A: \SI{2}{\gram\per\litre}; Activity of RNase T1: \SI{5000}{\unit\per\milli\litre}; Expiry date: 2012-04	y
+

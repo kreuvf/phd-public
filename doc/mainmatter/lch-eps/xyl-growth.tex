@@ -1,0 +1,85 @@
+\section{Growth on \XYL{}\label{sec-xyl-growth}}
+\begin{pycode}
+import openpyxl
+import numpy as np
+
+xlsx = openpyxl.load_workbook('data/lch-eps/xyl-growth/d600.xlsx', data_only=True)
+data_sheet = xlsx.get_sheet_by_name('loPep_data')
+
+# Select ranges, D600 - reference
+eps1_array = list(data_sheet['B4':'M11'])
+eps2_array = list(data_sheet['P4':'AA11'])
+
+eps1_wells = 0
+eps2_wells = 0
+
+# Calculate amount of input wells
+for letter in range(8):
+    eps1_wells = eps1_wells + len(eps1_array[letter])
+    eps2_wells = eps2_wells + len(eps2_array[letter])
+
+eps1_wells = eps1_wells - 1  # one well (EPS1.D12) was empty
+
+# Get values, from well A1 to H12
+# From left to right, from top to bottom
+xyl_growth_vals = []
+
+# Pick grown cultures (ok) only
+# D600 < 0.01:         no growth
+# 0.01 =< D600 < 0.2: low growth
+# 0.2 =< D600:         ok growth
+
+for letter in range(8):
+    for number in range(12):
+        if eps1_array[letter][number].value >= 0.2:
+            xyl_growth_vals.append(eps1_array[letter][number].value)
+
+        if eps2_array[letter][number].value >= 0.2:
+            xyl_growth_vals.append(eps2_array[letter][number].value)
+
+# Save to variables for later retrieval
+xyl_growth_inputno = eps1_wells + eps2_wells
+xyl_growth_goodgrowth = len(xyl_growth_vals)
+xyl_growth_d600med = round(np.median(xyl_growth_vals),2)
+xyl_growth_d600max = round(np.amax(xyl_growth_vals),2)
+
+\end{pycode}
+Microbial growth of the \eps{} producing strains of the plates \enquote{EPS1} and \enquote{EPS2} was screened in a 96-well format by incubation in \SIml{1.0} SM2 P30 for \SIh{48} at \SIrpm{1000} and \SIdC{30}. $D_{600}$ was measured and \py{xyl_growth_goodgrowth} of \py{xyl_growth_inputno} strains showed $D_{600}$~≥~\num{0.2} and, thus, were deemed as \enquote{growing well}. For well growing cultures, the maximum $D_{600}$ was \py{xyl_growth_d600max} and the median $D_{600}$ was \py{xyl_growth_d600med}. From the \py{xyl_growth_goodgrowth} strains which showed good growth, new 96-well plates called \enquote{Xyl1} and \enquote{Xyl2} were prepared for storage at \SIdC{-80} for subsequent experiments. The plate layouts of these new plates are given in \vref{tbl-xyl-growth-layout-i,tbl-xyl-growth-layout-j}.
+
+\nomenclature[latabbr_Xyl1]{Xyl1}{plate 1 with \eps{} producers growing on \xyl{}}
+\nomenclature[latabbr_Xyl2]{Xyl2}{plate 2 with \eps{} producers growing on \xyl{}}
+\afterpage{
+	\clearpage
+	\begin{landscape}
+		\begin{table}
+			\centering
+			\setlength{\tabcolsep}{5pt}
+			\caption[Plate Layout of Xyl1]{Plate Xyl1 was constructed from the \eps{} producer strain collection plates EPS1 and EPS2. The well E12 was kept empty on purpose. Strains were selected based on their growth in a \xyl{} containing medium. All of these strains from the genera \mo{Arthrobacter}, \mo{Bacillus}, \mo{Microbacterium}, \mo{Paenibacillus}, \mo{Pseudomonas}, \mo{Rhodococcus} and \mo{Sphingomonas} are contained in this plate. For details, refer to \vref{tbl-mat-eps1-layout,tbl-mat-eps2-layout}.\label{tbl-xyl-growth-layout-i}}
+			\begin{tabular}{*{13}{c}}
+				\toprule
+				 & {1} & {2} & {3} & {4}
+				 & {5} & {6} & {7} & {8}
+				 & {9} & {10} & {11} & {12} \\
+				\hline
+				\TablesafeInputIfFileExists{data/lch-eps/xyl-growth/Xyl1_layout.tex}{}{}
+				\bottomrule
+			\end{tabular}
+		\end{table}
+		\begin{table}
+			\centering
+			\setlength{\tabcolsep}{5pt}
+			\caption[Plate Layout of Xyl2]{Plate Xyl2 was constructed from the \eps{} producer strain collection plates EPS1 and EPS2. The wells D5 to D12 and E1 to H12 were kept empty on purpose. Strains were selected based on their growth in a \xyl{} containing medium. All of these strains from the genera \mo{Agrobacterium}, \mo{Herbaspirillum}, \mo{Xanthomonas} and several other, sometimes only represented by one strain, are contained in this plate. For details, refer to \vref{tbl-mat-eps1-layout,tbl-mat-eps2-layout}.\label{tbl-xyl-growth-layout-j}}
+			\begin{tabular}{*{13}{c}}
+				\toprule
+				 & {1} & {2} & {3} & {4}
+				 & {5} & {6} & {7} & {8}
+				 & {9} & {10} & {11} & {12} \\
+				\hline
+				\TablesafeInputIfFileExists{data/lch-eps/xyl-growth/Xyl2_layout.tex}{}{}
+				\bottomrule
+			\end{tabular}
+		\end{table}
+	\end{landscape}
+	\clearpage
+}
+

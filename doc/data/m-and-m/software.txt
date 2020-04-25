@@ -1,0 +1,13 @@
+Software category	Name	Version	Manufacturer or vendor	Comments	Needed for contents in final version?
+Chromatography Software	Chromeleon	6.80 SR8 Build 2623 (156243)	Dionex Corporation, Sunnyvale, CA, USA		y
+Chromatography Software	PSS WinGPC UniChrom	8.10, Build 2830	PSS Polymer Standards Service GmbH, Mainz		y
+Fermenter Control and Data Acquisition	DASGIP Control	4.5, Rev. 237	DASGIP GmbH, Jülich	terrible	y
+Fermenter Data Acquisition	MFCS/DA	3.0 (Level 43)	Sartorius Stedim Systems, Göttingen	MFCS/DA 3.0, Module Operator service Program, 3.0 (Level 43) from 06-Nov-2008 10:35:00, 2008, Sartorius Stedim Systems	y
+Fermenter Data Export	MFCS/DA	3.0 (Level 33)	Sartorius Stedim Systems, Göttingen	MFCS/DA 3.0, Module Sample Data Management, 3.0 (Level 33) from 04-Nov-2008 08:30:00, 2008, Sartorius Stedim Systems	y
+Image Manipulation Software	GIMP	2.8.0	Spencer Kimball, Peter Mattis and the GIMP Development Team	CBR laptop	y
+Image Manipulation Software	GIMP	2.8.10	Spencer Kimball, Peter Mattis and the GIMP Development Team	fox	y
+Mass Spectrometer Control Software	HyStar	3.2.44.0	Bruker Daltonik GmbH, Bremen		y
+Mass Spectrum Analysis Software	DataAnalysis	4.0 SP 4 (Build 281)	Bruker Daltonik GmbH, Bremen		y
+Mass Spectrum Quantification Software	QuantAnalysis	2.0 SP 4 (Build 281)	Bruker Daltonik GmbH, Bremen	mediocre at best	y
+UV Imaging Software	Intas GDS	3.28 16.01.2009	Intas-Science-Imaging Instruments GmbH, Göttingen		y
+

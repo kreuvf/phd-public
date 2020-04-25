@@ -1,0 +1,19 @@
+Well 	Xyl Name 	Inhibitor 	Cel 	Gal 	Gen 	Glc 	GlcUA 	Man 	Rha 	Sum 
+ISr.E5 	1.C04 	Acet. 	n.d. 	24	n.d. 	662	94	n.d. 	1030	1810
+ISr.A1 	1.C04 	Form. 	n.d. 	20	n.d. 	651	161	n.d. 	1098	1930
+ISp.A2 	1.C04 	HMF 	n.d. 	22	n.d. 	359	79	n.d. 	593	1053
+ISr.F5 	1.C05 	Acet. 	n.d. 	32	n.d. 	686	99	n.d. 	1058	1875
+ISr.B1 	1.C05 	Form. 	n.d. 	16	n.d. 	589	137	n.d. 	1065	1807
+ISp.B2 	1.C05 	HMF 	n.d. 	25	n.d. 	390	70	n.d. 	594	1079
+ISr.F1 	1.F05 	Form. 	57	257	34	1269	36	35	n.d. 	1688
+ISr.A7 	1.H08 	Acet. 	n.d. 	744	n.d. 	2	79	n.d. 	891	1716
+ISr.D3 	2.A01 	Form. 	n.d. 	213	n.d. 	269	40	241	433	1196
+ISr.E3 	2.A02 	Form. 	51	195	11	1205	n.d. 	n.d. 	n.d. 	1462
+ISr.E7 	2.A05 	Acet. 	36	134	12	1149	n.d. 	n.d. 	n.d. 	1331
+ISp.G3 	2.A06 	HMF 	14	72	n.d. 	838	n.d. 	n.d. 	n.d. 	924
+ISr.G7 	2.A07 	Acet. 	24	123	11	1103	n.d. 	n.d. 	n.d. 	1261
+ISr.C12 	2.A07 	Laev. 	n.d. 	100	n.d. 	905	n.d. 	n.d. 	n.d. 	1005
+ISr.A8 	2.A08 	Acet. 	26	194	n.d. 	1835	n.d. 	n.d. 	n.d. 	2055
+ISr.A4 	2.B10 	Form. 	64	n.d. 	n.d. 	801	72	511	24	1472
+ISr.G4 	2.D03 	Form. 	n.d. 	222	n.d. 	273	39	248	457	1239
+

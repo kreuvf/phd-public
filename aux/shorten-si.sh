@@ -1,0 +1,32 @@
+#!/bin/sh
+sed -r -i \
+-e 's|\\SI\{([^}]+)\}\{\\percent\}|\\SIpct{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\second\}|\\SIs{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\minute\}|\\SImin{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\hour\}|\\SIh{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\centi\\metre\}|\\SIcm{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\milli\\metre\}|\\SImm{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\micro\\metre\}|\\SIum{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\nano\\metre\}|\\SInm{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\celsius\}|\\SIdC{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\kelvin\}|\\SIK{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\M\}|\\SIM{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\mM\}|\\SImM{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\nM\}|\\SInM{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\pM\}|\\SIpM{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\milli\\gram\}|\\SImg{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\micro\\gram\}|\\SIug{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\litre\}|\\SIl{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\milli\\litre\}|\\SIml{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\micro\\litre\}|\\SIul{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\kilo\\dalton\}|\\SIkD{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\bp\}|\\SIbp{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\kilo\\bp\}|\\SIkbp{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\mega\\bp\}|\\SIMbp{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\grav\}|\\SIG{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\gram\\per\\litre\}|\\SIgpl{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\milli\\gram\\per\\milli\\litre\}|\\SImgpml{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\milli\\gram\\per\\litre\}|\\SImgpl{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\nano\\gram\\per\\micro\\litre\}|\\SIngpul{\1}|g' \
+-e 's|\\SI\{([^}]+)\}\{\\milli\\litre\\per\\litre\}|\\SImlpl{\1}|g' \
+$@

@@ -1,0 +1,516 @@
+Sources of Data Files
+=====================
+Files not mentioned within this file were generated from scratch or do not contain (additional/new) data. Connected histories (A descendant of B, B descendant of C, etc.) are grouped in triple hyphen sections.
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/xyl-growth/d600.ods
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/xyl-growth/d600.xlsx
+
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/xyl-growth/d600.xlsx
+Source: Doktorarbeit/Versuche/EPS-Bildner Wachstums-Screening/Ergebnisse/EPS-Bildner - Xylose-Wachstum (loPep 2).xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/xyl-hcs/hits.txt
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/xyl-hcs/summary.xlsx
+
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/xyl-hcs/summary.xlsx
+Source: Doktorarbeit/Berichte/Zwischenberichte/Professor Sieber/2013-06/Xyloseverwertung.xlsx
+
+File: Doktorarbeit/Berichte/Zwischenberichte/Professor Sieber/2013-06/Xyloseverwertung.xlsx
+Source: Doktorarbeit/Versuche/EPS-Bildner Xylose-Polymere/20130416 Auswertung Xylosepeaks.xlsx
+Source: Doktorarbeit/Versuche/EPS-Bildner Xylose-Polymere/20130416 Auswertung Monomerenzusammensetzung.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/xyl-hcs/full.txt
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/xyl-hcs/full.xlsx
+
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/xyl-hcs/full.xlsx
+Source: Doktorarbeit/Versuche/EPS-Bildner Xylose-Polymere/20130416 Auswertung Monomerenzusammensetzung.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/form1.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl1_Am.s.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/acet1.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl1_Es.s.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/fur1.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl1_Fur.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/hmf1.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl1_HMF.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/laev1.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl1_Lae.s.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/ref1.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl1_Ref.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/van1.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl1_Van.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/form2.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl2_Am.s._top.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/acet2.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl2_Es.s._bottom.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/fur2.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl2_Fur._bottom.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/hmf2.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl2_HMF_top.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/laev2.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl2_Lae.s._top.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/ref2.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl2_Ref._bottom.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/van2.raw
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/raw/Xyl2_Van._bottom.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-tol/ref1.txt
+Source: Doktorarbeit/Versuche/LCH-Tests/Hauptversuche/LV1/raw/Xyl1_Ref.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-tol/ref2.txt
+Source: Doktorarbeit/Versuche/LCH-Tests/Hauptversuche/LV1/raw/Xyl2_Ref.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-tol/lch1.txt
+Source: Doktorarbeit/Versuche/LCH-Tests/Hauptversuche/LV1/raw/Xyl1_LCH.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-tol/lch2.txt
+Source: Doktorarbeit/Versuche/LCH-Tests/Hauptversuche/LV1/raw/Xyl2_LCH.lst
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/glc_consumption.txt
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/glc_consumption.xlsx
+
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/glc_consumption.xlsx
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/3 Screening-Runde 2/processed/Glucose assays/1 Zentrifugierter Überstand/20150317_Auswertung_zentrifugierter_Überstand.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/glc_monomers.txt
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/glc_monomers.xlsx
+
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/glc_monomers.xlsx
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/3 Screening-Runde 2/processed/Glucose assays/2 + 3 Gelfiltrierter Überstand + Hydrolysierter Überstand/20150317_Auswertung_gf_Überstand_h_Überstand.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/ISp_monomers.txt
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/ISr_monomers.txt
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/monomers.xlsx
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/IS1r2_pmp+rez_Polymere.ods
+
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/monomers.xlsx
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/3 Screening-Runde 2/processed/20150313_IS1r2_Polymere.xlsx
+
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/IS1r2_pmp+rez_Polymere.ods
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/3 Screening-Runde 2/processed/20150313_IS1r2_Polymere.xlsx
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/3 Screening-Runde 2/processed/MS/IS1r2_Polymere.7z/IS1r2_Polymere/IS1r2_pmp+rez_Polymere.csv
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/hplc_calib.xlsx
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/3 Screening-Runde 2/processed/HPLC/20150309_HPLC_calibration.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/hplc_ret.xlsx
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/3 Screening-Runde 2/processed/HPLC/20150309_HPLC_retention_times.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/ISp_inhibitors.txt
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/ISr_inhibitors.txt
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/hplc_inhibitors.xlsx
+
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/hplc_inhibitors.xlsx
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/3 Screening-Runde 2/processed/HPLC/20150316_HPLC_Inhibitors.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/ms_calib.xlsx
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/3 Screening-Runde 2/processed/MS/20150310_MS_calibration.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/xyl-growth_Xyl1.txt
+Source: Doktorarbeit/Versuche/EPS-Bildner Umsetzung Xyloseverwerter/Umsetzung Xyloseverwerter.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/xyl-growth_Xyl2.txt
+Source: Doktorarbeit/Versuche/EPS-Bildner Umsetzung Xyloseverwerter/Umsetzung Xyloseverwerter.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/eps-strains.txt
+Source: Doktorarbeit/Versuche/EPS-Bildner Umsetzung Xyloseverwerter/Umsetzung Xyloseverwerter.xlsx
+Source: Doktorarbeit/Versuche/EPS-Bildner Umsetzung Xyloseverwerter/Plattenüberprüfung/20121010 EPS plates 1 + 2 - ausgewertet.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/IS1r2pmp_layout.txt
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/2 Zwischenrunde/Plattenlayouts für IS1r2.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/IS1r2rez_layout.txt
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/2 Zwischenrunde/Plattenlayouts für IS1r2.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-tol/lch-tol_results.xlsx
+Source: Doktorarbeit/Versuche/LCH-Tests/Hauptversuche/LV1/20141125_Auswertung_LV1.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-lch-tol_ranks.txt
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/inh-tol_results.xlsx
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-tol/lch-tol_results.xlsx
+
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/inh-tol_results.xlsx
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/1 Screening-Runde 1/Auswertung/20140909_Auswertung_IS1r1.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/lchf0-eps.xlsx
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/processed/EPS-Ausbeute/20151221 LCHF0 Precipitates drying processed.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/lchf1-eps.xlsx
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/processed/EPS-Ausbeute/20151221 LCHF1 Precipitates drying processed.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/scm0-results.xlsx
+Source: Doktorarbeit/Versuche/Stammcharakterisierung/Monomeranalyse/SCM0/processed/20150324_SCM0_UV_MS_Union.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/eps-flask-concentrations.txt
+Source: SK5, p. 80 (2.H7 + 2.H7oben combined!)
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/anti-foam.txt
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/raw/Fermentation/Antischaumzugabe.txt
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/sec-malls-results.xlsx
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHFA3/processed/20160104_LCHFA3_Molmassen.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/lchf0-sec-malls-calibration.txt
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHFA3/processed/20160104_LCHFA3_Calibration.cal.txt
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/eps-amc.xlsx
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHFA1/processed/HPLC/20150602_HPLC_ZS1m_ZS2m.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/glc-layouts.xlsx
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHFA2/20150605_Plattenlayouts.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/glc-results.xlsx
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHFA2/processed/20150608_Auswertung_LCHFA2.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/glc-xyl-fur.xlsx
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHFA0/20150521_Plattenlayout.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/glc-xyl-fur-ms.csv
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHFA0/processed/MS/20150521_LCHFA0_QuantAnalysis-Ergebnisse.csv
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/glc-xyl-fur-hplc.xlsx
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHFA0/processed/HPLC/20150601_HPLC_LCHMix+Xyl.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/ferm-dat/lchf0-reduced.xlsx
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/raw/Fermentation/20150331_LCHF0_Fermentationsdaten.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/ferm-dat/f1.txt
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/raw/Fermentation/20150331_LCHF0_Fermentationsdaten.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/ferm-dat/f2.txt
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/raw/Fermentation/20150331_LCHF0_Fermentationsdaten.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/ferm-dat/f3.txt
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/raw/Fermentation/20150331_LCHF0_Fermentationsdaten.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/ferm-dat/f4.txt
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/raw/Fermentation/20150331_LCHF0_Fermentationsdaten.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/ferm-dat/f5.txt
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/raw/Fermentation/20150331_LCHF0_Fermentationsdaten.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/ferm-dat/f6.txt
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/raw/Fermentation/20150331_LCHF0_Fermentationsdaten.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/ferm-dat/f7.txt
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/raw/Fermentation/20150331_LCHF0_Fermentationsdaten.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/ferm-dat/f8.txt
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/raw/Fermentation/20150331_LCHF0_Fermentationsdaten.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/ferm-dat/d600.txt
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/raw/Fermentation/Zelldichte.txt
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-pf/lchf0-cdm.xlsx
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/processed/Trockenmasse/20150609_LCHF0_BTM.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-tol/20150401_0_Sterilfilter_Cellulosenitrat_nach_250_ml_LCH.jpg
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF0/media/20150401_0_Sterilfilter_Cellulosenitrat_nach_250_ml_LCH.jpg
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/matches_acet_van.txt
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/2 Zwischenrunde/Plattenlayouts für IS1r2.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-tol/matches_acet_van_hmf.txt
+Source: Doktorarbeit/Versuche/Inhibitorentests/Hauptversuche/IS1/2 Zwischenrunde/Plattenlayouts für IS1r2.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/discussion/7l_cdm_sdm.txt
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHF1/processed/Biotrockenmasse/20150609_LCHF1_BTM.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/discussion/LCHF1_Ferm_consensus.fa
+Source: Doktorarbeit/Versuche/Kontaminationsnachverfolgung/LCHF1 - Fermentationskontaminante/LCHF1_Ferm_consensus.fa
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/discussion/7l_glc.txt
+Source: Doktorarbeit/Versuche/LCH-Fermentationen/LCHFA2/processed/20150608_Auswertung_LCHFA2.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-tol/ld0_results.xlsx
+Source: Doktorarbeit/Versuche/LCH-Tests/Hauptversuche/LD0/processed/20141111_LCH-Vorversuche.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/lch-tol/ISVV7_results.xlsx
+Source: Doktorarbeit/Versuche/Inhibitorentests/Vorversuche/Analytik/2014-12 Derivatisierung der Standards 2/processed/20141216_HPLC_MS_LCH.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/fun-pf/dry_matter_end.xlsx
+Source: Doktorarbeit/Versuche/Pilzfermentationen/Analytik/Biotrockenmasse/Auswertung Biotrockenmasse.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/fun-pf/eps_course.xlsx
+Source: Doktorarbeit/Versuche/Pilzfermentationen/Analytik/EPS-Masse/EPS-Massen - Verlauf Ende Biomassewäsche.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/fun-pf/rheometry.xlsx
+Source: Doktorarbeit/Versuche/Pilzfermentationen/Analytik/Rheologie/Rheometrie - Zusammenfassung.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/fun-pf/periodate.xlsx
+Source: Doktorarbeit/Versuche/Pilzfermentationen/Analytik/Periodattest/Hauptversuch/Auswertung/Auswertung Periodattest Pilz-EPS 2013-09.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/fun-pf/analytics_collection.xlsx
+Source: Doktorarbeit/Versuche/Pilzfermentationen/Analytik/Übersicht Proben und Analytik.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/fun-pf/graphs.fods
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/fun-pf/analytics_collection.xlsx
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/fun-pf/rheometry.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/fun-pf/scl_suprema.pdf
+Source: Doktorarbeit/Versuche/Pilzfermentationen/Analytik/SEC-MALLS/Hauptversuche/20131202 Suprema 30000 100 mM LiNO3 Pilz-EPS NS-Reste/Suprema 30000 - Injektion 9 - Vial 5 - Scleroglucan Cs 11.pdf
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/fun-pf/scl_tskgel.pdf
+Source: Doktorarbeit/Versuche/Pilzfermentationen/Analytik/SEC-MALLS/Vorversuche/Tosoh TSKgel alpha-M DMSO/Ausgewertet/Tosoh TSKgel Alpha-M - Injektion 8 - Vial 2 - Scleroglucan Cs 11.pdf
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/fun-pf/periodate.txt
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/fun-pf/periodate.xlsx
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/ISp_highlights.txt
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/ISp_inhibitors.txt
+---
+
+
+---
+File: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/ISr_highlights.txt
+Source: Doktorarbeit/Berichte/Dissertation/diss/phd-thesis/doc/data/lch-eps/inh-hcs/ISr_inhibitors.txt
+---
+
+
+---
+File: 
+Source: 
+---
+
+

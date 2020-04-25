@@ -1,0 +1,191 @@
+No pellet after centrifugation:
+\isp{B6}
+\isp{C6}
+\isp{E11}
+\isp{F7}
+\isp{G7}
+\isr{B12}
+
+Low/no sedimentation after centrifugation:
+\isp{A3}
+\isp{A6}
+\isp{B3}
+\isp{C3}
+\isp{D6}
+\isp{E6}
+\isp{F3}
+\isp{F6}
+\isp{G3}
+\isr{A1}
+\isr{A4}
+\isr{A7}
+\isr{A8}
+\isr{B1}
+\isr{C10}
+\isr{C12}
+\isr{D1}
+\isr{D3}
+\isr{D6}
+\isr{D8}
+\isr{D10}
+\isr{E1}
+\isr{E3}
+\isr{E4}
+\isr{E5}
+\isr{E10}
+\isr{F4}
+\isr{F5}
+\isr{F7}
+\isr{G1}
+\isr{G4}
+\isr{G7}
+
+Insufficient filtrate volumes after ten-fold dilution:
+\isr{A1}
+\isr{A7}
+\isr{B1}
+\isr{C10}
+\isr{D3}
+\isr{D10}
+\isr{E4}
+\isr{E5}
+\isr{E10}
+\isr{F4}
+\isr{F5}
+\isr{G4}
+
+Glass filtration incomplete:
+\isp{A3}
+\isp{B3}
+\isp{C3}
+\isp{D6}
+\isp{E6}
+\isp{F6}
+\isr{D1}
+\isr{D6}
+\isr{E1}
+\isr{G1}
+
+No inhibitor degradation:
+\isp{A12}
+\isp{B10}
+\isp{B12}
+\isp{C2}
+\isp{E10}
+\isp{G2}
+\isr{A6}
+\isr{A11}
+\isr{B6}
+\isr{B9}
+\isr{C6}
+\isr{C7}
+\isr{C9}
+\isr{C10}
+\isr{C12}
+\isr{D9}
+\isr{D10}
+\isr{D12}
+\isr{E6}
+\isr{E7}
+\isr{E9}
+\isr{E10}
+\isr{E12}
+\isr{F6}
+\isr{F8}
+\isr{F9}
+\isr{F10}
+\isr{F12}
+\isr{G8}
+\isr{G9}
+\isr{G11}
+\isr{G12}
+
+Less \glc{} after hydrolysis:
+\isp{A4}
+\isp{A6}
+\isp{A10}
+\isp{A12}
+\isp{C6}
+\isp{G2}
+\isr{B12}
+\isr{C8}
+\isr{F10}
+
+Non-pelleted strains vs. poor filtration performance:
+\isp{A3}	Glass filtration incomplete
+\isp{A3}	Low or no sedimentation of bacteria after centrifugation
+\isp{B3}	Glass filtration incomplete
+\isp{B3}	Low or no sedimentation of bacteria after centrifugation
+\isp{C3}	Glass filtration incomplete
+\isp{C3}	Low or no sedimentation of bacteria after centrifugation
+\isp{D6}	Glass filtration incomplete
+\isp{D6}	Low or no sedimentation of bacteria after centrifugation
+\isp{E6}	Glass filtration incomplete
+\isp{E6}	Low or no sedimentation of bacteria after centrifugation
+\isp{F6}	Glass filtration incomplete
+\isp{F6}	Low or no sedimentation of bacteria after centrifugation
+\isr{A1}	Insufficient filtrate volumes after ten-fold dilution
+\isr{A1}	Low or no sedimentation of bacteria after centrifugation
+\isr{A7}	Insufficient filtrate volumes after ten-fold dilution
+\isr{A7}	Low or no sedimentation of bacteria after centrifugation
+\isr{B1}	Insufficient filtrate volumes after ten-fold dilution
+\isr{B1}	Low or no sedimentation of bacteria after centrifugation
+\isr{C10}	Insufficient filtrate volumes after ten-fold dilution
+\isr{C10}	Low or no sedimentation of bacteria after centrifugation
+\isr{D1}	Glass filtration incomplete
+\isr{D1}	Low or no sedimentation of bacteria after centrifugation
+\isr{D3}	Insufficient filtrate volumes after ten-fold dilution
+\isr{D3}	Low or no sedimentation of bacteria after centrifugation
+\isr{D6}	Glass filtration incomplete
+\isr{D6}	Low or no sedimentation of bacteria after centrifugation
+\isr{D10}	Insufficient filtrate volumes after ten-fold dilution
+\isr{D10}	Low or no sedimentation of bacteria after centrifugation
+\isr{E1}	Glass filtration incomplete
+\isr{E1}	Low or no sedimentation of bacteria after centrifugation
+\isr{E4}	Insufficient filtrate volumes after ten-fold dilution
+\isr{E4}	Low or no sedimentation of bacteria after centrifugation
+\isr{E5}	Insufficient filtrate volumes after ten-fold dilution
+\isr{E5}	Low or no sedimentation of bacteria after centrifugation
+\isr{E10}	Insufficient filtrate volumes after ten-fold dilution
+\isr{E10}	Low or no sedimentation of bacteria after centrifugation
+\isr{F4}	Insufficient filtrate volumes after ten-fold dilution
+\isr{F4}	Low or no sedimentation of bacteria after centrifugation
+\isr{F5}	Insufficient filtrate volumes after ten-fold dilution
+\isr{F5}	Low or no sedimentation of bacteria after centrifugation
+\isr{G1}	Glass filtration incomplete
+\isr{G1}	Low or no sedimentation of bacteria after centrifugation
+\isr{G4}	Insufficient filtrate volumes after ten-fold dilution
+\isr{G4}	Low or no sedimentation of bacteria after centrifugation
+
+22 strains overlap between low/no sedimentation and poor filtration:
+\isp{A3}
+\isp{B3}
+\isp{C3}
+\isp{D6}
+\isp{E6}
+\isp{F6}
+\isr{A1}
+\isr{A7}
+\isr{B1}
+\isr{C10}
+\isr{D1}
+\isr{D3}
+\isr{D6}
+\isr{D10}
+\isr{E1}
+\isr{E4}
+\isr{E5}
+\isr{E10}
+\isr{F4}
+\isr{F5}
+\isr{G1}
+\isr{G4}
+
+7 strains overlap between low/no sedimentation, poor filtration and 1+ g/l EPS:
+\isr{A1}
+\isr{A7}
+\isr{B1}
+\isr{D3}
+\isr{E5}
+\isr{F5}
+\isr{G4}

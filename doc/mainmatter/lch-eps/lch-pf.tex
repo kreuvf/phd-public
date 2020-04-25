@@ -1,0 +1,84 @@
+\section{Parallel Fermentation with \LCH{}\label{sec-lch-pf}}
+The strain \strain{} was selected for the first series of parallel fermentations. The aim was to compare the influence of the carbon source on microbial growth, \eps{} production and \eps{} quality. The carbon sources used were \lch{} and a mix of pure \glc{} and \xyl{}. All fermentations were run in parallel quadruplicates and were inoculated from the same preculture. In order to get a basic understanding of the strain's fermentation behaviour, only pH value and temperature were controlled. Stirrer speed, aeration rate and gas composition were kept constant; dissolved oxygen was only recorded. During the fermentation, samples were drawn for the determination of the cell dry mass, the concentrations of \glc{}, \xyl{} and the two major inhibitors in the \lch{}\footnote{\FUR{} and \hmf{}.} and the \amc{} of the \eps{} produced. All relevant parameters of the fermentation are described in \vref{subsubsec-met-mibi-ferm-dasgip}. Fermenters 1 to 4 are referred to as \enquote{block 1}, fermenters 5 to 8 are referred to as \enquote{block 2}.
+
+\subsection{Controls \& Deviations\label{subsec-lch-pf-controls-deviations}}
+% SK5, 105
+Autoclaving the fermenters adversely affected the pH probe of fermenter 7: comparison with the other three fermenters with the same setup showed that the actual pH value was around \num{0.25} lower than the value shown. Therefore, all setpoints were increased by \num{0.25} for this fermenter. All sterile controls showed no signs of contamination.
+
+Additional anti-foam was added manually after \SIh{63.2} (\SIml{1}) and, for block 2 only, \SIh{96.5} (\SIml{0.5}). No additional anti-foam was added through automated means. Overall, \SIml{2} of anti-foam was added to block 1 and \SIml{2.5} of anti-foam was added to block 2.
+
+The middle foam breaker of fermenter 1 slid down and came to a halt on the bottommost foam breaker.
+
+\paragraph{Sampling and Analytics\label{para-lch-pf-sampling}}
+\nomenclature[latabbr_RI]{RI}{refractive index}
+Samples for cell dry mass were drawn only from the second sample onwards, therefore, values for the first sample are missing. Molar mass values for the first sample are missing for all fermenters. The value of sample two is missing for fermenters 3 and block 2. The values of the samples three and four (inclusively) are missing for block 2. The reason for missing molar mass values is the absence of an RI peak in the high molar mass range.
+
+Fermenter 3 showed delayed growth, which can also be seen in the data (see \vref{fig-lch-eps-lch-pf-fermentations}): the quantile lines of the dissolved oxygen and the carbon dioxide data of block 1 appear to shadow the median line. Since the deviation diminished on later samples, the data of fermenter 3 was still used.
+
+\EPS{} aldose monomer data were determined, but deemed erroneous and, thus, are not shown: the overall aldose monomer sum slowly \textit{decreases} over time, proportional to the \glc{} concentration. Also, \glc{} was by far the most abundant monomer which is in contradiction to the results of the purified \eps{}.
+
+\XYL{} concentration determination was tried using PMP derivatization (see \vref{pmp-deriv}, data not shown), but yielded dissatisfactory results with a vague trend downwards. Also, the values were inconsistent with the actual concentrations used. Thus, these results were not used.
+
+\subsection{Fermentation Courses\label{subsec-lch-pf-fermentation-courses}}
+\begin{figure}
+	\subfloat[Fermenters 1 to 4: Reference.]{
+			\label{fig-lch-eps-block1}%
+			\includegraphics[width=7.0cm]{fig/lch-pf_block1_600dpi.png}
+	}
+	\hfill
+	\subfloat[Fermenters 5 to 8: \LCH{}.]{
+			\label{fig-lch-eps-block2}%
+			\includegraphics[width=7.0cm]{fig/lch-pf_block2_600dpi.png}
+	}
+	\caption[Comparison of Reference Fermentations and \LCH{} Fermentations]{
+	Comparison of reference fermentations and \lch{} fermentations.
+	\strain{} was fermented in parallel at \SIml{500} scale without (block 1) and with \lch{} (block 2) to assess its impact on the process.
+	The setup is detailed in \vref{subsubsec-met-mibi-ferm-dasgip}.
+	Points of cell dry mass (\includegraphics[width=0.18cm]{fig/lch-pf_R-symbols-20-circle-filled_600dpi.png}),
+	\fur{} concentration (\includegraphics[width=0.18cm]{fig/lch-pf_R-symbols-06-triangle-up_600dpi.png}),
+	polymer molar mass at RI peak (\includegraphics[width=0.18cm]{fig/lch-pf_R-symbols-05-diamond_600dpi.png}),
+	$D_{600}$ (\includegraphics[width=0.18cm]{fig/lch-pf_R-symbols-01-circle_600dpi.png}) and
+	\glc{} concentration (\includegraphics[width=0.18cm]{fig/lch-pf_R-symbols-02-triangle-down_600dpi.png}) and
+	thick lines of dissolved oxygen (\includegraphics[width=0.329cm]{fig/lch-pf_R-lines-black_600dpi.png}) and
+	carbon dioxide concentrations (\includegraphics[width=0.329cm]{fig/lch-pf_R-lines-grey_600dpi.png})
+	represent the median value.
+	Error bars and thin lines of dissolved oxygen and carbon dioxide concentrations represent the quantiles at \SIpct{10} and \SIpct{90}.
+	Lines between points serve as visual aids only.
+	Dissolved oxygen and carbon dioxide data were smoothed using the rolling average of 50 samples prior to all further processing.
+	Generally, sample sizes are $n = 4$. See \vref{para-lch-pf-sampling} for details.
+	The complete processing steps of the raw data are documented in \vref{lst-make-pf-plot-data}.
+	\label{fig-lch-eps-lch-pf-fermentations}}
+\end{figure}
+Cell dry mass, \fur{} concentration (block 2 only), polymer molar mass at RI peak, $D_{600}$, \glc{} concentration, dissolved oxygen and carbon dioxide concentration over time are given in \vref{fig-lch-eps-lch-pf-fermentations} and described in the following paragraphs.
+
+\paragraph{Microbial Growth}
+After an initial increase, cell dry mass in block 1 decreases and hits a plateau. The drop coincides with the pH change. In block 2, cell dry mass stabilized at around \SIgpl{4} and no drop in response to the pH change was observed.
+
+$D_{600}$ values increase over time and appear to hit a plateau in both blocks. In block 2, a slight drop appears after the pH change.
+
+Directly after inoculation, the dissolved oxygen concentration decreases until a minimum at around \SIpct{10} in block 1. The carbon dioxide concentration in the off-gas shows a strong increase at the beginning until around \SIh{15}, slowly decreases to and remains at around \SIpct{0.4} until the end of the fermentations. The \ce{CO2} spike at approximately \SIh{48} coincides with the pH change.
+In block 2, there is virtually no \ce{CO2} generation for the first \SIh{36} followed by a similar pattern as seen in block 1: a relatively sharp increase followed by a slow decrease, levelling off at around \SIpct{0.3} until the end of fermentations; the pH change coincides with the \ce{CO2} spike at around \SIh{86}. The dissolved oxygen decreases only very slowly, almost linearly, for the first \SIh{36} followed by a sharp decrease mimicking the pattern seen in block 1. At around \SIh{63} and \SIh{96}, anti-foam was added which coincides with two negative peaks in the \ce{CO2} course and two sharp drops of the dissolved oxygen levels which recovered slowly when compared to \ce{CO2}.
+
+\paragraph{Production of Acidic and/or Basic Compounds}
+The pH value was maintained at preset levels during the fermentation. Acid and base were available to counter any changes in the pH value. Initially, \strain{} produced acid in all cases (acidifying phenotype) and went through a phase of pH stability in all cases except fermenter 3. During pH stability, the addition of acid or base was not needed.
+
+\subparagraph{Block 1}
+The stability phase occurred from \SIrange{70.5}{75.8}{\hour}, \SIrange{74.0}{77.5}{\hour} and \SIrange{68.0}{73.7}{\hour} for fermenters 1, 2 and 4, respectively. Since the pH shift occurred at \SIh{48} in block 1, the stability phase started \SIrange{20}{26}{\hour} afterwards. After the pH stability, base was no longer needed to control the pH, but acid. This phenotype will be referred to as \enquote{de-acidifying phenotype}.
+
+\subparagraph{Block 2}
+The stability phase occurred from \SIrange{55.5}{59.3}{\hour}, \SIrange{53.5}{56.0}{\hour}, \SIrange{55.3}{59.0}{\hour} and \SIrange{59.5}{62.0}{\hour} for fermenters 5, 6, 7 and 8, respectively. Since the pH shift occurred at \SIh{87.5} in block 2, the stability phase ended \SIrange{25.5}{31.5}{\hour} before the pH shift. Between the stability phase and the pH shift, the pH value fluctuated in fermenters 5 to 7. In fermenter 8, only acid was needed to control the pH. After the pH shift, only base was needed to control the pH in all fermenters.
+
+\paragraph{\GLC{} Consumption}
+In both blocks, around half the initial \glc{} was still present at the end of the fermentations: around \SIgpl{9} in block 1 and around \SIgpl{11} in block 2. In block 1, \glc{} consumption appears to be almost linear from the third sample on. Given the growth delay in block 2, a similar behaviour is observed from the sixth sample on.
+
+\paragraph{\FUR{} Consumption}
+\FUR{} was observed only in block 2. Over the first \SIh{36}, only miniscule amounts of \fur{} vanished. The rapid decline in \fur{} concentrations between \SIh{36} and \SIh{48} coincides with the sharp decline of the dissolved oxygen and the sharp increases in \ce{CO2}, $D_{600}$, cell dry mass and the starting point consumption of \glc{}.
+
+\paragraph{Polymer Molar Mass}
+The polymer molar mass at the RI peak increased up to \SI{1E7}{\gram\per\mole} in block 1 and \SI{9E6}{\gram\per\mole} in block 2. After the pH change, the molar mass dropped to approximately half the previous value in block 1 and a fifth of the previous value in block 2. In block 1, the decrease continued in a mild form until the end of the fermentations and the final value was around \SI{4E6}{\gram\per\mole}. In block 2, the decrease was more pronounced, but the polymer molar mass increased slightly until the end of the fermentations and the final was around \SI{3E6}{\gram\per\mole}.
+
+\subsection{Polymer Purification and Yield}
+Centrifugation and cross-flow filtration were employed for polymer purification as described in \vref{par-met-mibi-ferm-dasgip-puri}. The \SIum{0.45} membranes used were too coarse for the polymer: the feed solution of block 1 contained \SI{1.6}{\gram\eps\per\litre} and only \SI{0.2}{\gram\eps\per\litre} were found in the retentate, while \SI{1.3}{\gram\eps\per\litre} were found in the permeate. The feed solution of block 2 contained \SI{2.4}{\gram\eps\per\litre} and only \SI{0.8}{\gram\eps\per\litre} were found in the retentate, while \SI{1.6}{\gram\eps\per\litre} were found in the permeate.
+
+Permeates and retentates of each block were re-united after the filtration and stored at \SIdC{4}. Upon re-filtration using \SIkD{100} and \SIkD{10} membranes, around \SIpct{20} of the polymer of block 1 and around \SIpct{70} of the polymer of block 2 could not be recovered.
+

@@ -1,0 +1,15 @@
+% % % % % % % % % % % % % % % % % % % %
+% nomencl
+\usepackage[intoc]{nomencl}
+\renewcommand{\nomname}{List of Abbreviations}
+\renewcommand{\nompreamble}{Symbols of chemical elements, and SI units and their respective prefixes \cite{BIPM2006} are not listed. Units are listed only if they are not covered in the SI brochure or are used with a different definition. Abbreviations for manufacturers and vendors are given in \vref{tbl-mat-abbr}. Abbreviations in company names and abbreviations of German legal terms within company names, and abbreviations in trademarked names are not listed.}
+\makenomenclature
+
+\RequirePackage{ifthen}
+\renewcommand{\nomgroup}[1]{%
+	\ifthenelse{\equal{#1}{C}}{\item[\textbf{Chemicals}]}{%
+		\ifthenelse{\equal{#1}{F}}{\item[\textbf{Units and Symbols Used in Formula}]}{%
+			\ifthenelse{\equal{#1}{E}}{\item[\textbf{File Extensions}]}{%
+				\ifthenelse{\equal{#1}{L}}{\newpage\item[\textbf{Roman Letters}]}{%
+					\ifthenelse{\equal{#1}{M}}{\item[\textbf{Microorganisms}]}{}}}}}}
+

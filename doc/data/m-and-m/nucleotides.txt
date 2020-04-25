@@ -1,0 +1,8 @@
+Sort key	Nucleotide	Manufacturer or vendor	Article number	Lot	Comment	Needed for contents in final version?
+2-log ladder	2-log ladder	New England Biolabs GmbH, Frankfurt am Main	N0469 S	0070906		y
+2-log ladder	2-log ladder	New England Biolabs GmbH, Frankfurt am Main	N0469 S	0221407		y
+Primer 0027f	Primer 27f	Thermo Fisher Scientific Inc., Waltham, MA, USA	-	2011-03-25	16S rDNA forward primer; CBR 488	y
+Primer 1492r	Primer 1492r	Thermo Fisher Scientific Inc., Waltham, MA, USA	-	2011-03-25	16S rDNA reverse primer; CBR 490	y
+Primer 1525r	Primer 1525r	Thermo Fisher Scientific Inc., Waltham, MA, USA	-	2011-03-25	16S rDNA reverse primer; CBR 489	y
+Quick-Load Purple 2-log DNA ladder	Quick-Load Purple 2-log DNA ladder	New England Biolabs GmbH, Frankfurt am Main	N0550 G	0011310		y
+

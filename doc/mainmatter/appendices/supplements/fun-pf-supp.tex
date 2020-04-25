@@ -1,0 +1,282 @@
+\clearpage
+\newpage
+\section{Parallel Fermentation of \rolf{} and \comm{}}
+\subsection{\EPS{} Courses}
+\nomenclature[formula_c(EPS)]{c(EPS)}{\eps{} concentration}
+\nomenclature[formula_cEnd]{$c_{End}$}{concentration determined via the precipitation of the fermentation broth at the end of the fermentation}
+\nomenclature[formula_cls]{$c_{ls}$}{concentration determined via the \textbf{l}ast \textbf{s}ample}
+\begin{table}[ht]
+	\centering
+	\captionof{table}[\EPS{} Concentrations at the End of the Fungal Fermentations]{\EPS{} concentrations at the end of the fermentations of \rolf{} and \comm{}. The concentrations were determined through the usual sampling routine (\enquote{Last Sample}, $c_{ls}$) and precipitation of the fermentation broth at the end of the fermentation (\enquote{End}, $c_{End}$). The latter data are plotted in \vref{fig-fun-pf-eps-end}. Each datum represents a single measurement. Abbreviations: c(EPS): \eps{} concentration; $c_{end}$: concentration determined via the precipitation of the fermentation broth at the end of the fermentation; $c_{ls}$: concentration determined via the \textbf{l}ast \textbf{s}ample.\label{tbl-fun-pf-eps-comp}}
+	\begin{tabular}{l*{4}r}
+		\toprule
+		 & & \multicolumn{2}{c}{c(EPS) in \si{\gram\per\litre}} & \\
+		Fungus & Fermentation time & End & Last Sample & $c_{end}/c_{ls}$ in \si{\percent} \\
+		\hline
+		\TablesafeInputIfFileExists{data/fun-pf/tbl-fun-pf-eps-comp.tex}{}{\fxfatal{File not found: data/fun-pf/tbl-fun-pf-eps-comp.tex}}
+		\bottomrule
+	\end{tabular}
+\end{table}
+\clearpage
+
+\subsection{Periodate Test}
+\begin{table}[ht]
+	\centering
+	\captionof{table}[Periodate Consumption After Different Reaction Times]{Periodate consumption after different reaction times. The \SIh{0} values were used to determine the initial periodate concentration. Therefore, they are zero \textit{per definitionem}. Fermenters 1, 3 and 5 were inoculated with \rolf{} and fermenters 4, 7 and 8 with \comm{}. Fermenter 2 is not listed as only insufficient amounts of \eps{} were produced, fermenter 6 is missing, because of the excessive amounts of anti-foam which were pumped into the fermenter and subsequently contaminated the precipitate. Fermenter 4 showed the only clear deviation consuming all the available periodate for unknown reasons. Abbreviations: F$n$: fermenter no. $n$ with $n \in \mathbb{N} \land 0 < n < 9$.\label{tbl-fun-pf-periodate}}
+	\begin{tabular}{l*{6}r}
+		\toprule
+		 & \multicolumn{6}{c}{Periodate consumption in \si{\milli\mol\per\litre}} \\
+		\multirow{-2}*{Reaction time in \si{\hour}} &
+		 F1 &
+		 F3 &
+		 F5 &
+		 F4 &
+		 F7 &
+		 F8 \\
+		\hline
+		\TablesafeInputIfFileExists{data/fun-pf/tbl-fun-pf-periodate.tex}{}{\fxfatal{File not found: data/fun-pf/tbl-fun-pf-periodate.tex}}
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+	\centering
+	\captionof{table}[\FORA{} Formation After Different Reaction Times]{\Fora{} formation after different reaction times. The \SIh{0} values were used as reference points. Therefore, they are zero \textit{per definitionem}. Fermenters 1, 3 and 5 were inoculated with \rolf{} and fermenters 4, 7 and 8 with \comm{}. Fermenter 2 is not listed as only insufficient amounts of \eps{} were produced, fermenter 6 is missing, because of the excessive amounts of anti-foam which were pumped into the fermenter and subsequently contaminated the precipitate.  Abbreviations: F$n$: fermenter no. $n$ with $n \in \mathbb{N} \land 0 < n < 9$.\label{tbl-fun-pf-formic-acid}}
+	\begin{tabular}{l*{6}r}
+		\toprule
+		 & \multicolumn{6}{c}{\Fora{} formation in \si{\milli\mol\per\litre}} \\
+		\multirow{-2}*{Reaction time in \si{\hour}} &
+		 F1 &
+		 F3 &
+		 F5 &
+		 F4 &
+		 F7 &
+		 F8 \\
+		\hline
+		\TablesafeInputIfFileExists{data/fun-pf/tbl-fun-pf-formic-acid.tex}{}{\fxfatal{File not found: data/fun-pf/tbl-fun-pf-formic-acid.tex}}
+		\bottomrule
+	\end{tabular}
+\end{table}
+\clearpage
+
+\subsection[Aniline Blue Assay for the Quantitative Determination of β-1,3-β-1,6-Glucans]{Aniline Blue Assay for the Quantitative Determination of β-1,3-β-1,6-Glucans\label{supp-sirofluor}\footnote{The contents of this section have been reproduced from an unpublished protocol of mine written for the chair of Chemistry of Biogenic Resources. If you would like to cite this assay, you may also reference the publication \cite{Koenig2017}.}}
+\subsubsection{Equipment}
+\begin{itemize}
+	\item \SIml{1.5} reaction tubes with tight lid
+	\item \SIml{2.0} reaction tubes with tight lid
+	\item \SIml{10} measuring pipettes
+	\item \SIml{15} reaction tubes with screw cap
+	\item \SIml{50} volumetric flask
+	\item \SIml{100} beaker
+	\item 96 well fluorescence plates
+	\item 96 well fluorescence reader
+	\item Magnetic stirrer and magnetic stir bar (for \SIml{100} beaker)
+	\item Parafilm
+	\item Analytical balance
+	\item Centrifuge for \SIml{1.5} reaction tubes
+	\item Centrifuge for \SIml{50} reaction tubes
+	\item Incubator/oven at \SIdC{50}
+	\item Laboratory scales
+	\item pH meter with pH electrode
+	\item Pipettes (\SIrange{20}{200}{\micro\litre}, \SIrange{100}{1000}{\micro\litre})
+	\item Pipetting aid
+	\item Scissors
+	\item Vortexer
+\end{itemize}
+
+\subsubsection{Chemicals}
+\nomenclature[chem_AB]{AB}{aniline blue}
+\begin{itemize}
+	\item \SIM{2} HCl
+	\item Aniline Blue diammonium salt (Sigma-Aldrich, article number: 415049; referred to as \textbf{AB})
+	\item Glycine
+	\item Scleroglucan Cs 11 (Cargill) as reference
+	\item Sodium hydroxide
+	\item Ultrapure water (referred to as \textbf{dd\ce{H2O}})
+\end{itemize}
+
+\subsubsection{Overview}
+Sirofluor (4,4$'$-[carbonylbis(benzene-4,1-diyl)bis(imino)]bisbenzenesulfonic acid) is the fluorochrome in aniline blue \cite{Evans1982} used to stain different parts of plants \cite{Smith1978}. It does not specifically interact with β-1,3-glucans only. \textcite{Smith1978} report that in solid samples fluorescence can also be observed for cellulose (β-1,4-glucan) and lichenan (β-1,3:1,4-glucan). In buffered solutions, \textcite{Evans1984} tested a wide range of poly- and oligosacharides and found, among others, that:
+\begin{itemize}
+	\item fluorescence is exclusively induced with α- and β-glucans and not with other homo- or hetero-glycans,
+	\item not all α-\textsc{d}-glucans induce fluorescence: amylose (α-1,4), amylopectin and glycogen (α-1,4 and α-1,6) and cyclic α-1,4-\textsc{d}-oligoglucosides show weak fluorescence; dextrans (α-1,6), pullulan (α-1,4 and α-1,6) and isolichenin (α-1,3 and α-1,4) do not show fluorescence; with unpurified fluorochrome \textcite{Faulkner1973} found fluores­cence for amylose, amylopectin, some dextrans and pullulan,
+	\item the linear β-1,3-\textsc{d}-glucans laminarin and O-carboxymethyl-pachyman induced intense fluorescence and
+	\item linear β-1,3-\textsc{d}-glucans with some single β-1,6-linked \textsc{d}-glucosyl units induce intense fluorescence.
+\end{itemize}
+This is the basis for quantification of scleroglucan and schizophyllan. Within a certain range, the fluorescence intensity depends linearly on the scleroglucan concentration and using a calibration curve the fluorescence intensity can be used to determine the scleroglucan concentration in the sample in less than \SImin{75}.
+
+\subsubsection{Preparation}
+\paragraph{Reference Solution (RS)}
+\nomenclature[chem_RS]{RS}{reference solution}
+\begin{enumerate}
+	\item Weigh an empty \SIml{100} beaker with a magnetic stir bar. Note the mass.
+	\item Add approximately \SIml{10} dd\ce{H2O}.
+	\item Add \SImg{150.0} scleroglucan Cs 11 powder.
+	\item Add water until a total mass (powder + water) of \SIg{15.00} is reached.
+	\item Cover the beaker with parafilm to reduce evaporation.
+	\item Stir overnight at room temperature and reasonably high speed. Make sure that the whole fluid volume is thoroughly mixed at all times even after complete dissolution of scleroglucan and the subsequent increase in viscosity.
+	\item On the next day, stop the stirring and let the solution cool to room temperature.
+	\item Carefully remove the parafilm and condensed water from the walls of the beaker.
+	\item Weigh the beaker again and add enough dd\ce{H2O} to make up for the water lost due to evaporation.
+	\item Stir again for some minutes to ensure complete mixing.
+	\item Transfer as much of the solution as possible to a \SIml{15} reaction tube.
+	\item Reference solution may be stored in aliquots of \SIg{1.90} (sufficient for quintuplicates) at \SIdC{-20}.
+	\setcounter{sirofluor-protocol}{\value{enumi}}
+\end{enumerate}
+
+\paragraph{Calibration Curve}
+\begin{enumerate}
+	\setcounter{enumi}{\value{sirofluor-protocol}}
+	\item Prepare standards with the following concentrations using the scheme below: \SIgpl{6}, \SIgpl{3}, \SIgpl{1}, \SImgpl{600}, \SImgpl{300}, \SImgpl{100}, \SImgpl{60}, \SImgpl{30}, \SImgpl{10}, \SImgpl{5}, \SIgpl{0}.
+	\item Due to high viscosity prepare the standards with \SIgpl{6}, \SIgpl{3} and \SIgpl{1} using a scales:
+		\begin{tabular}{lrrr}
+			Final concentration & Mass of \SIgpl{10} standard & Mass of dd\ce{H2O} & Comment \\
+			\hline
+			\SIgpl{6} & \SImg{480} & \SImg{320} &  \\
+			\SIgpl{3} & \SImg{240} & \SImg{560} &  \\
+			\SIgpl{1} & \SImg{170} & \SImg{1530} & Use \SIml{2} tube. \\
+		\end{tabular}
+	\item Thoroughly mix these standards by vortexing.
+	\item Centrifuge the tubes for \SIs{10} at \SIG{8000} and room temperature prior to opening.
+	\item Prepare the remaining standards by pipetting liquid volumes, always put dd\ce{H2O} first:
+		\begin{tabular}{lrrr}
+			Final concentration & Volume of dd\ce{H2O} & Standard for dilution & Volume of standard \\
+			\hline
+			\SImgpl{600} & \SIul{400} & \SIgpl{1} & \SIul{600} \\
+			\SImgpl{300} & \SIul{455} & \SIgpl{1} & \SIul{195} \\
+			\SImgpl{100} & \SIul{900} & \SIgpl{1} & \SIul{100} \\
+			\SImgpl{60} & \SIul{630} & \SIgpl{0.6} & \SIul{70} \\
+			\SImgpl{30} & \SIul{729} & \SIgpl{0.3} & \SIul{81} \\
+			\SImgpl{10} & \SIul{630} & \SIgpl{0.1} & \SIul{70} \\
+			\SImgpl{5} & \SIul{550} & \SImgpl{30} & \SIul{110} \\
+			\SImgpl{0} & \SIml{1} & --- & --- \\
+		\end{tabular}
+		The schemes are tuned to fulfil the following criteria:
+			\begin{itemize}
+				\item Remaining masses or volumes after all dilution steps are at least \SImg{600} or \SIul{600} for up to six runs with quintuplicates.
+				\item The standards can be pipetted by using a \SIul{100}, \SIul{200} and \SIul{1000} pipette without using the lowest third of the maximum volume to reduce pipetting errors.
+				\item Dilution factors are 10 at most.
+			\end{itemize}
+	\item Calibration curve samples should be stored in aliquots of \SImg{100} or \SIul{100} (for quintuplicates) at \SIdC{-20}.
+	\setcounter{sirofluor-protocol}{\value{enumi}}
+\end{enumerate}
+
+\paragraph{Dye Solution (DS)}
+\nomenclature[chem_DS]{DS}{dye solution}
+\begin{enumerate}
+	\setcounter{enumi}{\value{sirofluor-protocol}}
+	\item Add \SImg{50.0} AB to a \SIml{15} reaction tube.
+	\item Add \SIg{9.95} dd\ce{H2O} to the reaction tube.
+	\item Wait until the dye is completely dissolved. This can be sped up by shaking or inverting the tube.\newline
+		Hint: If the dye solution touches the inner part of the cap, this can result in splashes when opening the screw cap. In order to prevent these, centrifuge the tube for \SImin{3} at \SIG{1000} and room temperature prior to opening.
+	\item Dye solution may be stored in aliquots of \SIml{3.2} (ideally) or \SIml{1.6} at \SIdC{-20}.
+	\setcounter{sirofluor-protocol}{\value{enumi}}
+\end{enumerate}
+
+\paragraph{Glycine/NaOH Buffer (GN)}
+\nomenclature[chem_GN]{GN}{glycine/NaOH buffer}
+The glycine/NaOH buffer contains \SIM{1.0} glycine and \SIM{1.25} NaOH.
+\begin{enumerate}
+	\setcounter{enumi}{\value{sirofluor-protocol}}
+	\item Put in some dd\ce{H2O} first.
+	\item Add \SIg{3.76} glycine to a \SIml{50} volumetric flask.
+	\item Add \SIg{2.50} sodium hydroxide to the flask.
+	\item Add dd\ce{H2O} and wait for the dissolution of the two components.
+	\item Let the solution cool to room temperature.
+	\item Fill with dd\ce{H2O} to the mark.
+	\item \SIM{1} Glycine/NaOH buffer may be stored in aliquots of \SIml{4.7} (ideally) or \SIml{1.6} at \SIdC{-20}.
+	\setcounter{sirofluor-protocol}{\value{enumi}}
+\end{enumerate}
+
+\paragraph{Reaction Buffer (RB)}
+\nomenclature[chem_RB]{RB}{reaction buffer}
+The Reaction Buffer contains approx. \SImM{209} glycine, \SImM{261} NaOH and \SImM{149} HCl.
+\begin{enumerate}
+	\setcounter{enumi}{\value{sirofluor-protocol}}
+	\item Add \SIml{12.7} dd\ce{H2O} to a \SIml{50} reaction tube.
+	\item Add \SIml{3.70} GN to the reaction tube.
+	\item Add \SIml{1.31} \SIM{2} HCl to the reaction tube.
+	\item The buffer may be stored at \SIdC{-20}.
+	\setcounter{sirofluor-protocol}{\value{enumi}}
+\end{enumerate}
+
+\paragraph{Working Solution (WS)}
+\nomenclature[chem_WS]{WS}{working solution}
+The final concentrations of each component in the working solution are approx. \SImM{183} glycine, \SImM{229} NaOH, \SImM{131} HCl and \SImg{6.18} aniline blue per litre. Prepare the working solution one day in advance and store in a dark place.
+\begin{enumerate}
+	\setcounter{enumi}{\value{sirofluor-protocol}}
+	\item Add \SIml{2.50} DS to the reaction tube with \SIml{17.7} RB.
+	\item Mix thoroughly.
+	\item Check the pH value, it should be in the range of 9.8 to 10.0. Generally, more acidic conditions (pH = 9.5 and below) are very likely to give smaller readings while slightly more basic conditions (up to pH = 10.5) have no effect besides discolouring the solution faster. Within a range of approximately 9.5 to 10.5 readings are unaffected.
+	\item Let the solution stand at room temperature in the dark overnight. The colour of the solution fades from blue to green to yellow. It is believed that the yellow colour originates from the fluorophore, Sirofluor.
+	\item \SIml{20.2} WS is sufficient for one 96-well plate with a safety margin of approximately \SIpct{17}.
+	\item Storage at \SIdC{-20} was not tested. Storage at room temperature for up to seven days is possible.
+	\setcounter{sirofluor-protocol}{\value{enumi}}
+\end{enumerate}
+
+\paragraph{Reaction Tubes}
+\begin{enumerate}
+	\setcounter{enumi}{\value{sirofluor-protocol}}
+	\item For each sample and each standard prepare one empty \SIml{2} tube.
+	\setcounter{sirofluor-protocol}{\value{enumi}}
+\end{enumerate}
+
+\subsubsection{Assay Instructions}
+Generally, make sure to have your sample in its respective tube, before adding the working solution. The addition of working solution should ideally be done for all samples at the same time. If that is not possible, try to do it without interruption and as fast as possible.
+\paragraph{Calibration Curve}
+\begin{enumerate}
+	\setcounter{enumi}{\value{sirofluor-protocol}}
+	\item For \SIgpl{10}, \SIgpl{6} and \SIgpl{3} add \SImg{100} of standard to the respective tube.
+	\item For all other standards add \SIul{100} to the respective tube.
+	\item The amount is sufficient for quintuplicates.
+	\setcounter{sirofluor-protocol}{\value{enumi}}
+\end{enumerate}
+
+\paragraph{Samples}
+\begin{enumerate}
+	\setcounter{enumi}{\value{sirofluor-protocol}}
+	\item Add \SIul{20} of sample to the respective tube. This amount is sufficient for one measurement.\newline
+		When the colour becomes dark blue upon mixing with the sample, the pH value is most likely too low which will result in an artificially low value. In that case, neutralize the sample prior to measurement.
+	\setcounter{sirofluor-protocol}{\value{enumi}}
+\end{enumerate}
+
+\paragraph{Addition of WS}
+\begin{enumerate}
+	\setcounter{enumi}{\value{sirofluor-protocol}}
+	\item Add the respective amount of WS to every tube. For the values given above this means: \SIul{900} for standards and \SIul{180} for samples. Close the lids.
+	\item Vortex the tubes thoroughly.
+	\item Centrifuge the tubes for \SIs{10} at \SIG{8000} and room temperature.
+	\setcounter{sirofluor-protocol}{\value{enumi}}
+\end{enumerate}
+
+\paragraph{Incubation}
+\begin{enumerate}
+	\setcounter{enumi}{\value{sirofluor-protocol}}
+	\item Incubate the tubes at \SIdC{50}, preferably in the dark, for \SImin{30}.
+	\item Turn on your microplate reader directly prior to the end of the incubation to ensure a stable light source.
+	\item Afterwards incubate for \SImin{30} at room temperature for cooling.
+	\item Vortex the tubes thoroughly.
+	\item Centrifuge the tubes for \SIs{10} at \SIG{8000} and room temperature prior to opening.
+	\setcounter{sirofluor-protocol}{\value{enumi}}
+\end{enumerate}
+
+\paragraph{Transfer and Measurement}
+\begin{enumerate}
+	\setcounter{enumi}{\value{sirofluor-protocol}}
+	\item Transfer \SIul{180} of sample or standard per well into a 96 well fluorescence plate. The outer ring of wells may show slightly lower values than wells inside.
+	\item Measure fluorescence intensity at an excitation wavelength of \SInm{405} and an emission wavelength of \SInm{495}.
+	\item The calibration curve should give a line with at least R² > \SIpct{99.8} in the range from \SImgpl{30} to \SIgpl{10}.
+	\setcounter{sirofluor-protocol}{\value{enumi}}
+\end{enumerate}
+
+\subsubsection{Please note}
+\begin{itemize}
+	\item The numbering is consecutive for the entire document to make sure that references to single steps of this protocol e.g. in laboratory notebooks cannot be confused with each other.
+	\item The assay is quite robust: oxalic acid concentrations up to \SIgpl{22.5}, \textsc{d}-glucose concentrations up to \SIgpl{50}, BSA concentrations of up to \SImgpl{667} and KCl concentrations of up to \SIgpl{13.3} in the sample do not interfere with the measurement.
+	\item Correction factors for fermentation broth samples of \rolf{} and \comm{} are 2.46 and 3.83, respectively. This is valid only under special circumstances and it is up to each user to find correction factors for the sample in question! The assay should work fine with pure polysaccharide samples.
+\end{itemize}
+
+\subsubsection{Alternatives}
+\paragraph{Qualitative Determination}
+The test can be downsized to qualitative determination by preparing and using one and only one standard (e.g. \SImgpl{100}) and dd\ce{H2O} instead of a calibration curve.
+

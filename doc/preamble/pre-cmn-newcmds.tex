@@ -1,0 +1,163 @@
+% % % % % % % % % % % % % % % % % % % %
+% New commands
+% General
+\newcommand{\mo}[1]{\emph{#1}} % mo = microorganism
+\newcommand{\gene}[1]{\emph{#1}} % gene = gene
+\newcommand*\rot{\rotatebox{90}} % rotate left by 90°
+\newcommand{\strain}{\mo{Paenibacillus}~2H7} % strain = _the_ strain
+\newcommand{\rolf}{\mo{S. rolfsii}}
+\newcommand{\longrolf}{\mo{Sclerotium rolfsii}}
+\newcommand{\comm}{\mo{S. commune}}
+\newcommand{\longcomm}{\mo{Schizophyllum commune}}
+\newcommand{\minus}{−} % Minus sign U+2212
+\newcommand{\infinity}{∞} % Infinity sign U+221E
+\newcommand{\romi}{Ⅰ}
+\newcommand{\romii}{Ⅱ}
+\newcommand{\romiii}{Ⅲ}
+\newcommand{\romiv}{Ⅳ}
+\newcommand{\romv}{Ⅴ}
+\newcommand{\romvi}{Ⅵ}
+\newcommand{\romvii}{Ⅶ}
+\newcommand{\romviii}{Ⅷ}
+\newcommand{\romix}{Ⅸ}
+\newcommand{\romx}{Ⅹ}
+\newcommand{\circi}{①}
+\newcommand{\circii}{②}
+\newcommand{\circiii}{③}
+\newcommand{\circiv}{④}
+\newcommand{\circv}{⑤}
+\newcommand{\circvi}{⑥}
+
+% Introduction
+\newcommand{\LCBM}{Lignocellulosic Biomass}
+\newcommand{\LCbm}{Lignocellulosic biomass}
+\newcommand{\lcbm}{lignocellulosic biomass}
+
+% Well names
+\newcommand{\epsi}[1]{\textit{EPS1.#1}} % Shorthand for
+\newcommand{\epsj}[1]{\textit{EPS2.#1}} % EPS/Xyl/IS1
+\newcommand{\xyli}[1]{\textit{Xyl1.#1}} % plate strain
+\newcommand{\xylj}[1]{\textit{Xyl2.#1}} % designations
+\newcommand{\isp}[1]{\textit{ISp.#1}} % 
+\newcommand{\isr}[1]{\textit{ISr.#1}} % 
+
+% LCH & Inhibitors
+\newcommand{\LCH}{Lignocellulose Hydrolysate}
+\newcommand{\LCh}{Lignocellulose hydrolysate}
+\newcommand{\lch}{lignocellulose hydrolysate}
+\newcommand{\FUR}{Furfural}
+\newcommand{\fur}{furfural}
+\newcommand{\HMF}{Hydroxymethylfurfural}
+\newcommand{\hmf}{hydroxymethylfurfural}
+\newcommand{\VAN}{Vanillin}
+\newcommand{\van}{vanillin}
+\newcommand{\ACET}{Acetic Acid}
+\newcommand{\Acet}{Acetic acid}
+\newcommand{\acet}{acetic acid}
+\newcommand{\FORA}{Formic Acid}
+\newcommand{\Fora}{Formic acid}
+\newcommand{\fora}{formic acid}
+\newcommand{\LAEV}{Laevulinic Acid}
+\newcommand{\Laev}{Laevulinic acid}
+\newcommand{\laev}{laevulinic acid}
+\newcommand{\GA}{Gallic Acid}
+\newcommand{\Ga}{Gallic acid}
+\newcommand{\ga}{gallic acid}
+\newcommand{\pHBA}{4-Hy\-droxy\-ben\-zo\-ic Acid}
+\newcommand{\pHba}{4-Hy\-droxy\-ben\-zo\-ic acid}
+\newcommand{\phba}{4-hy\-droxy\-ben\-zo\-ic acid}
+\newcommand{\SYR}{Syringaldehyde}
+\newcommand{\syr}{syringaldehyde}
+
+% Saccharides
+\newcommand{\EPS}{Exopolysaccharide} 
+\newcommand{\eps}{exopolysaccharide}
+\newcommand{\AMC}{Aldose Monomer Composition}
+\newcommand{\Amc}{Aldose monomer composition}
+\newcommand{\amc}{aldose monomer composition}
+\newcommand{\GLC}{\textsc{d}-Glu\-cose}
+\newcommand{\glc}{\textsc{d}-glu\-cose}
+\newcommand{\GLCUA}{\textsc{d}-Glu\-cu\-ron\-ic Acid}
+\newcommand{\Glcua}{\textsc{d}-Glu\-cu\-ron\-ic acid}
+\newcommand{\glcua}{\textsc{d}-glu\-cu\-ron\-ic acid}
+\newcommand{\GLCN}{\textsc{d}-Glu\-cos\-amine}
+\newcommand{\glcn}{\textsc{d}-glu\-cos\-amine}
+\newcommand{\GLCNAC}{\textit{N}-Ace\-tyl-\textsc{d}-glu\-cos\-amine}
+\newcommand{\glcnac}{\textit{N}-ace\-tyl-\textsc{d}-glu\-cos\-amine}
+\newcommand{\IIDGLC}{2-De\-oxy-\textsc{d}-glu\-cose}
+\newcommand{\iidglc}{2-de\-oxy-\textsc{d}-glu\-cose}
+\newcommand{\XYL}{\textsc{d}-Xy\-lose}
+\newcommand{\xyl}{\textsc{d}-xy\-lose}
+\newcommand{\LARA}{\textsc{l}-Arab\-i\-nose}
+\newcommand{\lara}{\textsc{l}-arab\-i\-nose}
+\newcommand{\ARA}{\LARA}
+\newcommand{\ara}{\lara}
+\newcommand{\DARA}{\textsc{d}-Arab\-i\-nose}
+\newcommand{\dara}{\textsc{d}-arab\-i\-nose}
+\newcommand{\MAN}{\textsc{d}-Man\-nose}
+\newcommand{\man}{\textsc{d}-man\-nose}
+\newcommand{\GAL}{\textsc{d}-Ga\-lac\-tose}
+\newcommand{\gal}{\textsc{d}-ga\-lac\-tose}
+\newcommand{\GALUA}{\textsc{d}-Ga\-lact\-uron\-ic Acid}
+\newcommand{\Galua}{\textsc{d}-Ga\-lact\-uron\-ic acid}
+\newcommand{\galua}{\textsc{d}-ga\-lact\-uron\-ic acid}
+\newcommand{\GALN}{\textsc{d}-Ga\-lac\-tos\-amine}
+\newcommand{\galn}{\textsc{d}-ga\-lac\-tos\-amine}
+\newcommand{\GALNAC}{\textit{N}-Ace\-tyl-\textsc{d}-ga\-lac\-tos\-amine}
+\newcommand{\galnac}{\textit{N}-ace\-tyl-\textsc{d}-ga\-lac\-tos\-amine}
+\newcommand{\RHA}{\textsc{l}-Rham\-nose}
+\newcommand{\rha}{\textsc{l}-rham\-nose}
+\newcommand{\dFUC}{\textsc{d}-Fu\-cose}
+\newcommand{\dfuc}{\textsc{d}-fu\-cose}
+\newcommand{\LFUC}{\textsc{l}-Fu\-cose}
+\newcommand{\lfuc}{\textsc{l}-fu\-cose}
+\newcommand{\FUC}{\LFUC{}}
+\newcommand{\fuc}{\lfuc{}}
+\newcommand{\RIB}{\textsc{d}-Ri\-bose}
+\newcommand{\rib}{\textsc{d}-ri\-bose}
+\newcommand{\IIDRIB}{2-De\-oxy-\textsc{d}-ri\-bose}
+\newcommand{\iidrib}{2-de\-oxy-\textsc{d}-ri\-bose}
+\newcommand{\FRC}{\textsc{d}-Fruc\-tose}
+\newcommand{\frc}{\textsc{d}-fruc\-tose}
+\newcommand{\CEL}{Cellobiose}
+\newcommand{\cel}{cellobiose}
+\newcommand{\GEN}{Gentiobiose}
+\newcommand{\gen}{gentiobiose}
+
+% Exopolyssacharides
+\newcommand{\SCL}{Scleroglucan}
+\newcommand{\scl}{scleroglucan}
+\newcommand{\SHZ}{Schizophyllan}
+\newcommand{\shz}{schizophyllan}
+
+% Words and phrases
+\newcommand{\chc}{car\-bo\-hy\-drate-con\-tai\-ning}
+
+% Source: http://tex.stackexchange.com/questions/278872/pythontex-inputiffileexists-for-inputting-rows-in-longtable-creates-spurious
+% No extra space after \InputIfFileExists in table
+\makeatletter
+\@ifundefined{filehook@csuse}
+  {\let\TablesafeInputIfFileExists\InputIfFileExists}% filehook is not loaded
+  {\let\TablesafeInputIfFileExists\latex@InputIfFileExists}
+\makeatletter
+
+% Source: http://tex.stackexchange.com/a/169245
+% Print out a diagnostic for changed labels
+%\makeatletter
+%\def\@testdef #1#2#3{%
+%  \def\reserved@a{#3}\expandafter \ifx \csname #1@#2\endcsname
+% \reserved@a  \else
+%\typeout{^^Jlabel #2 changed:^^J%
+%\meaning\reserved@a^^J%
+%\expandafter\meaning\csname #1@#2\endcsname^^J}%
+%\@tempswatrue \fi}
+
+% Source: https://tex.stackexchange.com/a/21647
+% Superimpose two symbols, first one needs to be the wider one
+\makeatletter
+\newcommand{\superimpose}[2]{%
+  {\ooalign{$#1\@firstoftwo#2$\cr\hfil$#1\@secondoftwo#2$\hfil\cr}}}
+\makeatother
+
+\newcommand{\checkedsquare}{\mathpalette\superimpose{{\square}{\text{\raisebox{0.3ex}[0mm][0mm]{x}}}}}
+
