@@ -1,0 +1,17 @@
+\usepackage[%
+        shash={5314d02},
+        lhash={5314d021f6e9b0379025ab6de3c5fdf3aa8aa65e},
+        authname={Steven "Kreuvf" Koenig},
+        authemail={steven.koenig.wzs@kreuvf.de},
+        authsdate={2019-12-08},
+        authidate={2019-12-08 18:53:33 +0100},
+        authudate={1575827613},
+        commname={Steven "Kreuvf" Koenig},
+        commemail={steven.koenig.wzs@kreuvf.de},
+        commsdate={2019-12-08},
+        commidate={2019-12-08 18:53:33 +0100},
+        commudate={1575827613},
+        refnames={ (HEAD, bitbucket/master)},
+        firsttagdescribe={Einreichungsversion-76-g5314d02-*},
+        reltag={5314d02-*}
+    ]{gitexinfo}
